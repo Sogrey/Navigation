@@ -1,5 +1,5 @@
-# NaiveUI-Vue3-Vite-Template
-NaiveUI Template
+# Navigation
+网址导航
 
 ## 技术栈
 
@@ -11,10 +11,10 @@ NaiveUI Template
 
 ``` bash
 # 克隆项目
-git clone https://github.com/Sogrey/NaiveUI-Vue3-Vite-Template.git
+git clone https://github.com/Sogrey/Navigation.git
 
 # 进入项目
-cd NaiveUI-Vue3-Vite-Template
+cd Navigation
 
 # 安装依赖
 npm install
