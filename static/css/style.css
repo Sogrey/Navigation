@@ -116,9 +116,10 @@ body.light-mode:before {
 
 .app {
   background-color: var(--theme-bg-color);
-  max-width: 80vw;
+  max-width: 1250px;
   max-height: 90vh;
   margin: 0 auto;
+  width: 80vw;
   height: 90vh;
   display: flex;
   flex-direction: column;
