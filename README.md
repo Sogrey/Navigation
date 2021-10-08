@@ -1,6 +1,8 @@
 # Navigation
 网址导航
 
+[![Open in Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/Sogrey/Navigation)
+
 ## 技术栈
 
 - [Vue3](https://vue3js.cn/docs/zh/guide/migration/introduction.html)

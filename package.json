@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Sogrey/NaiveUI-Vue3-Vite-Template.git"
+    "url": "git+https://github.com/Sogrey/Navigation.git"
   },
   "keywords": [
     "Vue3",
@@ -30,7 +30,7 @@
     "vue": "^3.2.6"
   },
   "bugs": {
-    "url": "https://github.com/Sogrey/NaiveUI-Vue3-Vite-Template/issues"
+    "url": "https://github.com/Sogrey/Navigation/issues"
   },
-  "homepage": "https://github.com/Sogrey/NaiveUI-Vue3-Vite-Template#readme"
+  "homepage": "https://github.com/Sogrey/Navigation#readme"
 }
