@@ -114,6 +114,19 @@ body.light-mode:before {
           backdrop-filter: saturate(3);
 }
 
+ul,ol{
+  margin: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  padding-inline-start: 0;
+}
+
+li {
+  list-style-type:none;
+}
+
 .app {
   background-color: var(--theme-bg-color);
   max-width: 1250px;

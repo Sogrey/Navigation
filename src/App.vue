@@ -66,6 +66,7 @@ import ContentSectionCard from "./components/ContentSectionCard.vue";
       </div>
     </div>
     <div class="overlay-app"></div>
+    {{initData()}}
   </div>
 </template>
 
@@ -77,3 +78,29 @@ import ContentSectionCard from "./components/ContentSectionCard.vue";
   padding: 0;
 }
 </style>
+
+<script>
+export default {
+  name: "App",
+  data() {
+    return {
+    };
+  },
+  methods: {
+    // generateIconCode(symbol) {
+    //   return `<svg-icon icon-class="${symbol}" />`
+    // },
+    // generateElementIconCode(symbol) {
+    //   return `<i class="el-icon-${symbol}" />`
+    // }
+    initData() {
+      this.axios.get('static/datas/search.json').then((response) => {
+        console.log(response);
+      });
+      // this.$http.get('static/datas/search.json').then((response) => {
+      //   console.log(response);
+      // });
+    },
+  },
+};
+</script>

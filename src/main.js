@@ -1,10 +1,12 @@
 import {
     createApp
 } from 'vue'
+import axios from 'axios'
+import VueAxios from 'vue-axios'
+// import MyPlugin from './utils/MyPlugin'
 import App from './App.vue'
 
-// 导入自己的公共方法
-// import MyPlugin from './utils/MyPlugin'
-// Vue.use(MyPlugin);
-
-createApp(App).mount('#app')
+const app = createApp(App)
+app.use(VueAxios, axios)
+// app.use(MyPlugin)
+app.mount('#app')

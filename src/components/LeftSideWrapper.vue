@@ -6,7 +6,22 @@ defineProps({});
   <div class="side-wrapper">
     <div class="side-title">Categories</div>
     <div class="side-menu">
-      <a href="#">
+      <ul>
+        <li v-for="item in LeftSideWrapperList" :key="item">
+          <a href="#">
+            <svg viewBox="0 0 488.455 488.455" fill="currentColor">
+              <path
+                d="M287.396 216.317c23.845 23.845 23.845 62.505 0 86.35s-62.505 23.845-86.35 0-23.845-62.505 0-86.35 62.505-23.845 86.35 0"
+              />
+              <path
+                d="M427.397 91.581H385.21l-30.544-61.059H133.76l-30.515 61.089-42.127.075C27.533 91.746.193 119.115.164 152.715L0 396.86c0 33.675 27.384 61.074 61.059 61.074h366.338c33.675 0 61.059-27.384 61.059-61.059V152.639c-.001-33.674-27.385-61.058-61.059-61.058zM244.22 381.61c-67.335 0-122.118-54.783-122.118-122.118s54.783-122.118 122.118-122.118 122.118 54.783 122.118 122.118S311.555 381.61 244.22 381.61z"
+              />
+            </svg>
+            {{ item }}
+          </a>
+        </li>
+      </ul>
+      <!-- <a href="#">
         <svg viewBox="0 0 488.455 488.455" fill="currentColor">
           <path
             d="M287.396 216.317c23.845 23.845 23.845 62.505 0 86.35s-62.505 23.845-86.35 0-23.845-62.505 0-86.35 62.505-23.845 86.35 0"
@@ -65,7 +80,33 @@ defineProps({});
           />
         </svg>
         3D/AR
-      </a>
+      </a> -->
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  name: "LeftSideWrapper",
+  data() {
+    return {
+      LeftSideWrapperList: [
+        "Photography",
+        "Graphic Design",
+        "Video",
+        "Illustrations",
+        "UI/UX",
+        "3D/AR",
+      ],
+    };
+  },
+  methods: {
+    // generateIconCode(symbol) {
+    //   return `<svg-icon icon-class="${symbol}" />`
+    // },
+    // generateElementIconCode(symbol) {
+    //   return `<i class="el-icon-${symbol}" />`
+    // }
+  },
+};
+</script>
