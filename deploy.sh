@@ -15,7 +15,7 @@ echo -e '\033[32;40m
  
 '
 
-echo -e "\033[32;40m [1/4] \033[0m commit 2 main branch"
+echo -e "\033[32;40m [1/3] \033[0m commit 2 main branch"
 
 git init
 git add -A
@@ -24,11 +24,11 @@ git commit -m '💖 deploy main branch.'
 # 如果你想要部署到 https://USERNAME.github.io
 git push -f git@github.com:Sogrey/Navigation.git main
 
-echo -e "\033[32;40m [2/4] \033[0m Building static files"
+echo -e "\033[32;40m [2/3] \033[0m Building static files"
 # 生成静态文件
 yarn build
 
-echo -e "\033[32;40m [3/4] \033[0m commit 2 gh-pages branch"
+echo -e "\033[32;40m [3/3] \033[0m commit 2 gh-pages branch"
 # 进入生成的文件夹
 cd dist/
 # 如果是发布到自定义域名
