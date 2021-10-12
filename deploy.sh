@@ -38,10 +38,7 @@ git init
 git add -A
 git commit -m 'deploy gh-pages'
 
-git remote set-url git@github.com:Sogrey/Navigation.git
-git checkout -b gh-pages
-git pull
-git push -f git@github.com:Sogrey/Navigation.git main:gh-pages
+git push -f git@github.com:Sogrey/Navigation.git master:gh-pages
 
 echo -e "\033[32;40m done \033[0m "
 
