@@ -1,7 +1,3 @@
-<script setup>
-defineProps({});
-</script>
-
 <template>
   <div class="side-wrapper">
     <div class="side-title">Categories</div>
@@ -107,6 +103,21 @@ export default {
     // generateElementIconCode(symbol) {
     //   return `<i class="el-icon-${symbol}" />`
     // }
+    initData() {
+      this.axios.get('./static/datas/search.json').then((response) => {
+        console.log(response);
+
+       this. LeftSideWrapperList = [];
+
+        for (var index = 0; index < response.data.length; index++) {
+          const element = response.data[index];
+        this.  LeftSideWrapperList.push(element.name);
+        }
+      });
+      // this.$http.get('static/datas/search.json').then((response) => {
+      //   console.log(response);
+      // });
+    },
   },
 };
 </script>

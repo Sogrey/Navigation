@@ -1,7 +1,3 @@
-<script setup>
-defineProps({});
-</script>
-
 <template>
   <div class="content-wrapper-header">
     <div class="content-wrapper-context">

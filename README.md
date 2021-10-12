@@ -6,8 +6,6 @@
 ## 技术栈
 
 - [Vue3](https://vue3js.cn/docs/zh/guide/migration/introduction.html)
-- [NaiveUI](https://www.naiveui.com/zh-CN/light)
-- [Vite](https://vitejs.cn/guide/)  ([Node.js](https://nodejs.org/en/) 版本 >= 12.0.0)
  
 ## 初始化项目
 
@@ -20,10 +18,17 @@ cd Navigation
 
 # 安装依赖
 npm install
+# 或
+yarn
 
 # 运行预览
-npm start
-```
+npm run serne
+# 或
+yarn serve
 
-访问： http://localhost:3000/
+# 打包
+npm run build
+# 或
+yarn build
+```
 

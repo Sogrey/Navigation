@@ -1,7 +1,3 @@
-<script setup>
-defineProps({});
-</script>
-
 <template>
   <div class="content-section">
     <div class="content-section-title">Apps in your plan</div>
