@@ -6,7 +6,7 @@ module.exports = {
       config.set('externals', {
         vue: 'Vue',
         axios: 'axios',
-        // jquery:'jquery' // 顺应潮流，放弃JQ
+        // jquery:'jquery' // 顺应潮流，放弃Jquery
       })
       config.plugin('html').tap(args => {
         args[0].isProd = true // 生产发包，设为true，三方依赖使用cdn
