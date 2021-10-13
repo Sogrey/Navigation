@@ -2,7 +2,7 @@
   <div id="app">
     <div class="app">
       <div class="header">
-        <div class="menu-circle">网址导航</div>
+        <div class="menu-circle"></div>
         <div class="header-menu">
           <a class="menu-link is-active" href="#">Apps</a>
           <a class="menu-link notify" href="#">Your work</a>
