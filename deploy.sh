@@ -36,7 +36,7 @@ cd dist/
 
 git init
 git add -A
-git commit -m 'deploy gh-pages'
+git commit -m '🚀 deploy gh-pages'
 
 git push -f git@github.com:Sogrey/Navigation.git master:gh-pages
 

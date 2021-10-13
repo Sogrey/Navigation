@@ -1,63 +1,70 @@
 <template>
-  <div id="app" class="app">
-    <div class="header">
-      <div class="menu-circle"></div>
-      <div class="header-menu">
-        <a class="menu-link is-active" href="#">Apps</a>
-        <a class="menu-link notify" href="#">Your work</a>
-        <a class="menu-link" href="#">Discover</a>
-        <a class="menu-link notify" href="#">Market</a>
+  <div id="app">
+    <div class="app">
+      <div class="header">
+        <div class="menu-circle">网址导航</div>
+        <div class="header-menu">
+          <a class="menu-link is-active" href="#">Apps</a>
+          <a class="menu-link notify" href="#">Your work</a>
+          <a class="menu-link" href="#">Discover</a>
+          <a class="menu-link notify" href="#">Market</a>
+        </div>
+        <div class="search-bar">
+          <input type="text" placeholder="Search" />
+        </div>
+        <div class="header-profile">
+          <img class="profile-img" src="@/assets/img/Sogrey.png" alt="" />
+        </div>
       </div>
-      <div class="search-bar">
-        <input type="text" placeholder="Search" />
-      </div>
-      <div class="header-profile">
-        <img
-          class="profile-img"
-          src="https://images.unsplash.com/photo-1600353068440-6361ef3a86e8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
-          alt=""
-        />
-      </div>
-    </div>
-    <div class="wrapper">
-      <div class="left-side">
-        <LeftSideWrapper />
-        <LeftSideWrapper />
-        <LeftSideWrapper />
-      </div>
-      <div class="main-container">
-        <div class="main-header">
-          <a class="menu-link-main" href="#">All Apps</a>
-          <div class="header-menu">
-            <a class="main-header-link is-active" href="#">Desktop</a>
-            <a class="main-header-link" href="#">Mobile</a>
-            <a class="main-header-link" href="#">Web</a>
+      <div class="wrapper">
+        <div class="left-side">
+          <LeftSideWrapper />
+          <LeftSideWrapper />
+          <LeftSideWrapper />
+        </div>
+        <div class="main-container">
+          <div class="main-header">
+            <a class="menu-link-main" href="#">All Apps</a>
+            <div class="header-menu">
+              <a class="main-header-link is-active" href="#">Desktop</a>
+              <a class="main-header-link" href="#">Mobile</a>
+              <a class="main-header-link" href="#">Web</a>
+            </div>
+          </div>
+          <div class="content-wrapper">
+            <ContentWrapperAD />
+            <ContentSectionList />
+            <ContentSectionCard />
           </div>
         </div>
-        <div class="content-wrapper">
-          <ContentWrapperAD />
-          <ContentSectionList />
-          <ContentSectionCard />
-        </div>
       </div>
+      <div class="overlay-app"></div>
     </div>
-    <div class="overlay-app"></div>
+
+    <div class="dark-light">
+      <svg
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+        stroke-width="1.5"
+        fill="none"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      >
+        <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z" />
+      </svg>
+    </div>
   </div>
 </template>
 
 <script>
-// import siteList from "@/components/siteList.vue";
-// import Cute from "@/components/Cute.vue";
 import Hello from "@/components/Hello.vue";
 import LeftSideWrapper from "@/components/LeftSideWrapper.vue";
 import ContentWrapperAD from "@/components/ContentWrapperAD.vue";
 import ContentSectionList from "@/components/ContentSectionList.vue";
 import ContentSectionCard from "@/components/ContentSectionCard.vue";
 export default {
-  name: "app",
+  name: "App",
   components: {
-    // siteList,
-    // Cute
     Hello,
     LeftSideWrapper,
     ContentWrapperAD,
@@ -68,50 +75,50 @@ export default {
     return {
       keyword: "",
       siteList: [],
-      toolList: [],
-      ganhuoList: [],
-      similarList: [],
-      sitetotalnum: "",
-      element: {
-        nav_item: null,
-        floor_item: null,
-      },
-      show_top: false,
-      show_weixin: false,
-      dialogFormVisible: false,
-      ruleForm: {
-        feedback_content: "",
-      },
-      rules: {
-        feedback_content: [
-          { required: true, message: "请填写反馈内容", trigger: "blur" },
-        ],
-      },
-      rate: 5,
-      formloading: false,
-      timer: null,
-      icon: {
-        qq: "#icon-qq",
-        weixin: "#icon-weixin",
-      },
-      updata_time: {
-        year: "",
-        month: "",
-        day: "",
-      },
-      loading: null,
-      searchTimer: null,
-      qq: "1843544121",
+      // toolList: [],
+      // ganhuoList: [],
+      // similarList: [],
+      // sitetotalnum: "",
+      // element: {
+      //   nav_item: null,
+      //   floor_item: null,
+      // },
+      // show_top: false,
+      // show_weixin: false,
+      // dialogFormVisible: false,
+      // ruleForm: {
+      //   feedback_content: "",
+      // },
+      // rules: {
+      //   feedback_content: [
+      //     { required: true, message: "请填写反馈内容", trigger: "blur" },
+      //   ],
+      // },
+      // rate: 5,
+      // formloading: false,
+      // timer: null,
+      // icon: {
+      //   qq: "#icon-qq",
+      //   weixin: "#icon-weixin",
+      // },
+      // updata_time: {
+      //   year: "",
+      //   month: "",
+      //   day: "",
+      // },
+      // loading: null,
+      // searchTimer: null,
+      // qq: "1843544121",
     };
   },
-  // created() {
-  //   this.loading = this.$loading({ fullscreen: true });
-  //   this.getsiteList();
-  //   this.gettoolList();
-  //   this.getGanHuo();
-  //   this.getNow();
-  //   // this.loading.close();
-  // },
+  created() {
+    //   this.loading = this.$loading({ fullscreen: true });
+    //   this.getsiteList();
+    //   this.gettoolList();
+    //   this.getGanHuo();
+    //   this.getNow();
+    //   // this.loading.close();
+  },
   methods: {
     // getsiteList() {
     //   this.$axios.get("./api/site.json").then(res => {
