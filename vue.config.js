@@ -23,5 +23,5 @@ module.exports = {
       })
     })
   },
-  publicPath: './',
+  publicPath: './', // 设置相对路径
 }

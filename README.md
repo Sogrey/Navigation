@@ -22,7 +22,7 @@ npm install
 yarn
 
 # 运行预览
-npm run serne
+npm run serve
 # 或
 yarn serve
 

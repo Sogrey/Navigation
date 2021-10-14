@@ -18,9 +18,7 @@
       </div>
       <div class="wrapper">
         <div class="left-side">
-          <LeftSideWrapper />
-          <LeftSideWrapper />
-          <LeftSideWrapper />
+          <LeftSideWrapper :psTitle="siteTitleTypes" :psData="siteTitleList" />
         </div>
         <div class="main-container">
           <div class="main-header">
@@ -75,94 +73,48 @@ export default {
     return {
       keyword: "",
       siteList: [],
-      // toolList: [],
-      // ganhuoList: [],
-      // similarList: [],
-      // sitetotalnum: "",
-      // element: {
-      //   nav_item: null,
-      //   floor_item: null,
-      // },
-      // show_top: false,
-      // show_weixin: false,
-      // dialogFormVisible: false,
-      // ruleForm: {
-      //   feedback_content: "",
-      // },
-      // rules: {
-      //   feedback_content: [
-      //     { required: true, message: "请填写反馈内容", trigger: "blur" },
-      //   ],
-      // },
-      // rate: 5,
-      // formloading: false,
-      // timer: null,
-      // icon: {
-      //   qq: "#icon-qq",
-      //   weixin: "#icon-weixin",
-      // },
-      // updata_time: {
-      //   year: "",
-      //   month: "",
-      //   day: "",
-      // },
-      // loading: null,
-      // searchTimer: null,
-      // qq: "1843544121",
+      siteTitleTypes: "网站分类",
+      siteTitleList: [],
+      sitetotalnum: 0, // 收录网站总数
+      updata_time: { year: "2021", month: "10", day: "01" }, //当前时间
     };
   },
   created() {
     //   this.loading = this.$loading({ fullscreen: true });
-    //   this.getsiteList();
+    this.getNow();
+    this.getsiteList();
     //   this.gettoolList();
     //   this.getGanHuo();
-    //   this.getNow();
     //   // this.loading.close();
   },
   methods: {
-    // getsiteList() {
-    //   this.$axios.get("./api/site.json").then(res => {
-    //     this.siteList = res.data;
-    //     // 获取站点总数量
-    //     let total = 0;
-    //     res.data.forEach((item, index) => {
-    //       total += item.list.length;
-    //     });
-    //     // 总数量再加21
-    //     this.sitetotalnum = total + 21;
-    //   });
-    // },
-    // gettoolList() {
-    //   this.$axios.get("./api/tools.json").then(res => {
-    //     // console.log(res.data);
-    //     this.toolList = res.data;
-    //   });
-    // },
-    // // 获取干货资源
-    // getGanHuo() {
-    //   this.$axios.get("./api/zixun.json").then(res => {
-    //     // 获取的列表为43条数据 ，这里随机取十条
-    //     const oldlist = res.data.results.前端;
-    //     let newlist = [];
-    //     while (newlist.length < 10) {
-    //       let x = Math.floor(Math.random() * 43);
-    //       if (newlist.indexOf(oldlist[x]) == -1) {
-    //         newlist.push(oldlist[x]);
-    //       }
-    //     }
-    //     // console.log(newlist);
-    //     this.ganhuoList = newlist;
-    //   });
-    // },
-    // // 获取当前时间
-    // getNow() {
-    //   const date = new Date();
-    //   this.updata_time.year = date.getFullYear().toString();
-    //   this.updata_time.month = (date.getMonth() + 1)
-    //     .toString()
-    //     .padStart(2, "0");
-    //   this.updata_time.day = (date.getDate() - 1).toString().padStart(2, "0");
-    // },
+    getsiteList() {
+      this.$axios.get("./datas/db.json").then((res) => {
+        if (res.status == 200) {
+          // 请求成功
+          console.log(res);
+          this.siteList = res.data;
+        }
+
+        // 获取站点总数量
+        let total = 0;
+        res.data.forEach((item, index) => {
+          total += item.list.length;
+          this.siteTitleList.push(item.title);
+        });
+        // 总数量
+        this.sitetotalnum = total;
+      });
+    },
+    // 获取当前时间
+    getNow() {
+      const date = new Date();
+      this.updata_time.year = date.getFullYear().toString();
+      this.updata_time.month = (date.getMonth() + 1)
+        .toString()
+        .padStart(2, "0");
+      this.updata_time.day = (date.getDate() - 1).toString().padStart(2, "0");
+    },
     // search(keyword) {
     //   window.open(
     //     "https://www.baidu.com/s?wd=" + keyword + "&submit=",
@@ -191,124 +143,12 @@ export default {
     //     "_blank"
     //   );
     // },
-    // feedback() {
-    //   this.$refs.feedbackFormRef.validate(valid => {
-    //     if (valid) {
-    //       // 发送邮件请求
-    //       this.formloading = true;
-    //       this.$axios
-    //         .get("https://mail.zhichi921.com/index.php/email", {
-    //           params: {
-    //             content: this.ruleForm.feedback_content,
-    //             rata: this.rate
-    //           }
-    //         }) // 接收回调
-    //         .then(res => {
-    //           console.log(res);
-    //           if (res.data.code == 1) {
-    //             this.$message({
-    //               message: res.data.msg,
-    //               type: "success"
-    //             });
-    //             this.ruleForm.feedback_content = "";
-    //             this.formloading = false;
-    //             this.dialogFormVisible = false;
-    //           } else {
-    //             this.formloading = false;
-    //             this.$message.error(res.data.msg);
-    //           }
-    //         });
-    //     } else {
-    //       return false;
-    //     }
-    //   });
-    // },
     // // 收藏网站
     // addFavorite() {
     //   this.$message({
     //     message: "请使用Ctrl+D添加至浏览器收藏夹",
     //     center: true
     //   });
-    // },
-    // /**
-    //  * 监听窗口滚动楼层导航动态定位
-    //  */
-    // floorSrcollEventListener() {
-    //   const { nav_item, floor_item } = this.element;
-    //   const window_scrollTop =
-    //     document.documentElement.scrollTop || document.body.scrollTop;
-    //   for (let i = 0, len = floor_item.length; i < len; i++) {
-    //     let floor_offsetTop = floor_item[i].offsetTop - floor_item[0].offsetTop;
-    //     if (window_scrollTop >= floor_offsetTop) {
-    //       for (let n = 0, len = nav_item.length; n < len; n++) {
-    //         const current_classList = nav_item[n].classList;
-    //         i === n
-    //           ? current_classList.add("active")
-    //           : current_classList.remove("active");
-    //       }
-    //     }
-    //   }
-    // },
-    // /**
-    //  * 设置楼层导航事件驱动方法
-    //  * @param {Number} index  楼层下标
-    //  */
-    // setFloorNavMountClick(index) {
-    //   const { floor_item } = this.element;
-    //   const floor_offsetTop =
-    //       floor_item[index].offsetTop - floor_item[0].offsetTop + 96,
-    //     window_scrollTop =
-    //       document.documentElement.scrollTop || document.body.scrollTop,
-    //     timer = {
-    //       step: 60,
-    //       times: 16,
-    //       FLOOR_OFFSETTOP: floor_offsetTop
-    //     };
-    //   if (window_scrollTop > floor_offsetTop) {
-    //     this.setFloorScrollArrowUp(timer);
-    //   } else if (window_scrollTop == floor_offsetTop) {
-    //     return false;
-    //   } else {
-    //     this.setFloorScrollArrowDown(timer);
-    //   }
-    // },
-    // /**
-    //  * 设置楼层向上滚动
-    //  * @param {Object} timer 定时器配置
-    //  */
-    // setFloorScrollArrowUp(timer) {
-    //   clearInterval(this.timer);
-    //   this.timer = setInterval(() => {
-    //     let window_scrollTop =
-    //       document.documentElement.scrollTop || document.body.scrollTop;
-    //     if (window_scrollTop <= timer.FLOOR_OFFSETTOP) {
-    //       document.documentElement.scrollTop = timer.FLOOR_OFFSETTOP;
-    //       document.body.scrollTop = timer.FLOOR_OFFSETTOP;
-    //       clearInterval(this.timer);
-    //     } else {
-    //       document.documentElement.scrollTop = window_scrollTop - timer.step;
-    //       document.body.scrollTop = window_scrollTop - timer.step;
-    //     }
-    //   }, timer.times);
-    // },
-    // /**
-    //  * 设置楼层向下滚动
-    //  * @param {Object} timer 定时器配置
-    //  */
-    // setFloorScrollArrowDown(timer) {
-    //   clearInterval(this.timer);
-    //   this.timer = setInterval(() => {
-    //     let window_scrollTop =
-    //       document.documentElement.scrollTop || document.body.scrollTop;
-    //     if (window_scrollTop >= timer.FLOOR_OFFSETTOP) {
-    //       document.documentElement.scrollTop = timer.FLOOR_OFFSETTOP;
-    //       document.body.scrollTop = timer.FLOOR_OFFSETTOP;
-    //       clearInterval(this.timer);
-    //     } else {
-    //       document.documentElement.scrollTop = window_scrollTop + timer.step;
-    //       document.body.scrollTop = window_scrollTop - timer.step;
-    //     }
-    //   }, timer.times);
     // },
     // // 显示返回顶部按钮
     // handleScroll() {

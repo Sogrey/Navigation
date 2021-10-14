@@ -3,6 +3,7 @@ import App from './App.vue'
 import axios from 'axios'
 
 import './assets/css/normalize.min.css'
+import './assets/plugins/font-awesome-4.7.0/css/font-awesome.min.css'
 import './assets/css/style.css'
 
 Vue.config.productionTip = false
