@@ -31,8 +31,19 @@
           </div>
           <div class="content-wrapper">
             <ContentWrapperAD />
-            <ContentSectionList />
-            <ContentSectionCard />
+            <!-- <ContentSectionList /> -->
+            <!-- <div v-for="item in siteList" :key="item.id">
+              <ContentSectionCard :psTitle="item.title" :psData="item.list" />
+            </div> -->
+
+            <ContentSectionCard
+              v-for="(item, index) in siteList"
+              :key="index"
+              :psTitle="item.title"
+              :psData="item.list"
+            />
+
+            <!-- <span v-for="count in 10">{{count}}</span> -->
           </div>
         </div>
       </div>

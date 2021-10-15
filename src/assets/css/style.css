@@ -831,7 +831,7 @@ li {
   transform: scale(1.02);
   background-color: var(--theme-bg-color);
 }
-.app-card svg {
+.app-card svg,.app-card .app-card-icon {
   width: 28px;
   border-radius: 6px;
   margin-right: 12px;

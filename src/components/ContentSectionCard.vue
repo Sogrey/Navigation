@@ -1,8 +1,21 @@
 <template>
   <div class="content-section">
-    <div class="content-section-title">Apps in your plan</div>
+    <div class="content-section-title">{{ psTitle }}</div>
     <div class="apps-card">
-      <div class="app-card">
+      <div class="app-card" v-for="(item, index) in psData" :key="index">
+        <span>
+          <img :src="item.img" :alt="item.title" class="app-card-icon" />
+          {{ item.title }}
+        </span>
+        <div class="app-card__subtext">
+          {{ item.desc }}
+        </div>
+        <!-- <div class="app-card-buttons">
+          <button class="content-button status-button">Update</button>
+          <div class="menu"></div>
+        </div> -->
+      </div>
+      <!-- <div class="app-card">
         <span>
           <svg viewBox="0 0 512 512" style="border: 1px solid #a059a9">
             <path
@@ -80,7 +93,21 @@
           <button class="content-button status-button">Update</button>
           <div class="menu"></div>
         </div>
-      </div>
+      </div> -->
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  name: "ContentSectionCard",
+  data() {
+    return {};
+  },
+  props: {
+    psTitle: String,
+    psData: Array,
+  }, //接手psData值
+  methods: {},
+};
+</script>

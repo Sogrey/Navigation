@@ -3,7 +3,7 @@
     <div class="side-title">{{ psTitle }}</div>
     <div class="side-menu">
       <ul>
-        <li v-for="item in psData" :key="item">
+        <li v-for="(item, index) in psData" :key="index">
           <a href="#">
             <i class="fa fa-folder fa-lg" aria-hidden="true"></i>
             &nbsp; {{ item }}
