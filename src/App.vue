@@ -36,13 +36,22 @@
               <ContentSectionCard :psTitle="item.title" :psData="item.list" />
             </div> -->
 
-            <ContentSectionCard
-              v-for="(item, index) in siteList"
-              :key="index"
-              :psTitle="item.title"
-              :psData="item.list"
-            />
-
+            <div v-if="isGridShow">
+              <ContentSectionCard
+                v-for="(item, index) in siteList"
+                :key="index"
+                :psTitle="item.title"
+                :psData="item.list"
+              />
+            </div>
+            <div v-else>
+              <ContentSectionList
+                v-for="(item, index) in siteList"
+                :key="index"
+                :psTitle="item.title"
+                :psData="item.list"
+              />
+            </div>
             <!-- <span v-for="count in 10">{{count}}</span> -->
           </div>
         </div>
@@ -86,6 +95,7 @@ export default {
       siteList: [],
       siteTitleTypes: "网站分类",
       siteTitleList: [],
+      isGridShow: true,
       sitetotalnum: 0, // 收录网站总数
       updata_time: { year: "2021", month: "10", day: "01" }, //当前时间
     };

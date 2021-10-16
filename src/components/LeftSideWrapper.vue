@@ -19,14 +19,6 @@ export default {
   name: "LeftSideWrapper",
   data() {
     return {
-      LeftSideWrapperList: [
-        "Photography",
-        "Graphic Design",
-        "Video",
-        "Illustrations",
-        "UI/UX",
-        "3D/AR",
-      ],
     };
   },
   props: {

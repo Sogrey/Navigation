@@ -1,8 +1,29 @@
 <template>
   <div class="content-section">
-    <div class="content-section-title">Installed</div>
+    <div class="content-section-title">{{ psTitle }}</div>
     <ul>
-      <li class="adobe-product">
+      <li class="adobe-product" v-for="(item, index) in psData" :key="index">
+        <div class="products">
+          <img :src="item.img" :alt="item.title" class="app-card-icon" />
+          {{ item.title }}
+        </div>
+        <span class="status">
+          {{ item.desc }}
+        </span>
+        <div class="button-wrapper">
+          <button class="content-button status-button open">Open</button>
+          <div class="menu">
+            <button class="dropdown">
+              <ul>
+                <li><a href="#">Go to Discover</a></li>
+                <li><a href="#">Learn more</a></li>
+                <li><a href="#">Uninstall</a></li>
+              </ul>
+            </button>
+          </div>
+        </div>
+      </li>
+      <!-- <li class="adobe-product">
         <div class="products">
           <svg viewBox="0 0 52 52" style="border: 1px solid #3291b8">
             <g xmlns="http://www.w3.org/2000/svg">
@@ -145,7 +166,21 @@
             </button>
           </div>
         </div>
-      </li>
+      </li> -->
     </ul>
   </div>
 </template>
+
+<script>
+export default {
+  name: "ContentSectionCard",
+  data() {
+    return {};
+  },
+  props: {
+    psTitle: String,
+    psData: Array,
+  }, //接手psData值
+  methods: {},
+};
+</script>
