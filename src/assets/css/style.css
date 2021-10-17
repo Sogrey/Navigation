@@ -461,7 +461,6 @@ li {
 }
 
 .content-wrapper {
-  display: flex;
   flex-direction: column;
   color: var(--theme-color);
   padding: 20px 40px;
@@ -477,8 +476,8 @@ li {
 }
 
 .content-wrapper-header {
-  display: flex;
   align-items: center;
+  position: relative;
   width: 100%;
   justify-content: space-between;
   background-image: url("../img/cubes.png"), linear-gradient(to right top, #cf4af3, #e73bd7, #f631bc, #fd31a2, #ff3a8b, #ff4b78, #ff5e68, #ff705c, #ff8c51, #ffaa49, #ffc848, #ffe652);
@@ -489,6 +488,23 @@ li {
 @media screen and (max-width: 415px) {
   .content-wrapper-header {
     padding: 20px;
+  }
+}
+
+.content-wrapper-header .content-wrapper-img {
+  width: 186px;
+  position: absolute;
+  top: 0px;
+  right: 0;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: center;
+  object-position: center;
+}
+
+@media screen and (max-width: 570px) {
+  .content-wrapper-header .content-wrapper-img {
+    width: 110px;
   }
 }
 
@@ -558,21 +574,6 @@ li {
   white-space: nowrap;
 }
 
-.content-wrapper-img {
-  width: 186px;
-  -o-object-fit: cover;
-  object-fit: cover;
-  margin-top: -25px;
-  -o-object-position: center;
-  object-position: center;
-}
-
-@media screen and (max-width: 570px) {
-  .content-wrapper-img {
-    width: 110px;
-  }
-}
-
 .content-section {
   margin-top: 30px;
   display: flex;
@@ -626,7 +627,8 @@ li {
   border-top: 1px solid var(--border-color);
 }
 
-.content-section ul svg,.content-section ul .app-card-icon {
+.content-section ul svg,
+.content-section ul .app-card-icon {
   width: 28px;
   border-radius: 6px;
   margin-right: 16px;

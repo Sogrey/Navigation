@@ -11,10 +11,13 @@
     <meta name="keywords" content="网址导航">
     <meta name="description" content="网址导航描述">
 
+    <link rel="stylesheet" href="<%= BASE_URL %>css/normalize.min.css">
+    <link rel="stylesheet" href="<%= BASE_URL %>plugins/font-awesome-4.7.0/css/font-awesome.min.css">
+
     <% if(htmlWebpackPlugin.options.isProd){%>
-        <!-- vue包 -->
-        <script src="https://cdn.staticfile.org/vue/2.6.11/vue.min.js"></script>
-        <script src="https://cdn.staticfile.org/axios/0.18.0/axios.min.js"></script>
+    <!-- vue包 -->
+    <script src="https://cdn.staticfile.org/vue/2.6.11/vue.min.js"></script>
+    <script src="https://cdn.staticfile.org/axios/0.18.0/axios.min.js"></script>
     <%}%>
 </head>
 
