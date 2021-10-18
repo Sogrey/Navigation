@@ -426,6 +426,7 @@ li {
   border-bottom: 1px solid var(--border-color);
   height: 58px;
   flex-shrink: 0;
+  position: relative;
 }
 
 .main-header .header-menu {

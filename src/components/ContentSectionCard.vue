@@ -1,33 +1,31 @@
 <template>
   <div class="content-section">
     <div class="content-section-title">{{ psTitle }}</div>
-    <div class="apps-card">
-      <div class="cardMain">
-        <div v-for="(item, index) in psData" :key="index" class="card">
-          <div class="additional">
-            <div class="user-card">
-              <a :href="item.url" target="_blank" rel="noopener noreferrer"
-                ><img class="siteIcon center" :src="item.img" :alt="item.title"
-              /></a>
-            </div>
-            <div class="more-info">
-              <div class="site-title">{{ item.title }}</div>
-              <div class="site-url">
-                <a :href="item.url" target="_blank" rel="noopener noreferrer">{{
-                  item.url
-                }}</a>
-              </div>
-              <div class="goSite">
-                <a :href="item.url" target="_blank" rel="noopener noreferrer"
-                  >点击预览</a
-                >
-              </div>
-            </div>
+    <div class="cardMain">
+      <div v-for="(item, index) in psData" :key="index" class="card">
+        <div class="additional">
+          <div class="user-card">
+            <a :href="item.url" target="_blank" rel="noopener noreferrer"
+              ><img class="siteIcon center" :src="item.img" :alt="item.title"
+            /></a>
           </div>
-          <div class="general">
+          <div class="more-info">
             <div class="site-title">{{ item.title }}</div>
-            <div class="site-desc">{{ item.desc }}</div>
+            <div class="site-url">
+              <a :href="item.url" target="_blank" rel="noopener noreferrer">{{
+                item.url
+              }}</a>
+            </div>
+            <div class="goSite">
+              <a :href="item.url" target="_blank" rel="noopener noreferrer"
+                >点击预览</a
+              >
+            </div>
           </div>
+        </div>
+        <div class="general">
+          <div class="site-title">{{ item.title }}</div>
+          <div class="site-desc">{{ item.desc }}</div>
         </div>
       </div>
     </div>

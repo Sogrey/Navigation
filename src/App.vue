@@ -3,12 +3,12 @@
     <div class="app">
       <div class="header">
         <div class="menu-circle"></div>
-        <div class="header-menu">
+        <!-- <div class="header-menu">
           <a class="menu-link is-active" href="#">Apps</a>
           <a class="menu-link notify" href="#">Your work</a>
           <a class="menu-link" href="#">Discover</a>
           <a class="menu-link notify" href="#">Market</a>
-        </div>
+        </div> -->
         <div class="search-bar">
           <input type="text" placeholder="Search" />
         </div>
@@ -22,20 +22,32 @@
         </div>
         <div class="main-container">
           <div class="main-header">
-            <a class="menu-link-main" href="#">All Apps</a>
-            <div class="header-menu">
+            <a class="menu-link-main" href="#">All</a>
+            <!-- <div class="header-menu">
               <a class="main-header-link is-active" href="#">Desktop</a>
               <a class="main-header-link" href="#">Mobile</a>
               <a class="main-header-link" href="#">Web</a>
+            </div> -->
+
+            <div class="btn-group-listOrGrid">
+              <button
+                v-on:click="isGridShow = !isGridShow"
+                :class="{ active: isGridShow }"
+                class="btn lf"
+              >
+                <i class="fa fa-lg fa-th"></i>
+              </button>
+              <button
+                v-on:click="isGridShow = !isGridShow"
+                :class="{ active: !isGridShow }"
+                class="btn lf"
+              >
+                <i class="fa fa-lg fa-th-list"></i>
+              </button>
             </div>
           </div>
           <div class="content-wrapper">
             <ContentWrapperAD />
-            <!-- <ContentSectionList /> -->
-            <!-- <div v-for="item in siteList" :key="item.id">
-              <ContentSectionCard :psTitle="item.title" :psData="item.list" />
-            </div> -->
-
             <div v-if="isGridShow">
               <ContentSectionCard
                 v-for="(item, index) in siteList"
@@ -52,7 +64,6 @@
                 :psData="item.list"
               />
             </div>
-            <!-- <span v-for="count in 10">{{count}}</span> -->
           </div>
         </div>
       </div>
@@ -230,6 +241,44 @@ export default {
   margin: 0;
   padding: 0;
 }
+
+.lf {
+  float: left;
+}
+.btn {
+  width: 60px;
+  height: 40px;
+  color: #ffffff;
+  border-radius: 40px;
+  cursor: pointer;
+  border: none;
+}
+.btn-group-listOrGrid {
+  position: absolute;
+  right: 50px;
+}
+.btn-group-listOrGrid > button {
+  color: #333333;
+  border-color: #cccccc;
+}
+.btn-group-listOrGrid > button:not(:first-child):not(:last-child) {
+  border-radius: 0;
+}
+.btn-group-listOrGrid > button:first-child:not(:last-child) {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-right: 1px solid #ddd;
+}
+.btn-group-listOrGrid > button:last-child:not(:first-child) {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-left: 1px solid #ddd;
+}
+.btn-group-listOrGrid > button.active {
+  color: #fff;
+  background: #87cf7b;
+}
+
 // .top {
 //   height: 96px;
 //   background: #3295d9;
