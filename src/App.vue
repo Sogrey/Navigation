@@ -28,7 +28,6 @@
               <a class="main-header-link" href="#">Mobile</a>
               <a class="main-header-link" href="#">Web</a>
             </div> -->
-
             <div class="btn-group-listOrGrid">
               <button
                 v-on:click="isGridShow = true"
