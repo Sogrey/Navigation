@@ -85,7 +85,6 @@
 </template>
 
 <script>
-import Hello from "@/components/Hello.vue";
 import LeftSideWrapper from "@/components/LeftSideWrapper.vue";
 import ContentWrapperAD from "@/components/ContentWrapperAD.vue";
 import ContentSectionList from "@/components/ContentSectionList.vue";
@@ -93,7 +92,6 @@ import ContentSectionCard from "@/components/ContentSectionCard.vue";
 export default {
   name: "App",
   components: {
-    Hello,
     LeftSideWrapper,
     ContentWrapperAD,
     ContentSectionList,
