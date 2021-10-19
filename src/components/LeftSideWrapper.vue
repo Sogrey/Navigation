@@ -4,7 +4,7 @@
     <div class="side-menu">
       <ul>
         <li v-for="(item, index) in psData" :key="index">
-          <a href="#">
+          <a :href="'#' + item">
             <i class="fa fa-folder fa-lg" aria-hidden="true"></i>
             &nbsp; {{ item }}
           </a>
@@ -18,8 +18,7 @@
 export default {
   name: "LeftSideWrapper",
   data() {
-    return {
-    };
+    return {};
   },
   props: {
     psTitle: String,

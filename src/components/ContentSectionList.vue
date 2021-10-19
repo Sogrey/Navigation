@@ -1,6 +1,8 @@
 <template>
   <div class="content-section">
-    <div class="content-section-title">{{ psTitle }}</div>
+    <div class="content-section-title">
+      <a :name="psTitle">{{ psTitle }}</a>
+    </div>
     <div class="listMain">
       <div v-for="(item, index) in psData" :key="index" class="list">
         <div class="additional">
@@ -10,7 +12,9 @@
             /></a>
           </div>
           <div class="more-info">
-            <div class="site-title">{{ item.title }}</div>
+            <div class="site-title text-flow-ellipsis-single">
+              {{ item.title }}
+            </div>
             <div class="site-url">
               <a :href="item.url" target="_blank" rel="noopener noreferrer">{{
                 item.url
@@ -19,8 +23,10 @@
           </div>
         </div>
         <div class="general">
-          <div class="site-title">{{ item.title }}</div>
-          <div class="site-desc">{{ item.desc }}</div>
+          <div class="site-title text-flow-ellipsis-single">
+            {{ item.title }}
+          </div>
+          <div class="site-desc text-flow-ellipsis-single">{{ item.desc }}</div>
         </div>
       </div>
     </div>

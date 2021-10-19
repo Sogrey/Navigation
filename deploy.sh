@@ -26,6 +26,7 @@ git push -f git@github.com:Sogrey/Navigation.git main
 
 echo -e "\033[32;40m [2/3] \033[0m Building static files"
 # 生成静态文件
+rm -rf dist
 yarn build
 
 echo -e "\033[32;40m [3/3] \033[0m commit 2 gh-pages branch"
