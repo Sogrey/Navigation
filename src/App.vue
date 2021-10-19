@@ -31,14 +31,14 @@
 
             <div class="btn-group-listOrGrid">
               <button
-                v-on:click="isGridShow = !isGridShow"
+                v-on:click="isGridShow = true"
                 :class="{ active: isGridShow }"
                 class="btn lf"
               >
                 <i class="fa fa-lg fa-th"></i>
               </button>
               <button
-                v-on:click="isGridShow = !isGridShow"
+                v-on:click="isGridShow = false"
                 :class="{ active: !isGridShow }"
                 class="btn lf"
               >

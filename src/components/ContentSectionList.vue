@@ -90,7 +90,7 @@ export default {
 }
 .listMain .list:hover .additional {
   width: 100%;
-  border-radius: 0 5px 5px 0;
+  /* border-radius: 0 5px 5px 0; */
 }
 .listMain .list .additional .user-card {
   width: 50px;
