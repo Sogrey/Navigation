@@ -1,7 +1,8 @@
 [{
     "title": "常用推荐",
     "id": 1,
-    "list": [{
+    "list": [
+        {
             "id": 100001,
             "url": "https://github.com",
             "img": "https://qiniuyun.zhichi921.com/site-icon/github.svg",
@@ -90,10 +91,7 @@
     "title": "社区博客",
     "list": []
 }, {
-    "title": "开发工具",
-    "list": []
-}, {
-    "title": "调试工具",
+    "title": "实用工具",
     "list": []
 }, {
     "title": "学习资源",
