@@ -19,6 +19,7 @@
       <div class="wrapper">
         <div class="left-side">
           <LeftSideWrapper :psTitle="siteTitleTypes" :psData="siteTitleList" />
+          <!-- <LeftTreeView /> -->
         </div>
         <div class="main-container">
           <div class="main-header">
@@ -51,7 +52,7 @@
               <ContentSectionCard
                 v-for="(item, index) in siteList"
                 :key="index"
-                :psTitle="item.title"
+                :psTitle="item.label"
                 :psData="item.list"
               />
             </div>
@@ -59,7 +60,7 @@
               <ContentSectionList
                 v-for="(item, index) in siteList"
                 :key="index"
-                :psTitle="item.title"
+                :psTitle="item.label"
                 :psData="item.list"
               />
             </div>
@@ -85,6 +86,7 @@
 </template>
 
 <script>
+// import LeftTreeView from "@/components/LeftTreeView.vue";
 import LeftSideWrapper from "@/components/LeftSideWrapper.vue";
 import ContentWrapperAD from "@/components/ContentWrapperAD.vue";
 import ContentSectionList from "@/components/ContentSectionList.vue";
@@ -92,6 +94,7 @@ import ContentSectionCard from "@/components/ContentSectionCard.vue";
 export default {
   name: "App",
   components: {
+    // LeftTreeView,
     LeftSideWrapper,
     ContentWrapperAD,
     ContentSectionList,
@@ -112,11 +115,21 @@ export default {
     //   this.loading = this.$loading({ fullscreen: true });
     this.getNow();
     this.getsiteList();
+    this.getsiteTypeList();
     //   this.gettoolList();
     //   this.getGanHuo();
     //   // this.loading.close();
   },
   methods: {
+    getsiteTypeList() {
+      this.$axios.get("./datas/categories.json").then((res) => {
+        if (res.status == 200) {
+          // 请求成功
+          console.log(res);
+          this.siteTitleList = res.data;
+        }
+      });
+    },
     getsiteList() {
       this.$axios.get("./datas/db.json").then((res) => {
         if (res.status == 200) {
@@ -129,7 +142,7 @@ export default {
         let total = 0;
         res.data.forEach((item, index) => {
           total += item.list.length;
-          this.siteTitleList.push(item.title);
+          // this.siteTitleList.push(item.title);
         });
         // 总数量
         this.sitetotalnum = total;
@@ -275,340 +288,4 @@ export default {
   color: #fff;
   background: #87cf7b;
 }
-
-// .top {
-//   height: 96px;
-//   background: #3295d9;
-//   padding: 25px 0;
-//   .search_box {
-//     position: relative;
-//     height: 42px;
-//     input {
-//       box-sizing: border-box;
-//       width: 100%;
-//       border: none;
-//       font-size: 15px;
-//       line-height: 20px;
-//       height: 42px;
-//       padding: 11px 100px 11px 26px;
-//       border-radius: 3px;
-//       color: #9f9f9f;
-//       outline: none;
-//     }
-//     .search_btn {
-//       height: 42px;
-//       box-sizing: border-box;
-//       width: 100px;
-//       margin-left: -5px;
-//       cursor: pointer;
-//       text-align: center;
-//       background-color: #69bdfb;
-//       color: #fff;
-//       font-size: 15px;
-//       line-height: 42px;
-//       border-top-right-radius: 3px;
-//       border-bottom-right-radius: 3px;
-//       position: absolute;
-//       right: 0;
-//       top: 0;
-//       &:hover {
-//         background-color: #51b1f5;
-//       }
-//     }
-//     .search_list {
-//       position: absolute;
-//       width: 100%;
-//       font-size: 14px;
-//       background-color: #fff;
-//       z-index: 1;
-//       border-radius: 4px;
-//       box-shadow: 0px -1px #f3f3f3;
-//       & > div {
-//         padding-left: 26px;
-//         height: 36px;
-//         line-height: 36px;
-//         color: #666;
-//         &:hover {
-//           cursor: pointer;
-//           background-color: #f3f3f3;
-//           border-radius: 4px;
-//         }
-//       }
-//     }
-//   }
-// }
-// .top_tool {
-//   margin-left: 10px;
-//   a {
-//     color: #dff2ff;
-//     text-decoration: none;
-//     font-size: 13px;
-//     line-height: 42px;
-//     margin: 0 6px;
-//     &:hover {
-//       color: #ffffff;
-//     }
-//   }
-// }
-// .sidebar {
-//   position: sticky;
-//   top: 32px;
-//   left: 1.5%;
-//   margin-top: 32px;
-//   height: 480px;
-//   border-radius: 10px;
-//   background-color: #ffffff;
-//   display: flex;
-//   flex-direction: column;
-//   justify-content: space-around;
-//   text-align: center;
-//   padding: 10px 0;
-//   color: #444;
-//   .nav {
-//     cursor: pointer;
-//     font-size: 15px;
-//   }
-// }
-// .active {
-//   color: #ff5a00;
-// }
-// .contact {
-//   position: sticky;
-//   top: 680px;
-//   display: flex;
-//   flex-direction: column;
-//   align-items: center;
-//   height: 192px;
-//   .item {
-//     width: 46px;
-//     height: 40px;
-//     background-color: #e1e9ee;
-//     margin-top: 8px;
-//     line-height: 40px;
-//     text-align: center;
-//     color: #ffffff;
-//     font-size: 13px;
-//     border-radius: 4px;
-//     transition: 0.3s;
-//     cursor: pointer;
-//     &:hover {
-//       color: #ffa617;
-//     }
-//     .icon {
-//       font-size: 20px;
-//     }
-//   }
-//   .contact_item {
-//     position: absolute;
-//     bottom: 0;
-//   }
-//   #fankui {
-//     background-color: #99aebc;
-//     &:hover {
-//       color: #222222;
-//     }
-//   }
-//   #to_top {
-//     display: flex;
-//     align-items: center;
-//     justify-content: center;
-//     .icon {
-//       width: 24px;
-//       height: 24px;
-//     }
-//   }
-// }
-// .weixin_btn {
-//   position: relative;
-//   & > div {
-//     position: absolute;
-//     left: -190px;
-//     top: -150px;
-//     img {
-//       width: 160px;
-//       height: 284px;
-//       border-radius: 10px;
-//     }
-//   }
-// }
-// .rate {
-//   margin: 30px 0 10px;
-// }
-// .form-footer {
-//   display: flex;
-//   flex-direction: row-reverse;
-//   margin-top: 20px;
-// }
-// .complex {
-//   // padding:0 6.4% 0 10%;
-//   margin-top: 50px;
-//   padding-bottom: 40px;
-//   background-color: #ffffff;
-//   h2 {
-//     text-align: center;
-//     color: #1c95dc;
-//     font-size: 20px;
-//     margin: 56px auto 38px;
-//   }
-//   .tools {
-//     display: flex;
-//     justify-content: space-around;
-//     flex-wrap: wrap;
-//     a {
-//       display: block;
-//       width: 30%;
-//       // width: 100px;
-//       height: 100px;
-//       line-height: 100px;
-//       margin-top: 10px;
-//       text-align: center;
-//       font-size: 36px;
-//       border-radius: 4px;
-//       background-color: #f3f8fb;
-//       color: #1c95dc;
-//       &:hover {
-//         background-color: #529cdb;
-//         color: #fff;
-//       }
-//       span {
-//         display: none;
-//       }
-//     }
-
-//     & > a:nth-child(-n + 3) {
-//       margin-top: 0;
-//     }
-//   }
-//   .ganhuolist {
-//     padding: 0 6%;
-//     div {
-//       display: flex;
-//       align-items: center;
-//       margin-bottom: 12px;
-//       &:hover {
-//         a {
-//           color: #1c95dc;
-//         }
-//         span {
-//           background-color: #1c95dc;
-//         }
-//       }
-//     }
-//     a {
-//       color: #a0a0a0;
-//       font-size: 14px;
-//       display: inline-block;
-//       width: 100%;
-//       white-space: nowrap;
-//       overflow: hidden;
-//       text-overflow: ellipsis;
-//     }
-//     span {
-//       display: inline-block;
-//       height: 16px;
-//       width: 16px;
-//       text-align: center;
-//       line-height: 16px;
-//       border-radius: 16px;
-//       font-size: 12px;
-//       color: #ffffff;
-//       background-color: #a0a0a0;
-//       margin-right: 4px;
-//       cursor: pointer;
-//     }
-//     div:nth-child(-n + 3) {
-//       span {
-//         background-color: #1c95dc;
-//       }
-//     }
-//   }
-//   .wechat {
-//     text-align: center;
-//     img {
-//       width: 192px;
-//       border-radius: 6px;
-//       box-shadow: 0 0 18px rgba(50, 149, 217, 0.2);
-//       border: 1px solid #e2eef7;
-//       margin-bottom: 36px;
-//     }
-//     p {
-//       color: #a1a1a1;
-//       font-size: 13px;
-//       span {
-//         color: #1c95dc;
-//       }
-//     }
-//   }
-//   .count {
-//     color: #1c95dc;
-//     margin-top: 10px;
-//     text-align: center;
-//     strong {
-//       font-size: 66px;
-//       font-family: "BebasNeue";
-//       letter-spacing: 4px;
-//       // font-weight: 900;
-//       span {
-//         font-size: 14px;
-//       }
-//     }
-//     .updata_time {
-//       i {
-//         margin-right: 2px;
-//       }
-//       color: #a1a1a1;
-//       font-size: 14px;
-//       margin-bottom: 70px;
-//     }
-//     .recommend {
-//       color: #1c95dc;
-//       font-size: 14px;
-//       margin-bottom: 32px;
-//       button {
-//         padding: 10px 12px;
-//         margin-left: 6px;
-//       }
-//     }
-//     .auther {
-//       padding-left: 16%;
-//       text-align: left;
-//       font-size: 14px;
-//       p {
-//         margin-bottom: 4px;
-//         a {
-//           color: #c7c7c7;
-//           &:hover {
-//             color: #1c95dc;
-//           }
-//         }
-//       }
-//     }
-//   }
-// }
-// .footer {
-//   background-color: #3295d9;
-//   text-align: center;
-//   padding: 28px 0 20px;
-//   font-size: 12px;
-//   line-height: 18px;
-//   color: #dff2ff;
-//   width: 100%;
-//   .copyright {
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-//     a {
-//       margin: 0 4px;
-//       color: #dff2ff;
-//       // line-height: 24px;
-//     }
-//   }
-//   p {
-//     margin-bottom: 8px;
-//     span {
-//       margin: 0 6px;
-//       cursor: pointer;
-//     }
-//   }
-// }
 </style>

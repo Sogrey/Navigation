@@ -1,6 +1,8 @@
 [{
-    "title": "常用推荐",
-    "id": 1,
+    "label": "常用推荐",
+    "expand": false,
+    "iconFont": "fa-star",
+    "children": [],
     "list": [
         {
             "id": 100001,
@@ -88,12 +90,43 @@
         }
     ]
 }, {
-    "title": "社区博客",
+    "label": "社区博客",
+    "expand": false,
+    "children": [{
+        "label": "社区博客1",
+        "expand": false,
+        "children": [],
+        "list": []
+    }, {
+        "label": "社区博客2",
+        "expand": false,
+        "children": [],
+        "list": []
+    }],
     "list": []
 }, {
-    "title": "实用工具",
+    "label": "实用工具",
+    "expand": false,
+    "children": [{
+        "label": "实用工具1",
+        "expand": false,
+        "children": [],
+        "list": []
+    }, {
+        "label": "实用工具2",
+        "expand": false,
+        "children": [],
+        "list": []
+    }, {
+        "label": "实用工具3",
+        "expand": false,
+        "children": [],
+        "list": []
+    }],
     "list": []
 }, {
-    "title": "学习资源",
+    "label": "学习资源",
+    "expand": false,
+    "children": [],
     "list": []
 }]

@@ -1,1 +1,47 @@
-{}
+[{
+    "label": "常用推荐",
+    "expand": false,
+    "iconFont": "fa-star",
+    "children": [],
+    "list": []
+}, {
+    "label": "社区博客",
+    "expand": false,
+    "children": [{
+        "label": "社区博客1",
+        "expand": false,
+        "children": [],
+        "list": []
+    }, {
+        "label": "社区博客2",
+        "expand": false,
+        "children": [],
+        "list": []
+    }],
+    "list": []
+}, {
+    "label": "实用工具",
+    "expand": false,
+    "children": [{
+        "label": "实用工具1",
+        "expand": false,
+        "children": [],
+        "list": []
+    }, {
+        "label": "实用工具2",
+        "expand": false,
+        "children": [],
+        "list": []
+    }, {
+        "label": "实用工具3",
+        "expand": false,
+        "children": [],
+        "list": []
+    }],
+    "list": []
+}, {
+    "label": "学习资源",
+    "expand": false,
+    "children": [],
+    "list": []
+}]

@@ -1,50 +1,88 @@
 <template>
-  <div class="side-wrapper">
-    <div class="side-title">{{ psTitle }}</div>
-    <div class="side-menu">
-      <ul>
-        <li v-for="(item, index) in psData" :key="index">
-          <a :href="'#' + item">
-            <i class="fa fa-folder fa-lg" aria-hidden="true"></i>
-            &nbsp; {{ item }}
-          </a>
-        </li>
-      </ul>
-    </div>
-  </div>
+  <el-tree
+    :data="data"
+    :props="defaultProps"
+    accordion
+    @node-click="handleNodeClick"
+  >
+  </el-tree>
 </template>
 
 <script>
 export default {
-  name: "LeftSideWrapper",
+  name: "LeftTreeView",
   data() {
-    return {};
+    return {
+      data: [
+        {
+          label: "一级 1",
+          children: [
+            {
+              label: "二级 1-1",
+              children: [
+                {
+                  label: "三级 1-1-1",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          label: "一级 2",
+          children: [
+            {
+              label: "二级 2-1",
+              children: [
+                {
+                  label: "三级 2-1-1",
+                },
+              ],
+            },
+            {
+              label: "二级 2-2",
+              children: [
+                {
+                  label: "三级 2-2-1",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          label: "一级 3",
+          children: [
+            {
+              label: "二级 3-1",
+              children: [
+                {
+                  label: "三级 3-1-1",
+                },
+              ],
+            },
+            {
+              label: "二级 3-2",
+              children: [
+                {
+                  label: "三级 3-2-1",
+                },
+              ],
+            },
+          ],
+        },
+      ],
+      defaultProps: {
+        children: "children",
+        label: "label",
+      },
+    };
   },
   props: {
     psTitle: String,
     psData: Array,
   }, //接手psData值
   methods: {
-    // generateIconCode(symbol) {
-    //   return `<svg-icon icon-class="${symbol}" />`
-    // },
-    // generateElementIconCode(symbol) {
-    //   return `<i class="el-icon-${symbol}" />`
-    // }
-    initData() {
-      this.axios.get("./static/datas/search.json").then((response) => {
-        console.log(response);
-
-        this.LeftSideWrapperList = [];
-
-        for (var index = 0; index < response.data.length; index++) {
-          const element = response.data[index];
-          this.LeftSideWrapperList.push(element.name);
-        }
-      });
-      // this.$http.get('static/datas/search.json').then((response) => {
-      //   console.log(response);
-      // });
+    handleNodeClick(data) {
+      console.log(data);
     },
   },
 };
