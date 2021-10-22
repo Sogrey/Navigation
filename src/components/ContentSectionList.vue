@@ -78,7 +78,7 @@ export default {
 
 .listMain .list {
   display: inline-grid;
-  width: 95%;
+  width: 98%;
   height: 50px;
   background-color: #ffffff22;
   overflow: hidden;

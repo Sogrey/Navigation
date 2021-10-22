@@ -2,9 +2,9 @@
   <div class="side-wrapper">
     <div class="side-title">{{ psTitle }}</div>
     <div class="side-menu">
-      <ul>
+      <ul v-if="psData.length > 0">
         <li v-for="(item, index) in psData" :key="index">
-          <a :href="'#' + item.label" v-on:click="item.expand = !item.expand">
+          <a :href="'#' + item.label" v-on:click="expandChildren($event, item)">
             <i
               class="fa fa-lg"
               v-bind:class="[
@@ -29,36 +29,85 @@
             >
             &nbsp; {{ item.label }}
           </a>
-          <ul v-if="item.expand && item.children && item.children.length > 0">
-            <li v-for="(citem, cindex) in item.children" :key="cindex">
-              <a :href="'#' + citem.label">
-                <i
-                  class="fa fa-lg"
-                  v-bind:class="[
-                    {
-                      'fa-folder':
-                        !citem.expand &&
-                        !citem.iconFont &&
-                        citem.children &&
-                        citem.children.length > 0,
-                      'fa-folder-open':
-                        citem.expand &&
-                        !citem.iconFont &&
-                        citem.children &&
-                        citem.children.length > 0,
-                      'fa-file':
-                        !citem.iconFont &&
-                        (!citem.children || citem.children == 0),
-                    },
-                    citem.iconFont ? citem.iconFont : '',
-                  ]"
-                  aria-hidden="true"
-                  ><!--expand:是否展开；iconFont：自定义icon--></i
+          <div class="children-container">
+            <ul v-if="item.expand && item.children && item.children.length > 0">
+              <li v-for="(citem, cindex) in item.children" :key="cindex">
+                <a
+                  :href="'#' + citem.label"
+                  v-on:click="expandChildren($event, citem)"
                 >
-                &nbsp; {{ citem.label }}
-              </a>
-            </li>
-          </ul>
+                  <i
+                    class="fa fa-lg"
+                    v-bind:class="[
+                      {
+                        'fa-folder':
+                          !citem.expand &&
+                          !citem.iconFont &&
+                          citem.children &&
+                          citem.children.length > 0,
+                        'fa-folder-open':
+                          citem.expand &&
+                          !citem.iconFont &&
+                          citem.children &&
+                          citem.children.length > 0,
+                        'fa-file':
+                          !citem.iconFont &&
+                          (!citem.children || citem.children == 0),
+                      },
+                      citem.iconFont ? citem.iconFont : '',
+                    ]"
+                    aria-hidden="true"
+                    ><!--expand:是否展开；iconFont：自定义icon--></i
+                  >
+                  &nbsp; {{ citem.label }}
+                </a>
+                <div class="children-container">
+                  <ul
+                    v-if="
+                      citem.expand &&
+                      citem.children &&
+                      citem.children.length > 0
+                    "
+                  >
+                    <li
+                      v-for="(c2item, c2index) in citem.children"
+                      :key="c2index"
+                    >
+                      <a
+                        :href="'#' + c2item.label"
+                        v-on:click="expandChildren($event, c2item)"
+                      >
+                        <i
+                          class="fa fa-lg"
+                          v-bind:class="[
+                            {
+                              'fa-folder':
+                                !c2item.expand &&
+                                !c2item.iconFont &&
+                                c2item.children &&
+                                c2item.children.length > 0,
+                              'fa-folder-open':
+                                c2item.expand &&
+                                !c2item.iconFont &&
+                                c2item.children &&
+                                c2item.children.length > 0,
+                              'fa-file':
+                                !c2item.iconFont &&
+                                (!c2item.children || c2item.children == 0),
+                            },
+                            c2item.iconFont ? c2item.iconFont : '',
+                          ]"
+                          aria-hidden="true"
+                          ><!--expand:是否展开；iconFont：自定义icon--></i
+                        >
+                        &nbsp; {{ c2item.label }}
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
         </li>
       </ul>
       <!-- <LeftTreeView /> -->
@@ -80,7 +129,69 @@ export default {
     psTitle: String,
     psData: Array,
   }, //接手psData值
-  methods: {},
+  methods: {
+    expandChildren: function (e, item) {
+      if (!item || item.children.length < 1) {
+        return;
+      }
+      item.expand = !item.expand;
+      console.log(item);
+      return;
+      var html = `
+            <ul v-if="${
+              item.expand && item.children && item.children.length > 0
+            }">
+              <li v-for="${(citem, cindex) in item.children}" :key="cindex">
+                <a :href="'#' + ${citem.label}">
+                  <i
+                    class="fa fa-lg"
+                    v-bind:class="[
+                      {
+                        'fa-folder':
+                          ${
+                            !citem.expand &&
+                            !citem.iconFont &&
+                            citem.children &&
+                            citem.children.length > 0
+                          },
+                        'fa-folder-open':
+                          ${
+                            citem.expand &&
+                            !citem.iconFont &&
+                            citem.children &&
+                            citem.children.length > 0
+                          },
+                        'fa-file':
+                          ${
+                            !citem.iconFont &&
+                            (!citem.children || citem.children == 0)
+                          },
+                      },
+                      ${citem.iconFont ? citem.iconFont : ""},
+                    ]"
+                    aria-hidden="true"
+                    ><!--expand:是否展开；iconFont：自定义icon--></i
+                  >
+                  &nbsp; {{ ${citem.label} }}
+                </a>
+                <div class="children-container"></div>
+              </li>
+            </ul>`;
+
+      // e.target 是你当前点击的元素
+      // e.currentTarget 是你绑定事件的元素
+      if (e && e.currentTarget && e.currentTarget.parentElement) {
+        var childrenContainers =
+          e.currentTarget.parentElement.getElementsByClassName(
+            "children-container"
+          );
+        if (childrenContainers && childrenContainers.length > 0) {
+          var childrenContainer = childrenContainers[0];
+          childrenContainer.innerHTML = html;
+        }
+      }
+    },
+  },
 };
 </script>
 

@@ -3,8 +3,7 @@
     "expand": false,
     "iconFont": "fa-star",
     "children": [],
-    "list": [
-        {
+    "list": [{
             "id": 100001,
             "url": "https://github.com",
             "img": "https://qiniuyun.zhichi921.com/site-icon/github.svg",
@@ -92,41 +91,76 @@
 }, {
     "label": "社区博客",
     "expand": false,
-    "children": [{
-        "label": "社区博客1",
-        "expand": false,
-        "children": [],
-        "list": []
-    }, {
-        "label": "社区博客2",
-        "expand": false,
-        "children": [],
-        "list": []
-    }],
+    "children": [],
     "list": []
 }, {
     "label": "实用工具",
     "expand": false,
     "children": [{
-        "label": "实用工具1",
+        "label": "团队合作",
         "expand": false,
         "children": [],
-        "list": []
+        "list": [
+            {
+            "id": 100011,
+            "url": "https://www.processon.com/",
+            "img": "https://www.processon.com/favicon.ico",
+            "title": "ProcessOn",
+            "desc": "ProcessOn是一个在线协作绘图平台，为用户提供强大、易用的作图工具！支持在线创作流程图、思维导图、组织结构图、网络拓扑图、BPMN、UML图、UI界面原型设计、iOS界面原型设计等。同时依托于互联网实现了人与人之间的实时协作和共享。"
+        }, {
+            "id": 100011,
+            "url": "https://www.yinxiang.com/",
+            "img": "https://www.yinxiang.com/favicon.ico",
+            "title": "印象笔记",
+            "desc": "作为你的第二大脑，记录就用印象笔记。印象笔记可以帮助你高效工作、学习与生活。支持无缝多端同步，快速保存微信、微博、网页等内容，一站式完成信息的收集备份、高效记录、分享和永久保存。"
+        }]
     }, {
-        "label": "实用工具2",
+        "label": "前端实用工具",
         "expand": false,
         "children": [],
-        "list": []
-    }, {
-        "label": "实用工具3",
-        "expand": false,
-        "children": [],
-        "list": []
+        "list": [
+            {
+            "id": 100011,
+            "url": "https://tool.oschina.net/",
+            "img": "https://tool.oschina.net/img/favicon.ico",
+            "title": "Oschina Tools",
+            "desc": "OSCHINA.NET在线工具,ostools为开发设计人员提供在线工具，提供jsbin在线 CSS、JS 调试，在线 Java API文档,在线 PHP API文档,在线 Node.js API文档,Less CSS编译器，MarkDown编译器等其他在线工具"
+        }, {
+            "id": 100011,
+            "url": "https://www.json.cn/",
+            "img": "https://www.json.cn/favicon.ico",
+            "title": "JSON在线格式化",
+            "desc": "Json中文网致力于在中国推广Json,并提供相关的Json解析、验证、格式化、压缩、编辑器以及Json与XML相互转换等服务"
+        }, {
+            "id": 100011,
+            "url": "https://cron.qqe2.com/",
+            "img": "./img/icons/website.svg",
+            "title": "在线Cron表达式生成器",
+            "desc": "通过这个生成器,您可以在线生成任务调度比如Quartz的Cron表达式,对Quartz Cron 表达式的可视化双向解析和生成"
+        }]
     }],
     "list": []
 }, {
     "label": "学习资源",
     "expand": false,
     "children": [],
-    "list": []
+    "list": [{
+        "id": 100011,
+        "url": "https://www.runoob.com/",
+        "img": "https://static.runoob.com/images/favicon.ico",
+        "title": "菜鸟教程",
+        "desc": "菜鸟教程提供了编程的基础技术教程, 介绍了HTML、CSS、Javascript、Python，Java，Ruby，C，PHP , MySQL等各种编程语言的基础知识。 同时本站中也提供了大量的在线实例，通过实例，您可以更好的学习编程。"
+    }, {
+        "id": 100011,
+        "url": "https://www.lanqiao.cn/",
+        "img": "https://www.lanqiao.cn/favicon.png",
+        "title": "蓝桥云课",
+        "desc": "提供编程、运维、测试、云计算、大数据、据库等全面的IT技术动手实践环境，提供Linux、Python、Java、C语言、Node.js、Hadoop、PHP、Docker、Git、R、SQL、MongoDB、Redis、Swift、Spark等千门热门课程"
+    }, {
+        "id": 100011,
+        "url": "https://www.jikexueyuan.com/",
+        "img": "https://www.jikexueyuan.com/favicon.ico",
+        "title": "极客学院",
+        "desc": "极客学院作为中国专业IT职业在线教育平台,拥有海量高清IT职业课程,涵盖30+个技术领域,如Android,iOS ,Flash,Java,Python,HTML5,Swift,Cocos2dx等视频教程.根据IT在线学习特点,极客学院推出IT学习知识体系图,IT职业学习实战路径图,帮助IT学习者从零基础起步,结合IT实战案例演练,系统学习,助你快速成为IT优秀技术人才！"
+    }]
 }]

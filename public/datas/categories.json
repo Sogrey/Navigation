@@ -10,7 +10,12 @@
     "children": [{
         "label": "社区博客1",
         "expand": false,
-        "children": [],
+        "children": [{
+            "label": "社区博客11",
+            "expand": false,
+            "children": [],
+            "list": []
+        }],
         "list": []
     }, {
         "label": "社区博客2",

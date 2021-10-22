@@ -125,8 +125,7 @@ export default {
       this.$axios.get("./datas/categories.json").then((res) => {
         if (res.status == 200) {
           // 请求成功
-          console.log(res);
-          this.siteTitleList = res.data;
+          // console.log(res);
         }
       });
     },
@@ -134,18 +133,29 @@ export default {
       this.$axios.get("./datas/db.json").then((res) => {
         if (res.status == 200) {
           // 请求成功
-          console.log(res);
-          this.siteList = res.data;
+          // console.log(res);
+          this.siteTitleList = res.data;
         }
 
         // 获取站点总数量
         let total = 0;
-        res.data.forEach((item, index) => {
-          total += item.list.length;
-          // this.siteTitleList.push(item.title);
-        });
+
+        function getSites(array, siteList) {
+          array.forEach((item, index) => {
+            // if (item.list.length > 0) {
+            total += item.list.length;
+            if (item.list.length > 0) siteList.push(item);
+            getSites(item.children, siteList);
+            // }
+          });
+        }
+
+        getSites(res.data, this.siteList);
+
         // 总数量
         this.sitetotalnum = total;
+
+        console.log("总共收录", this.sitetotalnum, "条宝藏网站");
       });
     },
     // 获取当前时间
