@@ -65,6 +65,16 @@ export default {
   grid-gap: 16px 0.5%;
   justify-items: center;
 }
+@media screen and (max-width: 860px) {
+  .cardMain {
+    grid-template-columns: repeat(auto-fill, 49%);
+  }
+}
+@media screen and (max-width: 700px) {
+  .cardMain {
+    grid-template-columns: repeat(auto-fill, 100%);
+  }
+}
 .cardMain .center {
   position: absolute;
   top: 50%;

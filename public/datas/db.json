@@ -142,6 +142,12 @@
             "title": "HiPPTer",
             "desc": "为PPTER推荐PPT设计相关网站，为你的PPT设计提供创意灵感、配色方案、免费图片、优质图标、工具插件等",
             "recommend": []
+        }, {
+            "id": 100011,
+            "url": "https://www.lanrenexcel.com/",
+            "img": "https://www.lanrenexcel.com/favicon.ico",
+            "title": "懒人 Excel",
+            "desc": "懒人 Excel 是一个非常好用并且完全免费的 Excel 学习网站，良心好用。它的整个界面简洁清新，每个功能版块一目了然，每个学习界面非常干净，让你拥有出色的视觉体验。它的教程通俗易懂，可以让你高效学习各种 Excel 知识，并且主要以图文结合的方式呈现；它的 Excel 教程包括：Excel 函数公式、操作技巧、数据分析、图表模板、VBA 、数据透视表教程。"
         }]
     }, {
         "label": "团队合作",
@@ -256,218 +262,310 @@
     }],
     "list": []
 }, {
-    "label": "学术资源",
-    "expand": false,
-    "children": [],
-    "list": [{
-        "id": 100011,
-        "url": "https://www.cn-ki.net/",
-        "img": "https://www.cn-ki.net/favicon.ico",
-        "title": "iData-知识检索",
-        "desc": "iData知识检索—免费下载学术文献,免费论文下载。",
-        "recommend": []
-    }, {
-        "id": 100011,
-        "url": "https://site.sciping.com/",
-        "img": "https://site.sciping.com/images/fav.ico",
-        "title": "科塔学术",
-        "desc": "科塔学术导航-致力于成为国内领先的科研与学术资源导航平台，为科研人员提供科研网站导航，网址库等服务，让科研工作更简单、更有效率。",
-        "recommend": []
-    }]
-}, {
-    "label": "学习资源",
+    "label": "各类资源",
     "expand": false,
     "children": [{
-        "label": "公开课",
+        "label": "学术资源",
         "expand": false,
         "children": [],
         "list": [{
             "id": 100011,
-            "url": "https://open.163.com/",
-            "img": "https://c.open.163.com/favicon.ico",
-            "title": "网易公开课",
-            "desc": "网易公开课汇集清华、北大、哈佛、耶鲁等世界名校共上千门课程，覆盖科学、经济、人文、哲学等22个领域，在这里你可以开拓视野看世界，获取有深度的好知识。",
+            "url": "https://www.cn-ki.net/",
+            "img": "https://www.cn-ki.net/favicon.ico",
+            "title": "iData-知识检索",
+            "desc": "iData知识检索—免费下载学术文献,免费论文下载。",
             "recommend": []
         }, {
             "id": 100011,
-            "url": "https://study.163.com",
-            "img": "https://study.163.com/favicon.ico",
-            "title": "网易云课堂",
-            "desc": "网易云课堂，一个专注于成人终身学习的在线教育平台。立足于实用性的要求, 与优质的教育内容创作者一起，为您提供全面、有效的在线学习内容。",
+            "url": "https://site.sciping.com/",
+            "img": "https://site.sciping.com/images/fav.ico",
+            "title": "科塔学术",
+            "desc": "科塔学术导航-致力于成为国内领先的科研与学术资源导航平台，为科研人员提供科研网站导航，网址库等服务，让科研工作更简单、更有效率。",
             "recommend": []
         }, {
             "id": 100011,
-            "url": "https://ke.qq.com",
-            "img": "https://9.idqqimg.com/edu/edu_modules/edu-ui/img/nohash/logo_pc_rich.png",
-            "title": "腾讯课堂",
-            "desc": "腾讯课堂-腾讯推出的专业职业培训在线教育平台，聚合大量优质教育机构和名师，下设职业培训、公务员考试、托福雅思、考证考级、英语口语、中小学教育等众多在线学习精品课程，打造老师在线上课教学、学生及时互动学习的课堂。腾讯课堂，学习成就梦想！",
-            "recommend": []
-        }, {
-            "id": 100011,
-            "url": "https://edu.youku.com",
-            "img": "https://img.alicdn.com/tfs/TB1WeJ9Xrj1gK0jSZFuXXcrHpXa-195-195.png",
-            "title": "优酷教育频道",
-            "desc": "视频服务平台,提供视频播放,视频发布,视频搜索,视频分享",
-            "recommend": []
-        }, {
-            "id": 100011,
-            "url": "https://www.icourse163.org",
-            "img": "https://edu-image.nosdn.127.net/32a8dd2a-b9aa-4ec9-abd5-66cd8751befb.png?imageView&quality=100",
-            "title": "中国大学MOOC",
-            "desc": "中国大学MOOC(慕课) 是国内优质的中文MOOC学习平台，由爱课程网携手网易云课堂打造。平台拥有包括985高校在内提供的千余门课程，其中首批获得认定的国家精品在线开放课程322门，占2017年获得认定课程总数的65.7%。每一个有提升愿望的人，都可以在这里学习优质高校课程，与名师零距离交流，并获得认证证书。",
-            "recommend": []
-        }, {
-            "id": 100011,
-            "url": "https://www.xuetangx.com",
-            "img": "https://storagecdn.xuetangx.com/public_assets/xuetangx/xuetangxXImg/logo.ico",
-            "title": "学堂在线",
-            "desc": "学堂在线是清华大学于2013年10月发起建立的慕课平台，是教育部在线教育研究中心的研究交流和成果应用平台，是国家2016年首批双创示范基地项目，是中国高等教育学会产教融合研究分会副秘书长单位，也是联合国教科文组织（UNESCO）国际工程教育中心（ICEE）的在线教育平台。目前，学堂在线运行了来自清华大学、北京大学、复旦大学、中国科技大学，以及麻省理工学院、斯坦福大学、加州大学伯克利分校等国内外高校的超过2300门优质课程，覆盖13大学科门类。",
-            "recommend": []
-        }]
-    }],
-    "list": [{
-        "id": 100011,
-        "url": "https://www.runoob.com/",
-        "img": "https://static.runoob.com/images/favicon.ico",
-        "title": "菜鸟教程",
-        "desc": "菜鸟教程提供了编程的基础技术教程, 介绍了HTML、CSS、Javascript、Python，Java，Ruby，C，PHP , MySQL等各种编程语言的基础知识。 同时本站中也提供了大量的在线实例，通过实例，您可以更好的学习编程。"
-    }, {
-        "id": 100011,
-        "url": "https://www.lanqiao.cn/",
-        "img": "https://www.lanqiao.cn/favicon.png",
-        "title": "蓝桥云课",
-        "desc": "提供编程、运维、测试、云计算、大数据、据库等全面的IT技术动手实践环境，提供Linux、Python、Java、C语言、Node.js、Hadoop、PHP、Docker、Git、R、SQL、MongoDB、Redis、Swift、Spark等千门热门课程"
-    }, {
-        "id": 100011,
-        "url": "https://www.jikexueyuan.com/",
-        "img": "https://www.jikexueyuan.com/favicon.ico",
-        "title": "极客学院",
-        "desc": "极客学院作为中国专业IT职业在线教育平台,拥有海量高清IT职业课程,涵盖30+个技术领域,如Android,iOS ,Flash,Java,Python,HTML5,Swift,Cocos2dx等视频教程.根据IT在线学习特点,极客学院推出IT学习知识体系图,IT职业学习实战路径图,帮助IT学习者从零基础起步,结合IT实战案例演练,系统学习,助你快速成为IT优秀技术人才！"
-    }]
-}, {
-    "label": "素材资源",
-    "expand": false,
-    "children": [{
-        "label": "图片、媒体资源",
-        "expand": false,
-        "children": [],
-        "list": [{
-            "id": 100011,
-            "url": "https://webgradients.com/",
-            "img": "https://webgradients.com/img/other/logos/webgradients_logo.png",
-            "title": "WebGradients",
-            "desc": "WebGradients 是 180 个线性渐变的免费集合，您可以将其用作网站任何部分的内容背景。轻松复制 CSS3 跨浏览器代码并立即使用！我们还准备了每个渐变的 .PNG 版本。作为奖励，还有Sketch 和 Photoshop包 。",
-            "recommend": ["免费商业"]
-        }, {
-            "id": 100011,
-            "url": "https://www.iconfinder.com/",
-            "img": "https://www.iconfinder.com/static/img/favicons/favicon-96x96.png",
-            "title": "IconFinder",
-            "desc": "我们喜欢 Iconfinder，因为它的内容上传简单且易于图标管理。透明的销售统计数据和快速的客户支持使其成为贡献者的绝佳工具。",
-            "recommend": []
-        }, {
-            "id": 100011,
-            "url": "http://www.stickpng.com/",
-            "img": "http://www.stickpng.com/favicon.ico",
-            "title": "StickPNG",
-            "desc": "StickPNG是一个充满活力的创意社区，分享透明的PNG图像，您可以免费下载并在个人非商业或教育项目中使用。",
-            "recommend": ["无背景素材"]
-        }, {
-            "id": 100011,
-            "url": "https://undraw.co/illustrations",
-            "img": "https://undraw.co/favicon.ico",
-            "title": "unDraw",
-            "desc": "这个带有开源插图的设计项目可以让你想象和创造任何想法。用你的颜色免费创建美丽的网站、产品和应用程序。",
-            "recommend": ["矢量素材"]
-        }, {
-            "id": 100011,
-            "url": "https://pictogram2.com/",
-            "img": "https://pictogram2.com/favicons/favicon_144.png",
-            "title": "pictogram2（火柴人）",
-            "desc": "一个来自日本的免费火柴人图标素材网；涵盖应用场景丰富全面；支持英文和日文关键词搜索。",
-            "recommend": ["火柴人素材"]
-        }, {
-            "id": 100011,
-            "url": "https://www.flaticon.com/",
-            "img": "https://media.flaticon.com/dist/min/img/favicon.ico",
-            "title": "flaticon",
-            "desc": "最大的免费图标汇聚地，图标垂直搜索网站。提供 PNG，SVG，EPS，PSD 等格式的图标下载。",
-            "recommend": ["图标素材"]
-        }, {
-            "id": 100011,
-            "url": "https://wallhaven.cc",
-            "img": "https://wallhaven.cc/favicon.ico",
-            "title": "wallhaven",
-            "desc": "这里有很多动漫或者油画图片，有4K画质，分辨率特别高。想找电脑的壁纸的同学，不要错过，绝对有适合你口味的壁纸。",
-            "recommend": ["电脑壁纸"]
-        }, {
-            "id": 100011,
-            "url": "https://pixabay.com/zh/photos/",
-            "img": "https://pixabay.com/favicon.ico",
-            "title": "pixabay",
-            "desc": "Pixabay是全球知名的图库网站及充满活力的创意社区，拥有上百万张免费正版高清照片素材，涵盖风景、人物、动态、静物等多种分类，你可以在任何地方使用Pixabay图库中的素材，无惧版权风险。",
-            "recommend": ["高清", "无版权图库"]
-        }, {
-            "id": 100011,
-            "url": "https://www.iconfinder.com/",
-            "img": "https://www.iconfinder.com/static/img/favicons/favicon-96x96.png",
-            "title": "IconFinder",
-            "desc": "我们喜欢 Iconfinder，因为它的内容上传简单且易于图标管理。透明的销售统计数据和快速的客户支持使其成为贡献者的绝佳工具。",
-            "recommend": ["图标"]
-        }, {
-            "id": 100011,
-            "url": "https://www.pexels.com/zh-cn/",
-            "img": "https://www.pexels.com/favicon.ico",
-            "title": "Pexels",
-            "desc": "免费素材图片和视频，可以在任何地方使用。✓ 高质量 ✓ 100% 免费 ✓ 无需注明归属",
-            "recommend": ["无版权图库"]
-        }, {
-            "id": 100011,
-            "url": "https://footagecrate.com/search/#!/Fire+Elements&type=fire-and-sparks",
-            "img": "https://footagecrate.com/favicon.ico",
-            "title": "FootageCrate",
-            "desc": "这里有超级多的视频特效源文件，对于需要剪辑视频，特效技术又一般的同学来说，简直就是必备神器。",
-            "recommend": ["视频特效"]
-        }, {
-            "id": 100011,
-            "url": "https://coolors.co/",
-            "img": "./img/icons/coolors.co.favicon.png",
-            "title": "Coolors",
-            "desc": "这个网站是快速配色生成器，有了这个网站，任选一张参考就能一键提取配色和分析用色！",
-            "recommend": ["配色素材"]
-        }, {
-            "id": 100011,
-            "url": "http://zhongguose.com/",
-            "img": "http://zhongguose.com/img/favicon.ico",
-            "title": "中国传统配色网",
-            "desc": "这是一个汇集中国式传统色的网站,提供各种中国的传统颜色的名称，CMYK值，RGB值，16进制表示。",
-            "recommend": ["配色素材"]
+            "url": "https://www.oalib.com/",
+            "img": "https://www.oalib.com/favicon.ico",
+            "title": "Oalib",
+            "desc": "Oalib 是一个完全免费的论文搜索网站。它提供超过 420 万篇论文，并且所有文章支持免费下载，所有文章支持以 PDF 格式下载；它支持强大的搜索功能，你可以利用网站的高级搜索功能进一步搜索你需要的文章。",
+            "recommend": ["论文搜索", "免费"]
         }]
     }, {
-        "label": "字体资源",
+        "label": "学习资源",
+        "expand": false,
+        "children": [{
+            "label": "公开课",
+            "expand": false,
+            "children": [],
+            "list": [{
+                "id": 100011,
+                "url": "https://open.163.com/",
+                "img": "https://c.open.163.com/favicon.ico",
+                "title": "网易公开课",
+                "desc": "网易公开课汇集清华、北大、哈佛、耶鲁等世界名校共上千门课程，覆盖科学、经济、人文、哲学等22个领域，在这里你可以开拓视野看世界，获取有深度的好知识。",
+                "recommend": []
+            }, {
+                "id": 100011,
+                "url": "https://study.163.com",
+                "img": "https://study.163.com/favicon.ico",
+                "title": "网易云课堂",
+                "desc": "网易云课堂，一个专注于成人终身学习的在线教育平台。立足于实用性的要求, 与优质的教育内容创作者一起，为您提供全面、有效的在线学习内容。",
+                "recommend": []
+            }, {
+                "id": 100011,
+                "url": "https://ke.qq.com",
+                "img": "https://9.idqqimg.com/edu/edu_modules/edu-ui/img/nohash/logo_pc_rich.png",
+                "title": "腾讯课堂",
+                "desc": "腾讯课堂-腾讯推出的专业职业培训在线教育平台，聚合大量优质教育机构和名师，下设职业培训、公务员考试、托福雅思、考证考级、英语口语、中小学教育等众多在线学习精品课程，打造老师在线上课教学、学生及时互动学习的课堂。腾讯课堂，学习成就梦想！",
+                "recommend": []
+            }, {
+                "id": 100011,
+                "url": "https://edu.youku.com",
+                "img": "https://img.alicdn.com/tfs/TB1WeJ9Xrj1gK0jSZFuXXcrHpXa-195-195.png",
+                "title": "优酷教育频道",
+                "desc": "视频服务平台,提供视频播放,视频发布,视频搜索,视频分享",
+                "recommend": []
+            }, {
+                "id": 100011,
+                "url": "https://www.icourse163.org",
+                "img": "https://edu-image.nosdn.127.net/32a8dd2a-b9aa-4ec9-abd5-66cd8751befb.png?imageView&quality=100",
+                "title": "中国大学MOOC",
+                "desc": "中国大学MOOC(慕课) 是国内优质的中文MOOC学习平台，由爱课程网携手网易云课堂打造。平台拥有包括985高校在内提供的千余门课程，其中首批获得认定的国家精品在线开放课程322门，占2017年获得认定课程总数的65.7%。每一个有提升愿望的人，都可以在这里学习优质高校课程，与名师零距离交流，并获得认证证书。",
+                "recommend": []
+            }, {
+                "id": 100011,
+                "url": "https://www.xuetangx.com",
+                "img": "https://storagecdn.xuetangx.com/public_assets/xuetangx/xuetangxXImg/logo.ico",
+                "title": "学堂在线",
+                "desc": "学堂在线是清华大学于2013年10月发起建立的慕课平台，是教育部在线教育研究中心的研究交流和成果应用平台，是国家2016年首批双创示范基地项目，是中国高等教育学会产教融合研究分会副秘书长单位，也是联合国教科文组织（UNESCO）国际工程教育中心（ICEE）的在线教育平台。目前，学堂在线运行了来自清华大学、北京大学、复旦大学、中国科技大学，以及麻省理工学院、斯坦福大学、加州大学伯克利分校等国内外高校的超过2300门优质课程，覆盖13大学科门类。",
+                "recommend": []
+            }]
+        }, {
+            "label": "学习网站",
+            "expand": false,
+            "children": [],
+            "list": [{
+                "id": 100011,
+                "url": "https://www.jiansouti.com/",
+                "img": "https://www.jiansouti.com/favicon.ico",
+                "title": "简搜题",
+                "desc": "简搜题是一个完全免费的良心搜题网站，也是一个非常好用的学习网站，它采用极简设计，整个网站简洁干净，让人眼前一亮。",
+                "recommend": ["学习"]
+            }, {
+                "id": 100011,
+                "url": "https://www.shuxuele.com/index.html",
+                "img": "https://www.shuxuele.com/favicon.ico",
+                "title": "数学乐",
+                "desc": "数学乐是一个完全免费的宝藏数学学习网站。它的课程内容覆盖整个幼儿园到高中，而且大学生也可以利用这个网站参考学习；它主要的特点是通过有趣易懂的方法来演示数学，提供了很多活动和游戏辅助学习。它的学习内容全面丰富，学习课程有趣新颖，提供了大量生动形象的图表和动画，还有实用的例子和应用，让你富有乐趣的学习数学。",
+                "recommend": ["学习"]
+            }, {
+                "id": 100011,
+                "url": "https://1s1k.eduyun.cn/portal/html/1s1k/course/1.html",
+                "img": "https://1s1k.eduyun.cn/favicon.ico",
+                "title": "国家教育资源公共服务平台",
+                "desc": "国家教育资源公共服务平台是一个完全免费的高质量精品学习网站。它提供的学习课程包括：小学课程、初中课程、高中课程；它的课程数量非常丰富，目前提供了多达 2000 多万个高质量课程，并且包括全国范围内的小学、初中、高中课程，每个课程的质量都是非常高。它的界面简洁干净，整体布局清晰明了，让你拥有出色的视觉体验。",
+                "recommend": ["学习"]
+            }]
+        }],
+        "list": [{
+            "id": 100011,
+            "url": "https://www.runoob.com/",
+            "img": "https://static.runoob.com/images/favicon.ico",
+            "title": "菜鸟教程",
+            "desc": "菜鸟教程提供了编程的基础技术教程, 介绍了HTML、CSS、Javascript、Python，Java，Ruby，C，PHP , MySQL等各种编程语言的基础知识。 同时本站中也提供了大量的在线实例，通过实例，您可以更好的学习编程。"
+        }, {
+            "id": 100011,
+            "url": "https://www.lanqiao.cn/",
+            "img": "https://www.lanqiao.cn/favicon.png",
+            "title": "蓝桥云课",
+            "desc": "提供编程、运维、测试、云计算、大数据、据库等全面的IT技术动手实践环境，提供Linux、Python、Java、C语言、Node.js、Hadoop、PHP、Docker、Git、R、SQL、MongoDB、Redis、Swift、Spark等千门热门课程"
+        }, {
+            "id": 100011,
+            "url": "https://www.jikexueyuan.com/",
+            "img": "https://www.jikexueyuan.com/favicon.ico",
+            "title": "极客学院",
+            "desc": "极客学院作为中国专业IT职业在线教育平台,拥有海量高清IT职业课程,涵盖30+个技术领域,如Android,iOS ,Flash,Java,Python,HTML5,Swift,Cocos2dx等视频教程.根据IT在线学习特点,极客学院推出IT学习知识体系图,IT职业学习实战路径图,帮助IT学习者从零基础起步,结合IT实战案例演练,系统学习,助你快速成为IT优秀技术人才！"
+        }]
+    }, {
+        "label": "素材资源",
+        "expand": false,
+        "children": [{
+            "label": "图片、媒体资源",
+            "expand": false,
+            "children": [],
+            "list": [{
+                "id": 100011,
+                "url": "https://webgradients.com/",
+                "img": "https://webgradients.com/img/other/logos/webgradients_logo.png",
+                "title": "WebGradients",
+                "desc": "WebGradients 是 180 个线性渐变的免费集合，您可以将其用作网站任何部分的内容背景。轻松复制 CSS3 跨浏览器代码并立即使用！我们还准备了每个渐变的 .PNG 版本。作为奖励，还有Sketch 和 Photoshop包 。",
+                "recommend": ["免费商业"]
+            }, {
+                "id": 100011,
+                "url": "https://www.iconfinder.com/",
+                "img": "https://www.iconfinder.com/static/img/favicons/favicon-96x96.png",
+                "title": "IconFinder",
+                "desc": "我们喜欢 Iconfinder，因为它的内容上传简单且易于图标管理。透明的销售统计数据和快速的客户支持使其成为贡献者的绝佳工具。",
+                "recommend": []
+            }, {
+                "id": 100011,
+                "url": "http://www.stickpng.com/",
+                "img": "http://www.stickpng.com/favicon.ico",
+                "title": "StickPNG",
+                "desc": "StickPNG是一个充满活力的创意社区，分享透明的PNG图像，您可以免费下载并在个人非商业或教育项目中使用。",
+                "recommend": ["无背景素材"]
+            }, {
+                "id": 100011,
+                "url": "https://undraw.co/illustrations",
+                "img": "https://undraw.co/favicon.ico",
+                "title": "unDraw",
+                "desc": "这个带有开源插图的设计项目可以让你想象和创造任何想法。用你的颜色免费创建美丽的网站、产品和应用程序。",
+                "recommend": ["矢量素材"]
+            }, {
+                "id": 100011,
+                "url": "https://pictogram2.com/",
+                "img": "https://pictogram2.com/favicons/favicon_144.png",
+                "title": "pictogram2（火柴人）",
+                "desc": "一个来自日本的免费火柴人图标素材网；涵盖应用场景丰富全面；支持英文和日文关键词搜索。",
+                "recommend": ["火柴人素材"]
+            }, {
+                "id": 100011,
+                "url": "https://www.flaticon.com/",
+                "img": "https://media.flaticon.com/dist/min/img/favicon.ico",
+                "title": "flaticon",
+                "desc": "最大的免费图标汇聚地，图标垂直搜索网站。提供 PNG，SVG，EPS，PSD 等格式的图标下载。",
+                "recommend": ["图标素材"]
+            }, {
+                "id": 100011,
+                "url": "https://wallhaven.cc",
+                "img": "https://wallhaven.cc/favicon.ico",
+                "title": "wallhaven",
+                "desc": "这里有很多动漫或者油画图片，有4K画质，分辨率特别高。想找电脑的壁纸的同学，不要错过，绝对有适合你口味的壁纸。",
+                "recommend": ["电脑壁纸"]
+            }, {
+                "id": 100011,
+                "url": "https://pixabay.com/zh/photos/",
+                "img": "https://pixabay.com/favicon.ico",
+                "title": "pixabay",
+                "desc": "Pixabay是全球知名的图库网站及充满活力的创意社区，拥有上百万张免费正版高清照片素材，涵盖风景、人物、动态、静物等多种分类，你可以在任何地方使用Pixabay图库中的素材，无惧版权风险。",
+                "recommend": ["高清", "无版权图库"]
+            }, {
+                "id": 100011,
+                "url": "https://www.iconfinder.com/",
+                "img": "https://www.iconfinder.com/static/img/favicons/favicon-96x96.png",
+                "title": "IconFinder",
+                "desc": "我们喜欢 Iconfinder，因为它的内容上传简单且易于图标管理。透明的销售统计数据和快速的客户支持使其成为贡献者的绝佳工具。",
+                "recommend": ["图标"]
+            }, {
+                "id": 100011,
+                "url": "https://www.pexels.com/zh-cn/",
+                "img": "https://www.pexels.com/favicon.ico",
+                "title": "Pexels",
+                "desc": "免费素材图片和视频，可以在任何地方使用。✓ 高质量 ✓ 100% 免费 ✓ 无需注明归属",
+                "recommend": ["无版权图库"]
+            }, {
+                "id": 100011,
+                "url": "https://footagecrate.com/search/#!/Fire+Elements&type=fire-and-sparks",
+                "img": "https://footagecrate.com/favicon.ico",
+                "title": "FootageCrate",
+                "desc": "这里有超级多的视频特效源文件，对于需要剪辑视频，特效技术又一般的同学来说，简直就是必备神器。",
+                "recommend": ["视频特效"]
+            }, {
+                "id": 100011,
+                "url": "https://coolors.co/",
+                "img": "./img/icons/coolors.co.favicon.png",
+                "title": "Coolors",
+                "desc": "这个网站是快速配色生成器，有了这个网站，任选一张参考就能一键提取配色和分析用色！",
+                "recommend": ["配色素材"]
+            }, {
+                "id": 100011,
+                "url": "http://zhongguose.com/",
+                "img": "http://zhongguose.com/img/favicon.ico",
+                "title": "中国传统配色网",
+                "desc": "这是一个汇集中国式传统色的网站,提供各种中国的传统颜色的名称，CMYK值，RGB值，16进制表示。",
+                "recommend": ["配色素材"]
+            }, {
+                "id": 100011,
+                "url": "https://dareful.com/",
+                "img": "./img/icons/cropped-dareful-favicon-192x192.png",
+                "title": "Stock Footage for Free",
+                "desc": "最良心的视频素材网站之一！这个网站的视频不仅质量高，而且免费、可随便商用！",
+                "recommend": ["视频素材", "免费", "可商用"]
+            }, {
+                "id": 100011,
+                "url": "https://www.pexels.com/videos/",
+                "img": "https://www.pexels.com/favicon.ico",
+                "title": "Pexels Videos",
+                "desc": "Pexels Videos 上所有的视频都是免费的，你可以将其使用于任何场合、任何目的，包括商用！",
+                "recommend": ["视频素材", "免费", "可商用"]
+            }, {
+                "id": 100011,
+                "url": "https://coverr.co/",
+                "img": "https://coverr.co/favicon.ico",
+                "title": "Coverr",
+                "desc": "Coverr 提供了超多类型的视频素材！视频可以在线预览和下载，同样免费可商用！",
+                "recommend": ["视频素材", "免费", "可商用"]
+            }, {
+                "id": 100011,
+                "url": "https://www.motionelements.com/free/stock-footage",
+                "img": "./img/icons/Motion-Elements.jpg",
+                "title": "Motion Elements",
+                "desc": "Motion Elements 提供了超过400个优质的视频素材供用户免费下载！并且数量还在不断增加中！",
+                "recommend": ["视频素材", "免费", "可商用"]
+            }, {
+                "id": 100011,
+                "url": "https://www.lifeofvids.com/",
+                "img": "https://www.lifeofvids.com/favicon.ico",
+                "title": "Life of Vids",
+                "desc": "Life of Vids 提供了超过200个免费高清视频！视频可在线预览，同时还可选择多种分辨率！同样免费可商用！",
+                "recommend": ["视频素材", "免费", "可商用"]
+            }, {
+                "id": 100011,
+                "url": "https://www.videvo.net/",
+                "img": "https://www.videvo.net/favicon.ico",
+                "title": "Videovo",
+                "desc": "Videovo提供了海量视频素材！超过2700个免费高清视频素材供用户下载！",
+                "recommend": ["视频素材", "免费", "可商用"]
+            }]
+        }, {
+            "label": "字体资源",
+            "expand": false,
+            "children": [],
+            "list": [{
+                "id": 100011,
+                "url": "https://www.100font.com/",
+                "img": "https://www.100font.com/view/img/favicon.ico",
+                "title": "100font",
+                "desc": "100font.com是一个专门收集整理“免费商用字体、免版权字体、没有版权的字体、无版权的字体”的字体下载网站，免费下载、免费商用！",
+                "recommend": ["免费", "无版权"]
+            }]
+        }],
+        "list": []
+    }, {
+        "label": "影视资源",
         "expand": false,
         "children": [],
         "list": [{
             "id": 100011,
-            "url": "https://www.100font.com/",
-            "img": "https://www.100font.com/view/img/favicon.ico",
-            "title": "100font",
-            "desc": "100font.com是一个专门收集整理“免费商用字体、免版权字体、没有版权的字体、无版权的字体”的字体下载网站，免费下载、免费商用！",
-            "recommend": ["免费", "无版权"]
+            "url": "https://subhd.tv/",
+            "img": "https://img.subhd.la/apple-touch-icon.png",
+            "title": "SubHD字幕",
+            "desc": "这是一个体验棒且超级全的字幕翻译网站。它可以搜到各大外国电视剧各种版本的字幕，基本可以满足你的观看需求。",
+            "recommend": ["字幕"]
         }]
     }],
     "list": []
 }, {
-    "label": "影视资源",
+    "label": "书单",
     "expand": false,
     "children": [],
     "list": [{
         "id": 100011,
-        "url": "https://subhd.tv/",
-        "img": "https://img.subhd.la/apple-touch-icon.png",
-        "title": "SubHD字幕",
-        "desc": "这是一个体验棒且超级全的字幕翻译网站。它可以搜到各大外国电视剧各种版本的字幕，基本可以满足你的观看需求。",
-        "recommend": ["字幕"]
+        "url": "https://xmsoushu.com/",
+        "img": "https://xmsoushu.com/favicon.ico",
+        "title": "熊猫搜书",
+        "desc": "熊猫搜书是一个非常好用的电子书导航网站，一个网站相当于很多个网站。它聚合了多达 20 多个高质量电子书网站，并且每个网站的质量都是非常高，它的界面简洁清新，你可以直接点击左侧切换网站。",
+        "recommend": ["搜书"]
     }]
 }, {
     "label": "其他导航站",
@@ -480,5 +578,12 @@
         "title": "学吧导航",
         "desc": "学吧导航，超过四十万学习爱好者都在用的专业学习网址大全导航，汇集了国内外优质的学习网站和平台。网站囊括了综合平台、外语学习、编程算法、电脑办公、百科知识、设计剪辑、音乐艺术、文史哲理、医学政经、演讲座谈、数理化生等10余项分类，收录了上百个个优质的国内外学习网站。无论你是在校学生，还是上班人群，亦或是单纯的学习爱好者，无需再苦恼于四处寻找学习网站。",
         "recommend": ["导航"]
+    }, {
+        "id": 100011,
+        "url": "http://webstack.cc/cn/index.html",
+        "img": "http://webstack.cc/assets/images/favicon.png",
+        "title": "设计师网址导航",
+        "desc": "WebStack - 收集国内外优秀设计网站、UI设计资源网站、灵感创意网站、素材资源网站，定时更新分享优质产品设计书签。",
+        "recommend": ["设计导航", "导航"]
     }]
 }]

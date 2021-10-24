@@ -1,5 +1,10 @@
 <template>
   <div id="app">
+    <svg
+      class="root-bg"
+      viewBox="0 0 1920 1080"
+      preserveAspectRatio="xMaxYMid slice"
+    ></svg>
     <div class="app">
       <div class="header">
         <div class="menu-circle"></div>
@@ -47,7 +52,7 @@
             </div>
           </div>
           <div class="content-wrapper">
-            <ContentWrapperAD />
+            <!-- <ContentWrapperAD /> -->
             <div v-if="isGridShow">
               <ContentSectionCard
                 v-for="(item, index) in siteList"
@@ -69,7 +74,7 @@
       </div>
       <div class="overlay-app"></div>
     </div>
-
+    <!-- <Footer :sitetotalnum="sitetotalnum" :updata_time="updata_time" /> -->
     <div class="dark-light">
       <svg
         viewBox="0 0 24 24"
@@ -91,6 +96,7 @@ import LeftSideWrapper from "@/components/LeftSideWrapper.vue";
 import ContentWrapperAD from "@/components/ContentWrapperAD.vue";
 import ContentSectionList from "@/components/ContentSectionList.vue";
 import ContentSectionCard from "@/components/ContentSectionCard.vue";
+import Footer from "@/components/Footer.vue";
 export default {
   name: "App",
   components: {
@@ -99,6 +105,7 @@ export default {
     ContentWrapperAD,
     ContentSectionList,
     ContentSectionCard,
+    Footer,
   },
   data() {
     return {
@@ -115,7 +122,7 @@ export default {
     //   this.loading = this.$loading({ fullscreen: true });
     this.getNow();
     this.getsiteList();
-    this.getsiteTypeList();
+    // this.getsiteTypeList();
     //   this.gettoolList();
     //   this.getGanHuo();
     //   // this.loading.close();
@@ -142,11 +149,9 @@ export default {
 
         function getSites(array, siteList) {
           array.forEach((item, index) => {
-            // if (item.list.length > 0) {
             total += item.list.length;
-            if (item.list.length > 0) siteList.push(item);
+            siteList.push(item);
             getSites(item.children, siteList);
-            // }
           });
         }
 
@@ -225,6 +230,73 @@ export default {
     //     }
     //   }, 10);
     // }
+
+    wave(start, end, gradient) {
+      const numSteps = random(4, 8, true);
+      const step = 1 / numSteps;
+      const randomRange = random(32, 64);
+
+      const points = [];
+      let pointPosition = 0;
+
+      for (let i = 0; i <= numSteps; i++) {
+        const step = map(i, 0, numSteps, 0, 1);
+
+        let x = lerp(start.x, end.x, step);
+        let y = lerp(start.y, end.y, step);
+
+        if (i !== 0 && i !== numSteps) {
+          x += random(-randomRange, randomRange);
+          y += random(-randomRange, randomRange);
+        }
+
+        points.push({ x, y });
+      }
+
+      const pathData =
+        spline(points, 1, false) +
+        `L ${end.x} ${height} L ${start.x} ${height} Z`;
+
+      const path = svg.path(pathData).attr("fill", gradient);
+    },
+
+    lerp(v0, v1, t) {
+      return v0 * (1 - t) + v1 * t;
+    },
+
+    generate(svg, width, height) {
+      const numWaves = 7;
+      const base = this.$tinycolor(`hsl(${random(0, 360)}, 65%, 55%)`);
+      const colors = base.analogous(6);
+
+      svg
+        .rect(width, height)
+        .fill(random(colors).clone().darken(40).toString());
+
+      for (let i = 0; i < numWaves; i++) {
+        const randomOffset = random(-50, 50);
+        const originY =
+          map(i, 0, numWaves, -height / 2, height / 3) + randomOffset;
+        const endY = map(i, 0, numWaves, 0, 1000) + randomOffset;
+
+        const color = random(colors).clone();
+
+        if (i < 3) {
+          color.darken(50).desaturate(10);
+        }
+
+        const gradientOffset = map(i, 0, numWaves, 0.1, 1);
+
+        let gradient = svg.gradient("linear", function (add) {
+          add.stop(0, color.clone().lighten(30).toHexString());
+          add.stop(gradientOffset, color.clone().spin(60).toHexString());
+        });
+
+        gradient.from(0.5, 0).to(0, 1);
+
+        wave({ x: 0, y: originY }, { x: width, y: endY }, gradient);
+      }
+    },
   },
   mounted() {
     // // 获取楼层及导航元素
@@ -247,6 +319,9 @@ export default {
     //   s.parentNode.insertBefore(hm, s);
     // })();
     // this.loading.close();
+    // const svg = this.$SVG(".root-bg");
+    // const { width, height } = svg.viewbox();
+    // this.generate(svg,width, height);
   },
   beforeDestroy() {
     // window.removeEventListener("scroll", this.floorSrcollEventListener);
@@ -256,9 +331,20 @@ export default {
 
 <style scoped lang="scss">
 #app {
-  width: 100%;
-  height: 100%;
-  margin: 0;
+  width: 100vw;
+  height: 100vh;
+}
+.root-bg {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+}
+.app {
+  width: 90vw;
+  height: 90vh;
+  margin: 20px auto;
   padding: 0;
 }
 

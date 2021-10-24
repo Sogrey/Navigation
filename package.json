@@ -34,5 +34,11 @@
   "bugs": {
     "url": "https://github.com/Sogrey/Navigation/issues"
   },
-  "homepage": "https://github.com/Sogrey/Navigation#readme"
+  "homepage": "https://github.com/Sogrey/Navigation#readme",
+  "dependencies": {
+    "@georgedoescode/generative-utils": "^1.0.37",
+    "@svgdotjs/svg.filter.js": "^3.0.8",
+    "@svgdotjs/svg.js": "^3.1.1",
+    "tinycolor2": "^1.4.2"
+  }
 }

@@ -7,12 +7,12 @@
 :root {
   --theme-site-title-color: #f56ff5;
   --theme-bg-color: rgba(16 18 27 / 40%);
-  --border-color: rgba(113 119 144 / 25%);
+  --border-color: #ffffff2d;
   --theme-color: #f9fafb;
-  --inactive-color: rgb(113 119 144 / 78%);
+  --inactive-color: #e6e6e6;
   --body-font: "Poppins", sans-serif;
   --hover-menu-bg: rgba(12 15 25 / 30%);
-  --content-title-color: #999ba5;
+  --content-title-color: #e6e6e6;
   --content-bg: rgb(146 151 179 / 13%);
   --button-inactive: rgb(249 250 251 / 55%);
   --dropdown-bg: #21242d;
@@ -48,6 +48,7 @@ html {
 body {
   font-family: var(--body-font);
   background-image: url(../img/macos-big-sur-apple-layers-fluidic-colorful-dark-wwdc-2020-5120x2880-1432.jpg);
+  background-image: url(../img/bg01.svg);
   background-size: cover;
   background-position: center;
   display: flex;
@@ -57,6 +58,8 @@ body {
   padding: 2em;
   width: 100%;
   height: 100vh;
+  background-attachment: fixed;
+  overflow-x: hidden;
 }
 
 @media screen and (max-width: 480px) {

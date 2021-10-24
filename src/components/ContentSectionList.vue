@@ -8,7 +8,11 @@
         <div class="additional">
           <div class="user-card">
             <a :href="item.url" target="_blank" rel="noopener noreferrer"
-              ><img class="siteIcon center" :src="item.img" :alt="item.title"
+              ><img
+                class="siteIcon center"
+                :src="item.img"
+                :onerror="defalutLogoUrl"
+                :alt="item.title"
             /></a>
           </div>
           <div class="more-info">
@@ -37,7 +41,9 @@
 export default {
   name: "ContentSectionCard",
   data() {
-    return {};
+    return {
+      defalutLogoUrl: 'this.src="./img/icons/website.svg"',
+    };
   },
   props: {
     psTitle: String,
