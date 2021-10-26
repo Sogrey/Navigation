@@ -148,6 +148,12 @@
             "img": "https://www.lanrenexcel.com/favicon.ico",
             "title": "懒人 Excel",
             "desc": "懒人 Excel 是一个非常好用并且完全免费的 Excel 学习网站，良心好用。它的整个界面简洁清新，每个功能版块一目了然，每个学习界面非常干净，让你拥有出色的视觉体验。它的教程通俗易懂，可以让你高效学习各种 Excel 知识，并且主要以图文结合的方式呈现；它的 Excel 教程包括：Excel 函数公式、操作技巧、数据分析、图表模板、VBA 、数据透视表教程。"
+        }, {
+            "id": 100011,
+            "url": "https://pptsupermarket.com/",
+            "img": "https://pptsupermarket.com/favicon.ico",
+            "title": "PPT 超级市场",
+            "desc": "免费下载PPT模板与PPT作品，提供免费的PPT代做服务，提供一站式PPT(模板、定制、工具、教程)服务，有了它，一切制作PPT的烦恼都将成为过去！"
         }]
     }, {
         "label": "团队合作",
@@ -294,6 +300,81 @@
         "label": "学习资源",
         "expand": false,
         "children": [{
+            "label": "在线教程和文档",
+            "expand": false,
+            "children": [],
+            "list": [{
+                "id": 100011,
+                "url": "https://git-scm.com/book/zh/v2",
+                "img": "https://git-scm.com/favicon.ico",
+                "title": "Git中文教程",
+                "desc": "Git中文教程,由 Scott Chacon 和 Ben Straub 编写并由 Apress 出版的整本 Pro Git 书籍可在此处获得。",
+                "recommend": []
+            }, {
+                "id": 100011,
+                "url": "https://www.runoob.com/svn/svn-intro.html",
+                "img": "./img/icons/svn.svg",
+                "title": "SVN 教程 | 菜鸟教程",
+                "desc": "Subversion(SVN) 是一个开源的版本控制系統, 也就是说 Subversion 管理着随时间改变的数据。 这些数据放置在一个中央资料档案库(repository) 中。 这个档案库很像一个普通的文件服务器, 不过它会记住每一次文件的变动。 这样你就可以把档案恢复到旧的版本, 或是浏览文件的变动历史。",
+                "recommend": []
+            }, {
+                "id": 100011,
+                "url": "https://jquery.cuishifeng.cn/",
+                "img": "./img/icons/jquery.svg",
+                "title": "jQuery API中文文档",
+                "desc": "jQuery 是一个兼容多浏览器的 JavasSript 框架，核心理念是 - write less, do more。jQuery API 中文文档(适用jQuery 1.0 - jQuery 3.x).",
+                "recommend": []
+            }, {
+                "id": 100011,
+                "url": "https://www.nginx.cn/doc/index.html",
+                "img": "./img/icons/nginx.svg",
+                "title": "Nginx中文文档",
+                "desc": "Nginx中文文档",
+                "recommend": []
+            }, {
+                "id": 100011,
+                "url": "https://kafka.apachecn.org/",
+                "img": "./img/icons/apachekafka.svg",
+                "title": "Kafka中文文档",
+                "desc": "Apache Kafka: A Distributed Streaming Platform.一个分布式流媒体平台。",
+                "recommend": []
+            }, {
+                "id": 100011,
+                "url": "https://mybatis.org/mybatis-3/zh/index.html",
+                "img": "./img/icons/mybatis.svg",
+                "title": "Mybatis中文文档",
+                "desc": "MyBatis 是一款优秀的持久层框架，它支持自定义 SQL、存储过程以及高级映射。MyBatis 免除了几乎所有的 JDBC 代码以及设置参数和获取结果集的工作。",
+                "recommend": []
+            }, {
+                "id": 100011,
+                "url": "https://developers.weixin.qq.com/miniprogram/dev/framework/",
+                "img": "./img/icons/weichat.svg",
+                "title": "微信小程序官方文档",
+                "desc": "小程序提供了一个简单、高效的应用开发框架和丰富的组件及API，帮助开发者在微信中开发具有原生 APP 体验的服务。",
+                "recommend": []
+            }, {
+                "id": 100011,
+                "url": "http://nodejs.cn/learn",
+                "img": "http://nodejs.cn/website2/icons/icon-96x96.png",
+                "title": "Nodejs中文教程文档",
+                "desc": "Node.js（服务器端 JavaScript 运行时环境）入门指南。Node.js 构建于谷歌 Chrome V8 JavaScript 引擎之上，主要用于创建网络服务器（但不仅限于此）。",
+                "recommend": []
+            }, {
+                "id": 100011,
+                "url": "https://cn.vuejs.org/v2/guide/",
+                "img": "https://cn.vuejs.org/images/logo.svg",
+                "title": "Vue.js中文文档",
+                "desc": "Vue.js - The Progressive JavaScript Framework",
+                "recommend": []
+            }, {
+                "id": 100011,
+                "url": "https://reactjs.org/docs/getting-started.html",
+                "img": "https://reactjs.org/favicon.ico",
+                "title": "React.js官方文档",
+                "desc": "A JavaScript library for building user interfaces",
+                "recommend": []
+            }]
+        }, {
             "label": "公开课",
             "expand": false,
             "children": [],
@@ -307,7 +388,7 @@
             }, {
                 "id": 100011,
                 "url": "https://study.163.com",
-                "img": "https://study.163.com/favicon.ico",
+                "img": "./img/icons/wyykt.svg",
                 "title": "网易云课堂",
                 "desc": "网易云课堂，一个专注于成人终身学习的在线教育平台。立足于实用性的要求, 与优质的教育内容创作者一起，为您提供全面、有效的在线学习内容。",
                 "recommend": []
@@ -365,6 +446,18 @@
                 "title": "国家教育资源公共服务平台",
                 "desc": "国家教育资源公共服务平台是一个完全免费的高质量精品学习网站。它提供的学习课程包括：小学课程、初中课程、高中课程；它的课程数量非常丰富，目前提供了多达 2000 多万个高质量课程，并且包括全国范围内的小学、初中、高中课程，每个课程的质量都是非常高。它的界面简洁干净，整体布局清晰明了，让你拥有出色的视觉体验。",
                 "recommend": ["学习"]
+            }]
+        }, {
+            "label": "学习资源下载",
+            "expand": false,
+            "children": [],
+            "list": [{
+                "id": 100011,
+                "url": "https://epdf.pub/",
+                "img": "https://epdf.pub/assets/img/favicon-96x96.png",
+                "title": "pdf搜索下载",
+                "desc": "写一本书，提升你的形象，建立一个企业-上传想法和初学者提示，让你开始",
+                "recommend": ["网盘资源"]
             }]
         }],
         "list": [{
@@ -439,7 +532,7 @@
                 "id": 100011,
                 "url": "https://wallhaven.cc",
                 "img": "https://wallhaven.cc/favicon.ico",
-                "title": "wallhaven",
+                "title": "高清壁纸搜索引擎",
                 "desc": "这里有很多动漫或者油画图片，有4K画质，分辨率特别高。想找电脑的壁纸的同学，不要错过，绝对有适合你口味的壁纸。",
                 "recommend": ["电脑壁纸"]
             }, {
@@ -526,6 +619,13 @@
                 "title": "Videovo",
                 "desc": "Videovo提供了海量视频素材！超过2700个免费高清视频素材供用户下载！",
                 "recommend": ["视频素材", "免费", "可商用"]
+            }, {
+                "id": 100011,
+                "url": "https://www.tosound.com",
+                "img": "https://www.tosound.com/favicon.ico",
+                "title": "淘声网",
+                "desc": "淘声网是全球免费声音素材聚合平台,独创toSound“吐司”声音搜索引擎,搭配AudioDown智能下载方案,游戏音效,影视配乐,实地录音,节奏音源,音乐样本,海量音频素材一键获取,免费个人/商业使用许可授权。",
+                "recommend": ["影视配乐", "免费", "可商用"]
             }]
         }, {
             "label": "字体资源",
@@ -538,6 +638,13 @@
                 "title": "100font",
                 "desc": "100font.com是一个专门收集整理“免费商用字体、免版权字体、没有版权的字体、无版权的字体”的字体下载网站，免费下载、免费商用！",
                 "recommend": ["免费", "无版权"]
+            }, {
+                "id": 100011,
+                "url": "https://www.qiuziti.com/",
+                "img": "https://www.qiuziti.com/image/icon.ico",
+                "title": "求字体",
+                "desc": "求字体网提供上传图片找字体、字体实时预览、字体下载、字体版权检测、字体补齐等服务，本网站可识别中文、英文、日韩、书法等多种字体。只要上传图片或输入字体名称，就可以帮您找字体。",
+                "recommend": ["字体"]
             }]
         }],
         "list": []
@@ -579,6 +686,13 @@
             "img": "https://www.mypianku.net/favicon.ico",
             "title": "片库",
             "desc": "片库网是一个可在线观看、下载视频的网站。每日收集全网最新的电影、剧集、动漫高清资源供网友免费下载！",
+            "recommend": ["影视"]
+        }, {
+            "id": 100011,
+            "url": "https://www.pianku.la/",
+            "img": "https://www.pianku.la/favicon.ico",
+            "title": "片库",
+            "desc": "另一个片库网(www.pianku.la)为广大影迷朋友们提供最新最热门的迅雷电影下载。我们专注于高清电影下载服务，全力打造优秀的BT种子、迅雷种子下载网站,片库网是你身边的免费电影盒子",
             "recommend": ["影视"]
         }, {
             "id": 100011,
@@ -629,6 +743,32 @@
             "title": "555电影",
             "desc": "看电影，拯救世界！免费VIP资源在线观看，每天专业更新热火电影电视剧，永远的在线网站，最专业的的影视服务，免费速度快，及时收录最新、最热、最全的电影大片,高清正版免费看。",
             "recommend": ["影视"]
+        }, {
+            "id": 100011,
+            "url": "https://www.novipnoad.com",
+            "img": "https://www.novipnoad.com/favicon.ico",
+            "title": "NO视频",
+            "desc": "NOVIPNOAD为用户提供及时的海外热门剧集在线观看，友好无广告，致力于最轻松的追剧体验。",
+            "recommend": ["影视"]
+        }, {
+            "id": 100011,
+            "url": "https://www.mvcat.com/",
+            "img": "https://www.mvcat.com/img/logo_appicon.png",
+            "title": "电影推荐 · MVCAT",
+            "desc": "人生如戏，戏如人生，命由己造，相由心生。",
+            "recommend": ["影视"]
+        }]
+    }, {
+        "label": "网盘资源",
+        "expand": false,
+        "children": [],
+        "list": [{
+            "id": 100011,
+            "url": "https://www.yunpangou.com/",
+            "img": "https://www.yunpangou.com/favicon.ico",
+            "title": "云盘狗-百度云网盘搜",
+            "desc": "百度云网盘资源搜索分享与下载",
+            "recommend": ["网盘资源"]
         }]
     }],
     "list": []
@@ -642,6 +782,13 @@
         "img": "https://xmsoushu.com/favicon.ico",
         "title": "熊猫搜书",
         "desc": "熊猫搜书是一个非常好用的电子书导航网站，一个网站相当于很多个网站。它聚合了多达 20 多个高质量电子书网站，并且每个网站的质量都是非常高，它的界面简洁清新，你可以直接点击左侧切换网站。",
+        "recommend": ["搜书"]
+    }, {
+        "id": 100011,
+        "url": "https://shuxiangjia.cn/",
+        "img": "./img/icons/website.svg",
+        "title": "书享家",
+        "desc": "书享家——最好用的电子书下载导航",
         "recommend": ["搜书"]
     }]
 }, {
@@ -662,5 +809,19 @@
         "title": "设计师网址导航",
         "desc": "WebStack - 收集国内外优秀设计网站、UI设计资源网站、灵感创意网站、素材资源网站，定时更新分享优质产品设计书签。",
         "recommend": ["设计导航", "导航"]
+    }, {
+        "id": 100011,
+        "url": "https://www.kaolamedia.com/",
+        "img": "https://www.kaolamedia.com/favicon.ico",
+        "title": "考拉新媒体导航",
+        "desc": "考拉新媒体导航收录了100+个新媒体人必备工具，公众号排版、无版权图库、裂变增长、社群运营、抖音数据分析、创意H5；收录200+篇新媒体干货，用户增长、活动运营、抖音涨粉、数据分析、新媒体书单...",
+        "recommend": ["设计导航", "导航"]
+    }, {
+        "id": 100011,
+        "url": "https://www.91sotu.com/",
+        "img": "https://www.91sotu.com/favicon.ico",
+        "title": "搜图导航",
+        "desc": "搜图导航精选及整理国内外优秀的设计行业网站,并且提供一站式快速搜索图像服务支持全网正版图片搜索。拥有以图搜图、智能配色、字体生成、个性定制等功能。给你带来更好的搜图体验,并且收录了十几类设计相关网站包括高清图库、灵感创意、素材资源、教程文章、设计工具、绘画涂鸦、建模贴图、设计社区、字体下载、图标下载等网站。",
+        "recommend": ["搜图导航", "导航"]
     }]
 }]
