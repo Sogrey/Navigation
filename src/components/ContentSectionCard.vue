@@ -100,7 +100,7 @@ export default {
   position: absolute;
   width: 70px;
   height: 100%;
-  background: linear-gradient(#de685e, #ee786e);
+  background: linear-gradient(#f08d84, #f7938a);
   transition: width 0.4s;
   overflow: hidden;
   z-index: 2;

@@ -154,6 +154,18 @@
             "img": "https://pptsupermarket.com/favicon.ico",
             "title": "PPT 超级市场",
             "desc": "免费下载PPT模板与PPT作品，提供免费的PPT代做服务，提供一站式PPT(模板、定制、工具、教程)服务，有了它，一切制作PPT的烦恼都将成为过去！"
+        }, {
+            "id": 100011,
+            "url": "http://www.1ppt.com/",
+            "img": "http://www.1ppt.com/favicon.ico",
+            "title": "第一PPT模板网",
+            "desc": "第一PPT模板网提供各类PPT模板免费下载，PPT背景图，PPT素材，PPT背景，免费PPT模板下载，PPT图表，精美PPT下载，PPT课件下载，PPT背景图片免费下载；"
+        }, {
+            "id": 100011,
+            "url": "https://www.zhixi.com/",
+            "img": "https://www.zhixi.com/favicon.ico",
+            "title": "知犀思维导图",
+            "desc": "知犀思维导图是一款免费的在线画图工具，导出文件无水印，导图分享链接不限制，且内置了100+行业思维导图模板文件。通过浏览器访问知犀网站即可在线画脑图，数据全自动云端保存，安全可靠。还不知道思维导图怎么画？快来试试知犀吧~"
         }]
     }, {
         "label": "团队合作",
@@ -295,11 +307,57 @@
             "title": "Oalib",
             "desc": "Oalib 是一个完全免费的论文搜索网站。它提供超过 420 万篇论文，并且所有文章支持免费下载，所有文章支持以 PDF 格式下载；它支持强大的搜索功能，你可以利用网站的高级搜索功能进一步搜索你需要的文章。",
             "recommend": ["论文搜索", "免费"]
+        }, {
+            "id": 100011,
+            "url": "https://www.cnki.net/",
+            "img": "https://www.cnki.net/favicon.ico",
+            "title": "中国知网",
+            "desc": "中国知网知识发现网络平台—面向海内外读者提供中国学术文献、外文文献、学位论文、报纸、会议、年鉴、工具书等各类资源统一检索、统一导航、在线阅读和下载服务。涵盖基础科学、文史哲、工程科技、社会科学、农业、经济与管理科学、医药卫生、信息科技等十大领域。",
+            "recommend": ["论文搜索"]
         }]
     }, {
         "label": "学习资源",
         "expand": false,
         "children": [{
+            "label": "程序员最佳网站",
+            "expand": false,
+            "children": [],
+            "list": [
+                {
+                    "id": 100011,
+                    "url": "https://www.geeksforgeeks.org/",
+                    "img": "https://www.geeksforgeeks.org/favicon.ico",
+                    "title": "GeeksforGeeks",
+                    "desc": "GeeksforGeeks 是一个主要专注于计算机科学的网站。它有大量的算法，解决方案和编程问题。",
+                    "language":["en"],
+                    "recommend": []
+                },{
+                    "id": 100011,
+                    "url": "https://stackoverflow.com/",
+                    "img": "https://stackoverflow.com/favicon.ico",
+                    "title": "StackOverflow",
+                    "desc": "你可能已经知道 StackOverflow 是遇到程序员的地方。你在代码中遇到问题，只要在 StackOverflow 问一个问题，来自互联网的程序员将会在那里帮助你。",
+                    "language":["en"],
+                    "recommend": []
+                },{
+                    "id": 100011,
+                    "url": "https://www.hackerrank.com",
+                    "img": "https://www.hackerrank.com/wp-content/uploads/2020/05/hackerrank_cursor_favicon_480px-300x300.png",
+                    "title": "HackerRank",
+                    "desc": "HackerRank 是一个你可以参与各种编码竞赛并检测你的竞争能力的网站。",
+                    "language":["en"],
+                    "recommend": []
+                },{
+                    "id": 100011,
+                    "url": "https://codebeautify.org/",
+                    "img": "./img/icons/CodeBeautify.svg",
+                    "title": "Codebeautify",
+                    "desc": "由于我们是程序员，所以美不是我们所关心的。很多时候，我们的代码很难被其他人阅读。Codebeautify可以使你的代码易于阅读。",
+                    "language":["en"],
+                    "recommend": []
+                }
+            ]
+        }, {
             "label": "在线教程和文档",
             "expand": false,
             "children": [],
@@ -372,6 +430,134 @@
                 "img": "https://reactjs.org/favicon.ico",
                 "title": "React.js官方文档",
                 "desc": "A JavaScript library for building user interfaces",
+                "recommend": []
+            }, {
+                "id": 100011,
+                "url": "http://httpd.apache.org/docs/",
+                "img": "./img/icons/apache.svg",
+                "title": "Apache Web Server文档",
+                "desc": "Apache HTTP 服务器文档",
+                "language":["en"],
+                "recommend": []
+            }, {
+                "id": 100011,
+                "url": "https://www.springcloud.cc/spring-reference.html",
+                "img": "https://www.springcloud.cc/images/favicon.png",
+                "title": "Spring文档中文版",
+                "desc": "本站编译的Spring官方文档中文译本，为Spring生态体系下的学习者降低学习门槛，您在使用文档的过程中如发现不准确的译文，可即时提供翻译建议。",
+                "language":["en"],
+                "recommend": []
+            }, {
+                "id": 100011,
+                "url": "https://studygolang.com/pkgdoc",
+                "img": "https://studygolang.com/static/img/go.ico",
+                "title": "Golang标准库文档中文版",
+                "desc": "Go语言文档中文版，Go语言中文网，中国 Golang 社区，Go语言学习园地，致力于构建完善的 Golang 中文社区，Go语言爱好者的学习家园。分享 Go 语言知识，交流使用经验",
+                "language":["cn"],
+                "recommend": []
+            }, {
+                "id": 100011,
+                "url": "https://docs.oracle.com/javase/8/docs/api/index.html",
+                "img": "./img/icons/java.svg",
+                "title": "Java 8官方文档",
+                "desc": "This document is the API specification for the Java™ Platform, Standard Edition.",
+                "language":["en"],
+                "recommend": []
+            }, {
+                "id": 100011,
+                "url": "http://maven.apache.org/guides/",
+                "img": "./img/icons/apache.svg",
+                "title": "Maven官方文档",
+                "desc": "Apache Maven 是一个软件项目管理和理解工具。基于项目对象模型 (POM) 的概念，Maven 可以从一条中央信息中管理项目的构建、报告和文档。",
+                "language":["en"],
+                "recommend": []
+            }, {
+                "id": 100011,
+                "url": "http://tomcat.apache.org/tomcat-8.0-doc/index.html",
+                "img": "http://tomcat.apache.org/tomcat-8.0-doc/images/tomcat.png",
+                "title": "Tomcat 8官方文档",
+                "desc": "This is the top-level entry point of the documentation bundle for the Apache Tomcat Servlet/JSP container. ",
+                "language":["en"],
+                "recommend": []
+            }, {
+                "id": 100011,
+                "url": "https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/",
+                "img": "./img/icons/SPRINGBOOT.svg",
+                "title": "Spring Boot官方文档",
+                "desc": "Spring Boot官方文档 ",
+                "language":["en"],
+                "recommend": []
+            }, {
+                "id": 100011,
+                "url": "https://www.rabbitmq.com/documentation.html",
+                "img": "https://www.rabbitmq.com/favicon.ico",
+                "title": "RabbitMQ官方文档",
+                "desc": "本页总结了最新补丁版本的可用 RabbitMQ 文档。",
+                "language":["en"],
+                "recommend": []
+            }, {
+                "id": 100011,
+                "url": "http://rocketmq.apache.org/docs/quick-start/",
+                "img": "https://www.rabbitmq.com/favicon.ico",
+                "title": "RabbitMQ官方文档(Apache)",
+                "desc": "How to quickly install and setup Apache RocketMQ.",
+                "language":["en"],
+                "recommend": []
+            }, {
+                "id": 100011,
+                "url": "https://dubbo.apache.org/zh/docs/",
+                "img": "https://dubbo.apache.org/favicons/favicon.ico",
+                "title": "Dubbo中文文档",
+                "desc": "这篇文档是关于 Dubbo 的简单介绍，涵盖 Dubbo 的核心概念、基本使用方式以及 Dubbo3 核心功能，无论你是 Dubbo 的老用户还是新用户，都可以通过这篇 文档快速了解 Dubbo 及新版本带来的变化。",
+                "language":["cn"],
+                "recommend": []
+            }, {
+                "id": 100011,
+                "url": "https://netty.io/wiki/index.html",
+                "img": "https://netty.io/images/favicon.ico",
+                "title": "Netty官方文档",
+                "desc": "Netty 是 一个异步事件驱动的网络应用程序框架，用于快速开发可维护的高性能协议服务器和客户端。",
+                "language":["en"],
+                "recommend": []
+            }, {
+                "id": 100011,
+                "url": "https://spring.io/projects/spring-cloud",
+                "img": "./img/icons/SPRINGCLOUD.svg",
+                "title": "Spring Cloud官方文档",
+                "desc": "Spring Cloud 为开发者提供了快速构建分布式系统中一些常见模式的工具（例如配置管理、服务发现、断路器、智能路由、微代理、控制总线、一次性令牌、全局锁、领导选举、分布式会话、集群状态）。",
+                "language":["en"],
+                "recommend": []
+            }, {
+                "id": 100011,
+                "url": "https://docs.docker.com/get-started/",
+                "img": "https://docs.docker.com/favicons/docs@2x.ico",
+                "title": "Docker官方文档",
+                "desc": "Get oriented on some basics of Docker and install Docker Desktop.",
+                "language":["en"],
+                "recommend": []
+            }, {
+                "id": 100011,
+                "url": "https://kubernetes.io/zh/docs/home/",
+                "img": "https://kubernetes.io/images/kubernetes-192x192.png",
+                "title": "kubernetes中文文档",
+                "desc": "Kubernetes 是一个开源的容器编排引擎，用来对容器化应用进行自动化部署、 扩缩和管理。",
+                "language":["cn"],
+                "recommend": []
+            }, {
+                "id": 100011,
+                "url": "https://www.thymeleaf.org/documentation.html",
+                "img": "https://www.thymeleaf.org/images/favicon.ico",
+                "title": "Thymeleaf官方文档",
+                "desc": "这些都是 Thymeleaf 的学习和参考资料。",
+                "language":["en"],
+                "recommend": []
+            }, {
+                "id": 100011,
+                "url": "https://www.jenkins.io/zh/doc/",
+                "img": "./img/icons/jenkins.svg",
+                "title": "Jenkins中文文档",
+                "desc": "这个手册主要介绍如何使用 Jenkins 现有的功能和插件特性。",
+                "language":["cn"],
                 "recommend": []
             }]
         }, {
@@ -457,7 +643,7 @@
                 "img": "https://epdf.pub/assets/img/favicon-96x96.png",
                 "title": "pdf搜索下载",
                 "desc": "写一本书，提升你的形象，建立一个企业-上传想法和初学者提示，让你开始",
-                "recommend": ["网盘资源"]
+                "recommend": [""]
             }]
         }],
         "list": [{
@@ -772,11 +958,25 @@
         }]
     }],
     "list": []
+},{
+    "label": "开源软件镜像站",
+    "expand": false,
+    "children": [],
+    "list": [{
+        "id": 100011,
+        "url": "https://mirrors.tuna.tsinghua.edu.cn/",
+        "img": "https://mirrors.tuna.tsinghua.edu.cn/static/img/favicon.png",
+        "title": "清华大学开源软件镜像站",
+        "desc": "清华大学开源软件镜像站，致力于为国内和校内用户提供高质量的开源软件镜像、Linux 镜像源服务，帮助用户更方便地获取开源软件。本镜像站由清华大学 TUNA 协会负责运行维护。",
+        "language":["cn"],
+        "recommend": ["镜像站"]
+    }]
 }, {
     "label": "书单",
     "expand": false,
     "children": [],
-    "list": [{
+    "list": [
+        {
         "id": 100011,
         "url": "https://xmsoushu.com/",
         "img": "https://xmsoushu.com/favicon.ico",
@@ -790,6 +990,20 @@
         "title": "书享家",
         "desc": "书享家——最好用的电子书下载导航",
         "recommend": ["搜书"]
+    }, {
+        "id": 100011,
+        "url": "http://www.kgbook.com/",
+        "img": "./img/icons/website.svg",
+        "title": "苦瓜书盘",
+        "desc": "苦瓜书盘是供网友交流适合电纸书阅读的6寸pdf及mobi格式电子书制作技术的网站，提供6寸pdf、mobi等格式电子书上传及下载。",
+        "recommend": ["搜书"]
+    }, {
+        "id": 100011,
+        "url": "https://www.jiumodiary.com/",
+        "img": "https://www.jiumodiary.com/images/favicon.png",
+        "title": "鸠摩搜书",
+        "desc": "这个是一个非常强大的搜书引擎，相比于伴图书搜索和Forfrigg电子书搜索，鸠摩搜书完全不用科学上网辅助就能实现搜索。很多朋友搜不到的书籍，用它却能搜到!",
+        "recommend": ["搜书"]
     }]
 }, {
     "label": "其他导航站",
@@ -801,6 +1015,7 @@
         "img": "https://www.xue8nav.com/wp-content/uploads/2020/01/favicon.png",
         "title": "学吧导航",
         "desc": "学吧导航，超过四十万学习爱好者都在用的专业学习网址大全导航，汇集了国内外优质的学习网站和平台。网站囊括了综合平台、外语学习、编程算法、电脑办公、百科知识、设计剪辑、音乐艺术、文史哲理、医学政经、演讲座谈、数理化生等10余项分类，收录了上百个个优质的国内外学习网站。无论你是在校学生，还是上班人群，亦或是单纯的学习爱好者，无需再苦恼于四处寻找学习网站。",
+        "language":["cn"],
         "recommend": ["导航"]
     }, {
         "id": 100011,
