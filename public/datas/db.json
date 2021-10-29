@@ -354,7 +354,7 @@
             "language": ["en"],
             "recommend": []
         }]
-    },{
+    }, {
         "label": "设计制作类工具",
         "expand": false,
         "children": [],
@@ -366,7 +366,7 @@
             "desc": "PS在线图片编辑器是一个专业精简的在线ps图片照片制作处理软件工具，绿色免安装，免下载，直接在浏览器打开就可用它修正，调整和美化图像。",
             "language": ["cn"],
             "recommend": []
-        },{
+        }, {
             "id": 100011,
             "url": "https://www.aoqiv.com/",
             "img": "https://www.aoqiv.com/favicon.ico",
@@ -374,7 +374,7 @@
             "desc": "在线音频剪辑软件，音频编辑软件，音频剪辑，剪辑歌曲，制作铃声，音频处理，mp3剪辑，音频应用，一款好用的在线音频文件剪辑工具！",
             "language": ["cn"],
             "recommend": []
-        },{
+        }, {
             "id": 100011,
             "url": "https://www.kapwing.com/",
             "img": "https://www.kapwing.com/favicon-32x32.png",
@@ -382,7 +382,7 @@
             "desc": "Create content and edit video online with Kapwing&#x27;s simple and easy to use tools. Kapwing makes video editing collaborative, smart, and modern.",
             "language": ["en"],
             "recommend": []
-        },{
+        }, {
             "id": 100011,
             "url": "http://www.uugai.com/",
             "img": "http://www.uugai.com/favicon.ico",
@@ -390,7 +390,7 @@
             "desc": "免费设计，无限制免费下载，无论你董不懂设计,仅需1分钟，您就可以自助设计出专业、精美的LOGO, 并可免费下载，这里有数万套LOGO模板,数百种专属字体选择,自由搭配一目了然",
             "language": ["en"],
             "recommend": []
-        },{
+        }, {
             "id": 100011,
             "url": "https://www.qt86.com/",
             "img": "https://www.qt86.com/favicon.ico",
@@ -398,7 +398,7 @@
             "desc": "找字体网最初是为了黑板报字体参考而创造，现在找字体网已经成为了互联网世界最流行的艺术字体在线生成器工具网站，提供了字体识别.pop字体转换器.英文字体.手机字体大小怎么调.毛笔字体.手写字体.正楷字体.楷书字体，找字体网作为互联网第一款字体转换器一直忠诚且稳定免费的为您服务，期待您的建议！",
             "language": ["cn"],
             "recommend": []
-        },{
+        }, {
             "id": 100011,
             "url": "https://tableconvert.com/",
             "img": "https://tableconvert.com/images/favicon.png?v=1",
@@ -406,7 +406,7 @@
             "desc": "Convert CSV to Markdown Table",
             "language": ["en"],
             "recommend": []
-        },{
+        }, {
             "id": 100011,
             "url": "https://www.designcap.com/",
             "img": "https://www.designcap.com/templates/site/favicon.ico",
@@ -414,7 +414,7 @@
             "desc": "DesignCap is an online graphic design software that makes it easy to create custom designs with thousands of templates. Try it now to design your infographics, flyers, social media graphics, and more!",
             "language": ["en"],
             "recommend": []
-        },{
+        }, {
             "id": 100011,
             "url": "https://mh.cli.im/",
             "img": "https://static.clewm.net/static/images/favicon.ico",
@@ -422,7 +422,7 @@
             "desc": "功能全面国内专业的二维码美化系统，加logo,加背景，加前景，换样式，调码眼等，把这一切保存成模板，今后重复使用。",
             "language": ["cn"],
             "recommend": []
-        },{
+        }, {
             "id": 100011,
             "url": "https://www.fly63.com/php/ico/",
             "img": "https://www.fly63.com/favicon.ico",
@@ -430,7 +430,7 @@
             "desc": "图片在线生成ico图标，可以将jpg、jpeg、gif、png等图像转换成ico图像,方便网站使用，并提供ico图标下载。",
             "language": ["cn"],
             "recommend": []
-        },{
+        }, {
             "id": 100011,
             "url": "https://www.fly63.com/tool/svg2img/",
             "img": "https://www.fly63.com/favicon.ico",
@@ -438,7 +438,7 @@
             "desc": "可以将任何SVG格式进行免费转换PNG，将您的SVG图片格式文件仅用几秒钟时间在线转换成PNG格式。支持批量转换，一键下载，轻松且简单，无需安装任何软件。",
             "language": ["cn"],
             "recommend": []
-        },{
+        }, {
             "id": 100011,
             "url": "https://www.fly63.com/tool/svg2img/",
             "img": "https://www.fly63.com/favicon.ico",
@@ -446,7 +446,7 @@
             "desc": "视频转GIF_在线动图制作一键完成,支持mp4转gif在线转换，动态添加字幕.可一键将3gp,mp4,rmvb,mov,avi,m4v,mkv等格式视频转换成gif动态图片,是一款非常实用的在线视频转gif制作软件.",
             "language": ["cn"],
             "recommend": []
-        },{
+        }, {
             "id": 100011,
             "url": "https://www.fly63.com/tool/ewm/",
             "img": "https://www.fly63.com/favicon.ico",
@@ -454,7 +454,7 @@
             "desc": "二维条码/二维码是用某种特定的几何图形按一定规律在平面（二维方向）分布的黑白相间的图形记录数据符号信息的。二维码是DOI（Digital Object Unique Identifier，数字对象唯一识别符）的一种，全球最大的二维码资源中心是“渡云” ，为全球用户统一提供了“唯一数据样本”的物品、人员、组织二维码识别信息。",
             "language": ["cn"],
             "recommend": []
-        },{
+        }, {
             "id": 100011,
             "url": "https://www.fly63.com/php/decoder/",
             "img": "https://www.fly63.com/favicon.ico",
@@ -1081,13 +1081,6 @@
                 "recommend": ["高清", "无版权图库"]
             }, {
                 "id": 100011,
-                "url": "https://www.iconfinder.com/",
-                "img": "https://www.iconfinder.com/static/img/favicons/favicon-96x96.png",
-                "title": "IconFinder",
-                "desc": "我们喜欢 Iconfinder，因为它的内容上传简单且易于图标管理。透明的销售统计数据和快速的客户支持使其成为贡献者的绝佳工具。",
-                "recommend": ["图标"]
-            }, {
-                "id": 100011,
                 "url": "https://www.pexels.com/zh-cn/",
                 "img": "https://www.pexels.com/favicon.ico",
                 "title": "Pexels",
@@ -1163,7 +1156,96 @@
                 "title": "淘声网",
                 "desc": "淘声网是全球免费声音素材聚合平台,独创toSound“吐司”声音搜索引擎,搭配AudioDown智能下载方案,游戏音效,影视配乐,实地录音,节奏音源,音乐样本,海量音频素材一键获取,免费个人/商业使用许可授权。",
                 "recommend": ["影视配乐", "免费", "可商用"]
-            }]
+            }, {
+                "id": 100011,
+                "url": "http://pngimg.com/",
+                "img": "http://pngimg.com/favicon.ico",
+                "title": "免费透明背景图片素材",
+                "desc": "最大的免费透明PNG图像剪贴画目录，用于以最佳分辨率和质量进行设计和网页设计",
+                "language":["en"],
+                "recommend": ["背景图片", "免费"]
+            }, {
+                "id": 100011,
+                "url": "https://emojiisland.com/",
+                "img": "https://cdn.shopifycdn.net/s/files/1/1061/1924/t/4/assets/favicon.png",
+                "title": "Emoji表情包下载",
+                "desc": "Emoji Island 有你要找的所有表情图片！不需要注册。只需单击即可免费下载所有PNG和JPG格式的iphone表情。",
+                "language":["en"],
+                "recommend": ["emoji", "免费"]
+            }, {
+                "id": 100011,
+                "url": "https://feathericons.com/",
+                "img": "https://feathericons.com/favicon-32x32.png",
+                "title": "open source icons",
+                "desc": "Feather是一个简单漂亮的开源图标集合。每个图标均采用24x24网格设计，强调简单性、一致性和可读性。",
+                "language":["en"],
+                "recommend": ["icon", "免费"]
+            }, {
+                "id": 100011,
+                "url": "https://www.iconfont.cn/",
+                "img": "https://img.alicdn.com/imgextra/i4/O1CN01EYTRnJ297D6vehehJ_!!6000000008020-55-tps-64-64.svg",
+                "title": "阿里巴巴矢量图标库",
+                "desc": "国内功能很强大且图标内容很丰富的矢量图标库，提供矢量图标下载、在线存储、格式转换等功能。阿里巴巴体验团队倾力打造，设计和前端开发的便捷工具",
+                "language":["cn"],
+                "recommend": ["icon", "免费"]
+            }, {
+                "id": 100011,
+                "url": "https://fabiaoqing.com/",
+                "img": "./img/icons/website.svg",
+                "title": "表情包在线网站",
+                "desc": "发表情，最新最全的无水印表情包分享与制作平台。有海量热门表情、聊天表情、微信表情包、QQ表情包、金馆长表情包、蘑菇头表情包等各类表情。",
+                "language":["cn"],
+                "recommend": ["表情", "免费"]
+            }, {
+                "id": 100011,
+                "url": "https://pluspng.com/",
+                "img": "https://pluspng.com/favicon.png",
+                "title": "免费PNG图片库",
+                "desc": "在这个网站上，你可以看到透明的PNG图像",
+                "language":["en"],
+                "recommend": ["免费"]
+            }, {
+                "id": 100011,
+                "url": "https://bz.zzzmh.cn/index",
+                "img": "https://bz.zzzmh.cn/favicon.ico",
+                "title": "极简壁纸",
+                "desc": "极简壁纸,4K高清电脑桌面壁纸图库,海量4K电脑壁纸,壁纸网站,美女,动漫,风景,4k高清,4k超清,电脑壁纸桌面",
+                "language":["cn"],
+                "recommend": ["免费"]
+            }, {
+                "id": 100011,
+                "url": "https://wall.alphacoders.com/",
+                "img": "https://static.alphacoders.com/icons/wallpaper/favicon.ico",
+                "title": "Wallpaper Abyss壁纸",
+                "desc": "墙纸社区。查看、下载、评价和评论高清壁纸、桌面背景图像和手机壁纸。",
+                "language":["cn"],
+                "recommend": ["免费"]
+            }, {
+                "id": 100011,
+                "url": "https://pixabay.com/zh/",
+                "img": "https://pixabay.com/favicon-32x32.png",
+                "title": "Pixabay图片素材库",
+                "desc": "Pixabay是全球知名的图库网站及充满活力的创意社区，拥有上百万张免费正版高清图片素材，涵盖照片、插画、矢量图、视频等分类，你可以在任何地方使用Pixabay图库中的素材，无惧版权风险。",
+                "language":["cn"],
+                "recommend": ["免费"]
+            }, {
+                "id": 100011,
+                "url": "https://unsplash.com/",
+                "img": "https://unsplash.com/safari-pinned-tab.svg",
+                "title": "Unsplash图片素材库",
+                "desc": "美丽、免费的图片和照片，您可以下载并用于任何项目。比任何免版税或库存照片都好。",
+                "language":["en"],
+                "recommend": ["免费"]
+            }, {
+                "id": 100011,
+                "url": "https://images.nasa.gov/",
+                "img": "https://images.nasa.gov/favicon-32x32.png",
+                "title": "NASA图片视频素材库",
+                "desc": "NASA Image and Video Library",
+                "language":["en"],
+                "recommend": ["免费"]
+            }
+        ]
         }, {
             "label": "字体资源",
             "expand": false,
@@ -1408,5 +1490,12 @@
         "title": "搜图导航",
         "desc": "搜图导航精选及整理国内外优秀的设计行业网站,并且提供一站式快速搜索图像服务支持全网正版图片搜索。拥有以图搜图、智能配色、字体生成、个性定制等功能。给你带来更好的搜图体验,并且收录了十几类设计相关网站包括高清图库、灵感创意、素材资源、教程文章、设计工具、绘画涂鸦、建模贴图、设计社区、字体下载、图标下载等网站。",
         "recommend": ["搜图导航", "导航"]
+    }, {
+        "id": 100011,
+        "url": "https://sonic.volf.club/",
+        "img": "https://cdn.jsdelivr.net/gh/volfclub/tundra-sonic/assets/images/favicon.png",
+        "title": "音速装机",
+        "desc": "Gotta Go Fast !常用又好用，电脑软件的官方下载地址合集",
+        "recommend": ["装机", "软件下载"]
     }]
 }]
