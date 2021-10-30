@@ -525,6 +525,168 @@
             "recommend": []
         }]
     }, {
+        "label": "在线编解码工具",
+        "expand": false,
+        "children": [],
+        "list": [{
+            "id": 100011,
+            "url": "https://base64.supfree.net/",
+            "img": "https://www.supfree.net/favicon.ico",
+            "title": "BASE64编解码工具",
+            "desc": "base64,加密,解密,转换,在线",
+            "language": ["cn"],
+            "recommend": []
+        }, {
+            "id": 100011,
+            "url": "https://www.zxgj.cn/g/md5",
+            "img": "https://www.zxgj.cn/favicon.ico",
+            "title": "MD5编码工具",
+            "desc": "本工具提供md5在线加密，md5加密理论上是一种不可逆的加密算法，这里提供的包括16位md5在线加密、32位md5在线加密、md5加密算法、在线md5加密服务，免费的在线MD5加密工具。",
+            "language": ["cn"],
+            "recommend": []
+        }, {
+            "id": 100011,
+            "url": "https://www.fly63.com/tool/cipher/",
+            "img": "https://www.fly63.com/favicon.ico",
+            "title": "AES/DES加解密",
+            "desc": "这是一款采用Base64、AES、DES算法进行加密解密的在线工具，提供在线文本加密/解密,包括Base64加密解密、AES加密解密、DES加密/解密。可以输入密钥后进行加密和解密,支持可逆加密解密。基于Crypto-JS实现",
+            "language": ["cn"],
+            "recommend": []
+        }, {
+            "id": 100011,
+            "url": "https://www.matools.com/code-convert-ascii",
+            "img": "https://www.matools.com/img/common/favicon.png",
+            "title": "ASCII编解码工具",
+            "desc": "在线ASCII编码解码，ASCII代码转换",
+            "language": ["cn"],
+            "recommend": []
+        }, {
+            "id": 100011,
+            "url": "https://www.zxgj.cn/g/unicode",
+            "img": "https://www.zxgj.cn/favicon.ico",
+            "title": "Unicode编解码工具",
+            "desc": "此工具是Unicode，中文与ASCII编码的相互转换，在线支持把Unicode内容转换成ASCII编码，也可以把ASCII编码转成Unicode；支持把Unicode内容转换成中文，也可以把中文转成",
+            "language": ["cn"],
+            "recommend": []
+        }, {
+            "id": 100011,
+            "url": "https://www.zxgj.cn/g/utf8",
+            "img": "https://www.zxgj.cn/favicon.ico",
+            "title": "UTF-8编解码工具",
+            "desc": "UTF-8编码使用中可变长的Unicode编码方式。在Web应用中采用UTF-8编码的网页在任何浏览器上均可正常展示。UTF-8是世界通用的语言编码。",
+            "language": ["cn"],
+            "recommend": []
+        }, {
+            "id": 100011,
+            "url": "https://www.zxgj.cn/g/enstring",
+            "img": "https://www.zxgj.cn/favicon.ico",
+            "title": "字符串编解码工具",
+            "desc": "字符串编码解码提供各种字符串编码格式的转换，编码类型有UTF16，mimeBase64，URL Encode/Decode，printable等等....",
+            "language": ["cn"],
+            "recommend": []
+        }, {
+            "id": 100011,
+            "url": "http://tool.chinaz.com/tools/urlencode.aspx?jdfwkey=lbixz1",
+            "img": "http://csstools.chinaz.com/favicon.ico",
+            "title": "URL编解码工具",
+            "desc": "为了让包含中文的URL可以使用，您可以使用本工具对中文进行UrlEncode编码。",
+            "language": ["cn"],
+            "recommend": []
+        }]
+    }, {
+        "label": "在线转换工具",
+        "expand": false,
+        "children": [],
+        "list": [{
+            "id": 100011,
+            "url": "https://www.fly63.com/tool/ascii/",
+            "img": "https://www.fly63.com/favicon.ico",
+            "title": "在线ASCII码对照表",
+            "desc": "ASCII是基于拉丁字母的一套电脑编码系统。ASCII码对照表提供常用的ASCII查询，方便大家使用。",
+            "language": ["cn"],
+            "recommend": []
+        }, {
+            "id": 100011,
+            "url": "https://www.zxgj.cn/g/jinzhi",
+            "img": "https://www.zxgj.cn/favicon.ico",
+            "title": "通用进制转换工具",
+            "desc": "进制转换工具提供二进制、八进制、十进制和十六进制之间的任意互转。例如二进制转换为十进制，十进制转为二进制，16进制转10进制等等。",
+            "language": ["cn"],
+            "recommend": []
+        }, {
+            "id": 100011,
+            "url": "http://www.binaryconvert.com/",
+            "img": "./img/icons/website.svg",
+            "title": "在线浮点数十进制转换",
+            "desc": "在线二进制转换器。支持所有类型的变量，包括单精度和双精度IEEE754数字",
+            "language": ["en"],
+            "recommend": []
+        }, {
+            "id": 100011,
+            "url": "https://www.zxgj.cn/g/yansezhi",
+            "img": "https://www.zxgj.cn/favicon.ico",
+            "title": "RGB颜色转换",
+            "desc": "RGB颜色值转换成十六进制颜色码，十六进制颜色值码转为RGB，此工具提供rgb颜色表,rgb颜色值转为16进制，也可以将16进制的颜色码转为RGB颜色值。",
+            "language": ["cn"],
+            "recommend": []
+        }, {
+            "id": 100011,
+            "url": "https://www.zxgj.cn/g/unix",
+            "img": "https://www.zxgj.cn/favicon.ico",
+            "title": "时间戳转换工具",
+            "desc": "时间戳是以一串数字表时的时间值，Unix时间戳转换成格式化时间，也可以对格式化时间转换成时间戳，是免费的时间戳在线转换、时间戳日期转换工具。",
+            "language": ["cn"],
+            "recommend": []
+        }, {
+            "id": 100011,
+            "url": "https://www.fly63.com/tool/unitable/",
+            "img": "https://www.fly63.com/favicon.ico",
+            "title": "计量单位换算工具",
+            "desc": "度量衡单位是指按照统一的度量衡制度的规定来计量事物数量的单位。如重量以“千克”为单位计量，长度以“米”为单位计量等。",
+            "language": ["cn"],
+            "recommend": []
+        }, {
+            "id": 100011,
+            "url": "https://www.json.cn/",
+            "img": "https://www.json.cn/favicon.ico",
+            "title": "在线JSON解析",
+            "desc": "Json中文网致力于在中国推广Json,并提供相关的Json解析、验证、格式化、压缩、编辑器以及Json与XML相互转换等服务",
+            "language": ["cn"],
+            "recommend": []
+        }, {
+            "id": 100011,
+            "url": "https://www.zxgj.cn/g/sqlformat",
+            "img": "https://www.zxgj.cn/favicon.ico",
+            "title": "SQL压缩/格式化工具",
+            "desc": "本工具针对 SQL语句 做格式化、美化处理。对SQL进行格式化排版，整齐的进行显示。可以对SQL进行加密，加密压缩。",
+            "language": ["cn"],
+            "recommend": []
+        }, {
+            "id": 100011,
+            "url": "https://www.zxgj.cn/g/jsonxml",
+            "img": "https://www.zxgj.cn/favicon.ico",
+            "title": "JSON和XML在线转换",
+            "desc": "Xml和Json在线转换工具（实现Xml转为Json格式 Json转为Xml格式）",
+            "language": ["cn"],
+            "recommend": []
+        }, {
+            "id": 100011,
+            "url": "https://www.fly63.com/tool/jsonyaml/",
+            "img": "https://www.fly63.com/favicon.ico",
+            "title": "JSON/YAML在线转换",
+            "desc": "JSON/YAML在线转换工具",
+            "language": ["cn"],
+            "recommend": []
+        }, {
+            "id": 100011,
+            "url": "https://www.fly63.com/tool/renmingbi/",
+            "img": "https://www.fly63.com/favicon.ico",
+            "title": "人民币大写转换工具",
+            "desc": "在线人民币金额大写转换工具，能很方便的把阿拉伯数字金额转换成中文会计大写。财务和会计都会写中文金额大写，不是相关专业的人士就很需要这个工具了。",
+            "language": ["cn"],
+            "recommend": []
+        }]
+    }, {
         "label": "其他实用工具",
         "expand": false,
         "children": [],
@@ -1162,7 +1324,7 @@
                 "img": "http://pngimg.com/favicon.ico",
                 "title": "免费透明背景图片素材",
                 "desc": "最大的免费透明PNG图像剪贴画目录，用于以最佳分辨率和质量进行设计和网页设计",
-                "language":["en"],
+                "language": ["en"],
                 "recommend": ["背景图片", "免费"]
             }, {
                 "id": 100011,
@@ -1170,7 +1332,7 @@
                 "img": "https://cdn.shopifycdn.net/s/files/1/1061/1924/t/4/assets/favicon.png",
                 "title": "Emoji表情包下载",
                 "desc": "Emoji Island 有你要找的所有表情图片！不需要注册。只需单击即可免费下载所有PNG和JPG格式的iphone表情。",
-                "language":["en"],
+                "language": ["en"],
                 "recommend": ["emoji", "免费"]
             }, {
                 "id": 100011,
@@ -1178,7 +1340,7 @@
                 "img": "https://feathericons.com/favicon-32x32.png",
                 "title": "open source icons",
                 "desc": "Feather是一个简单漂亮的开源图标集合。每个图标均采用24x24网格设计，强调简单性、一致性和可读性。",
-                "language":["en"],
+                "language": ["en"],
                 "recommend": ["icon", "免费"]
             }, {
                 "id": 100011,
@@ -1186,7 +1348,7 @@
                 "img": "https://img.alicdn.com/imgextra/i4/O1CN01EYTRnJ297D6vehehJ_!!6000000008020-55-tps-64-64.svg",
                 "title": "阿里巴巴矢量图标库",
                 "desc": "国内功能很强大且图标内容很丰富的矢量图标库，提供矢量图标下载、在线存储、格式转换等功能。阿里巴巴体验团队倾力打造，设计和前端开发的便捷工具",
-                "language":["cn"],
+                "language": ["cn"],
                 "recommend": ["icon", "免费"]
             }, {
                 "id": 100011,
@@ -1194,7 +1356,7 @@
                 "img": "./img/icons/website.svg",
                 "title": "表情包在线网站",
                 "desc": "发表情，最新最全的无水印表情包分享与制作平台。有海量热门表情、聊天表情、微信表情包、QQ表情包、金馆长表情包、蘑菇头表情包等各类表情。",
-                "language":["cn"],
+                "language": ["cn"],
                 "recommend": ["表情", "免费"]
             }, {
                 "id": 100011,
@@ -1202,7 +1364,7 @@
                 "img": "https://pluspng.com/favicon.png",
                 "title": "免费PNG图片库",
                 "desc": "在这个网站上，你可以看到透明的PNG图像",
-                "language":["en"],
+                "language": ["en"],
                 "recommend": ["免费"]
             }, {
                 "id": 100011,
@@ -1210,7 +1372,7 @@
                 "img": "https://bz.zzzmh.cn/favicon.ico",
                 "title": "极简壁纸",
                 "desc": "极简壁纸,4K高清电脑桌面壁纸图库,海量4K电脑壁纸,壁纸网站,美女,动漫,风景,4k高清,4k超清,电脑壁纸桌面",
-                "language":["cn"],
+                "language": ["cn"],
                 "recommend": ["免费"]
             }, {
                 "id": 100011,
@@ -1218,7 +1380,7 @@
                 "img": "https://static.alphacoders.com/icons/wallpaper/favicon.ico",
                 "title": "Wallpaper Abyss壁纸",
                 "desc": "墙纸社区。查看、下载、评价和评论高清壁纸、桌面背景图像和手机壁纸。",
-                "language":["cn"],
+                "language": ["cn"],
                 "recommend": ["免费"]
             }, {
                 "id": 100011,
@@ -1226,7 +1388,7 @@
                 "img": "https://pixabay.com/favicon-32x32.png",
                 "title": "Pixabay图片素材库",
                 "desc": "Pixabay是全球知名的图库网站及充满活力的创意社区，拥有上百万张免费正版高清图片素材，涵盖照片、插画、矢量图、视频等分类，你可以在任何地方使用Pixabay图库中的素材，无惧版权风险。",
-                "language":["cn"],
+                "language": ["cn"],
                 "recommend": ["免费"]
             }, {
                 "id": 100011,
@@ -1234,7 +1396,7 @@
                 "img": "https://unsplash.com/safari-pinned-tab.svg",
                 "title": "Unsplash图片素材库",
                 "desc": "美丽、免费的图片和照片，您可以下载并用于任何项目。比任何免版税或库存照片都好。",
-                "language":["en"],
+                "language": ["en"],
                 "recommend": ["免费"]
             }, {
                 "id": 100011,
@@ -1242,10 +1404,9 @@
                 "img": "https://images.nasa.gov/favicon-32x32.png",
                 "title": "NASA图片视频素材库",
                 "desc": "NASA Image and Video Library",
-                "language":["en"],
+                "language": ["en"],
                 "recommend": ["免费"]
-            }
-        ]
+            }]
         }, {
             "label": "字体资源",
             "expand": false,
