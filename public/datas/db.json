@@ -735,6 +735,46 @@
             "desc": "这是一款功能强大的文本替换工具，它可以无限制的批量查找替换文档,用这款软件可以显著提高文档处理能力。单个单个的去找是非常的麻烦和费时间，这个超级批量文本替换工具分分钟钟就可以全部替换完成。",
             "language": ["cn"],
             "recommend": []
+        }, {
+            "id": 100011,
+            "url": "https://regexr.com/",
+            "img": "https://regexr.com/assets/icons/favicon.ico?1",
+            "title": "正则表达式调试工具",
+            "desc": "RegExr is an online tool to learn, build, & test Regular Expressions (RegEx / RegExp).",
+            "language": ["en"],
+            "recommend": []
+        }, {
+            "id": 100011,
+            "url": "https://jex.im/regulex/#!flags=&re=%5E(a%7Cb)*%3F%24",
+            "img": "https://jex.im/favicon.ico",
+            "title": "正则表达式可视化工具",
+            "desc": "Regulex:JavaScript正则表达式可视化工具",
+            "language": ["en"],
+            "recommend": []
+        }, {
+            "id": 100011,
+            "url": "https://www.ip138.com/",
+            "img": "https://www.ip138.com/favicon.ico",
+            "title": "IP地址归属地查询",
+            "desc": "公网ip地址归属地查询",
+            "language": ["cn"],
+            "recommend": []
+        }, {
+            "id": 100011,
+            "url": "https://www.ipip.net/ip.html",
+            "img": "https://www.ipip.net/favicon.ico",
+            "title": "IP地址查询",
+            "desc": "公网ip地址归属地查询",
+            "language": ["cn"],
+            "recommend": []
+        }, {
+            "id": 100011,
+            "url": "https://www.fly63.com/php/http/",
+            "img": "https://www.fly63.com/favicon.ico",
+            "title": "HTTP接口测试工具",
+            "desc": "模拟客户端发送http请求,支持跨域,提供在线HTTP请求模拟器,支持请求类型有POST、GET、DELETE、PUT、PATCH请求,提供带cookie和header的请求,返回header响应头/请求头等信息",
+            "language": ["cn"],
+            "recommend": []
         }]
     }],
     "list": []
