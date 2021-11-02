@@ -384,14 +384,6 @@
             "recommend": []
         }, {
             "id": 100011,
-            "url": "http://www.uugai.com/",
-            "img": "http://www.uugai.com/favicon.ico",
-            "title": "免费logo在线制作",
-            "desc": "免费设计，无限制免费下载，无论你董不懂设计,仅需1分钟，您就可以自助设计出专业、精美的LOGO, 并可免费下载，这里有数万套LOGO模板,数百种专属字体选择,自由搭配一目了然",
-            "language": ["en"],
-            "recommend": []
-        }, {
-            "id": 100011,
             "url": "https://www.qt86.com/",
             "img": "https://www.qt86.com/favicon.ico",
             "title": "艺术字体在线生成",
@@ -683,6 +675,117 @@
             "img": "https://www.fly63.com/favicon.ico",
             "title": "人民币大写转换工具",
             "desc": "在线人民币金额大写转换工具，能很方便的把阿拉伯数字金额转换成中文会计大写。财务和会计都会写中文金额大写，不是相关专业的人士就很需要这个工具了。",
+            "language": ["cn"],
+            "recommend": []
+        }, {
+            "id": 100011,
+            "url": "https://converter.telerik.com/",
+            "img": "https://converter.telerik.com/favicon.ico",
+            "title": "VB.NET/C# 互转",
+            "desc": "Telerik Code Converter by Progress是从C#到VB以及从VB到C#的免费在线代码转换器。无需注册。过来看。",
+            "language": ["en"],
+            "recommend": []
+        }]
+    }, {
+        "label": "在线编译运行工具",
+        "expand": false,
+        "children": [],
+        "list": [{
+            "id": 100011,
+            "url": "https://rextester.com/",
+            "img": "https://rextester.com/favicon.ico",
+            "title": "C#在线编译运行",
+            "desc": "C#在线编译运行,不只是C#,C、Java、Kotlin、Nodejs等等",
+            "language": ["en"],
+            "recommend": []
+        }, {
+            "id": 100011,
+            "url": "https://c.runoob.com/",
+            "img": "https://c.runoob.com/favicon.ico",
+            "title": "在线编译工具套装",
+            "desc": "菜鸟工具，为开发设计人员提供在线工具，提供在线PHP、Python、 CSS、JS 调试，中文简繁体转换，进制转换等工具。致力于打造国内专业WEB开发工具，集成开发环境，WEB开发教程。",
+            "language": ["cn"],
+            "recommend": []
+        }]
+    }, {
+        "label": "可视化格式化工具",
+        "expand": false,
+        "children": [],
+        "list": [{
+            "id": 100011,
+            "url": "https://codepen.io/",
+            "img": "https://codepen.io/favicon.ico",
+            "title": "codepen",
+            "desc": "在线代码编辑器、学习环境和社区，用于使用HTML、CSS和JavaScript代码片段、项目和web应用程序进行前端web开发。",
+            "language": ["en"],
+            "recommend": []
+        }, {
+            "id": 100011,
+            "url": "https://flourish.studio/",
+            "img": "https://flourish.studio/favicon.ico",
+            "title": "在线数据可视化",
+            "desc": "美观、简单的数据可视化和故事讲述。",
+            "language": ["en"],
+            "recommend": []
+        }, {
+            "id": 100011,
+            "url": "https://www.json.cn/",
+            "img": "https://www.json.cn/favicon.ico",
+            "title": "在线JSON解析",
+            "desc": "Json中文网致力于在中国推广Json,并提供相关的Json解析、验证、格式化、压缩、编辑器以及Json与XML相互转换等服务",
+            "language": ["cn"],
+            "recommend": []
+        }, {
+            "id": 100011,
+            "url": "https://enjoycss.com/",
+            "img": "https://enjoycss.com/ico/apple-touch-icon-114x114.png?v=2",
+            "title": "在线CSS代码可视化工具",
+            "desc": "EnjoyCSS是一款先进的CSS3生成器，可节省您的时间。它方便而简单的UI允许您快速调整丰富的图形样式，而无需编码。",
+            "language": ["en"],
+            "recommend": []
+        }, {
+            "id": 100011,
+            "url": "https://www.zxgj.cn/g/xmlformat",
+            "img": "https://www.zxgj.cn/favicon.ico",
+            "title": "XML格式化工具",
+            "desc": "格式化XML,XML格式化,XML压缩,XML美化，本工具针对 XML 代码，格式化操作。",
+            "language": ["cn"],
+            "recommend": []
+        }, {
+            "id": 100011,
+            "url": "https://prettier.io/playground/",
+            "img": "https://prettier.io/icon.png",
+            "title": "在线JS代码格式化工具",
+            "desc": "在线JS代码格式化美化工具。",
+            "language": ["en"],
+            "recommend": []
+        }, {
+            "id": 100011,
+            "url": "https://www.zxgj.cn/g/sqlformat",
+            "img": "https://www.zxgj.cn/favicon.ico",
+            "title": "SQL压缩/格式化工具",
+            "desc": "本工具针对 SQL语句 做格式化、美化处理。对SQL进行格式化排版，整齐的进行显示。可以对SQL进行加密，加密压缩。",
+            "language": ["cn"],
+            "recommend": []
+        }]
+    }, {
+        "label": "在线画图工具",
+        "expand": false,
+        "children": [],
+        "list": [{
+            "id": 100011,
+            "url": "https://www.processon.com/",
+            "img": "https://www.processon.com/favicon.ico",
+            "title": "免费在线流程图思维导图",
+            "desc": "专业强大的作图工具，支持多人实时在线协作，可用于原型图、UML、BPMN、网络拓扑图等多种图形绘制",
+            "language": ["cn"],
+            "recommend": []
+        }, {
+            "id": 100011,
+            "url": "http://www.mindline.cn/webapp",
+            "img": "http://www.mindline.cn/res/icon.png",
+            "title": "在线思维导图工具",
+            "desc": "在线思维导图工具",
             "language": ["cn"],
             "recommend": []
         }]
@@ -1448,6 +1551,35 @@
                 "recommend": ["免费"]
             }]
         }, {
+            "label": "LOGO设计",
+            "expand": false,
+            "children": [],
+            "list": [{
+                "id": 100011,
+                "url": "http://www.uugai.com/",
+                "img": "http://www.uugai.com/favicon.ico",
+                "title": "免费logo在线制作",
+                "desc": "免费设计，无限制免费下载，无论你董不懂设计,仅需1分钟，您就可以自助设计出专业、精美的LOGO, 并可免费下载，这里有数万套LOGO模板,数百种专属字体选择,自由搭配一目了然",
+                "language": ["cn"],
+                "recommend": []
+            }, {
+                "id": 100011,
+                "url": "https://www.logoaa.com/",
+                "img": "https://www.logoaa.com/favicon.ico",
+                "title": "logo在线制作",
+                "desc": "logoaa是基于专业模板基础上,无需设计知识的logo在线制作平台,进行简单的设计就可以在线生成公司logo、企业标志、网站logo等...",
+                "language": ["cn"],
+                "recommend": []
+            }, {
+                "id": 100011,
+                "url": "https://www.logosc.cn/make?n=Sogrey&s=ok&descr=%E4%B8%80%E5%8F%A5%E8%AF%9D%E5%93%81%E7%89%8C",
+                "img": "https://www.logosc.cn/img/home/LOGOSC.ico",
+                "title": "Logo在线制作",
+                "desc": "Logo在线制作；logo设计神器",
+                "language": ["cn"],
+                "recommend": []
+            }]
+        }, {
             "label": "字体资源",
             "expand": false,
             "children": [],
@@ -1576,6 +1708,13 @@
             "img": "https://www.mvcat.com/img/logo_appicon.png",
             "title": "电影推荐 · MVCAT",
             "desc": "人生如戏，戏如人生，命由己造，相由心生。",
+            "recommend": ["影视"]
+        }, {
+            "id": 100011,
+            "url": "https://www.jskjsj.com/",
+            "img": "https://www.jskjsj.com/statics/img/favicon.ico",
+            "title": "神马影院",
+            "desc": "神马影院提供免费电影在线观看、热门电视剧、韩国伦理电影,热播综艺，动漫视频的在线观看，每天第一时间更新,给您更好的视频观看体验。手机看片首选神马影院。",
             "recommend": ["影视"]
         }]
     }, {
@@ -1735,5 +1874,89 @@
         "title": "音速装机",
         "desc": "Gotta Go Fast !常用又好用，电脑软件的官方下载地址合集",
         "recommend": ["装机", "软件下载"]
+    }, {
+        "id": 100011,
+        "url": "https://xydh.fun/",
+        "img": "https://xydh.fun/favicon.ico",
+        "title": "炫猿导航",
+        "desc": "炫猿是一款高度可定制化的网址导航，可为每个用户提供个性化域名访问的导航页面。独一无二的定制化功能注定成为导航届的一批黑马，你的专属主页。",
+        "recommend": ["网址导航"]
+    }, {
+        "id": 100011,
+        "url": "https://xydh.fun/",
+        "img": "https://xydh.fun/favicon.ico",
+        "title": "炫猿导航",
+        "desc": "炫猿是一款高度可定制化的网址导航，可为每个用户提供个性化域名访问的导航页面。独一无二的定制化功能注定成为导航届的一批黑马，你的专属主页。",
+        "recommend": ["网址导航"]
+    }, {
+        "id": 100011,
+        "url": "https://kehu56.com/",
+        "img": "https://kehu56.com/favicon.ico",
+        "title": "可乎",
+        "desc": "站长资源平台更新全球最新免费资源部落，站长福利资源，专门分享站长福利的网站，免费建站资源汇总，专注资源与福利收集分享的站长福利社",
+        "recommend": ["网址导航"]
+    }, {
+        "id": 100011,
+        "url": "https://www.qyxdh.cn/",
+        "img": "https://www.qyxdh.cn/wp-content/uploads/2019/07/26bf081faa3942fae08e12-75x75.png",
+        "title": "秦一鑫导航网",
+        "desc": "秦一鑫导航网(www.qyxdh.cn.)是一个专注于最新资源搜索,网盘搜索,种子搜索的资源导航网站,这里有最全的资源网大全,为你整理网络上优质的资源搜索,网盘搜索,种子搜索网站,秦一鑫导航网无广告，免费资源导航网站,喜欢就收藏起来吧!",
+        "recommend": ["网址导航"]
+    }, {
+        "id": 100011,
+        "url": "http://www.coderfish.cn/",
+        "img": "http://coderfish.cn/wp-content/uploads/2021/03/logo_white.png",
+        "title": "码鱼 | 杂食性程序猿导航站",
+        "desc": "自身码农,开发android,涉猎较广,没有深度,没有记录,做此网站,逼迫记录,共同成长",
+        "recommend": ["网址导航"]
+    }, {
+        "id": 100011,
+        "url": "https://www.martinku.cn/",
+        "img": "https://www.martinku.cn/wp-content/uploads/2021/05/80x80.png",
+        "title": "马丁库网址导航",
+        "desc": "一个蕴含丰富的百宝箱网站；一个分类齐全、绿色健康、资源丰富的上网导航网站，与其他网址导航相比，网站界面更加干净整洁、简单明了，用户能在第一时间触达目标网址。",
+        "recommend": ["网址导航"]
+    }, {
+        "id": 100011,
+        "url": "https://www.zdzn.net/",
+        "img": "https://www.zdzn.net/assets/img/logo.ico",
+        "title": "ZDZN-专业开发者导航",
+        "desc": "ZDZN导航是国内最专业的开发者导航,最好用的程序员导航.收录了大量的程序员网站,是专注于开发者,程序员的网址导航,开发者中心.ZDZN旨在为广大开发者提供专业好用的技术网址导航,方便开发者平时日常工作,并为不同阶段的开发者学习进阶提供一定的引导作用.",
+        "recommend": ["网址导航"]
+    }, {
+        "id": 100011,
+        "url": "https://www.jikedaohang.com/",
+        "img": "https://www.jikedaohang.com/static/imgs/jk.png",
+        "title": "极客导航",
+        "desc": "极客导航ˇ程序员导航,程序猿导航,Android导航,IOS导航,Android网址导航,IOS程序员导航,IT导航,Android程序员导航,IOS程序员导航,Html5网址导航,前端导航,前端程序猿导航,码农导航,面试,设计导航网站",
+        "recommend": ["网址导航"]
+    }, {
+        "id": 100011,
+        "url": "https://www.jikedaohang.com/",
+        "img": "https://www.jikedaohang.com/static/imgs/jk.png",
+        "title": "极客导航",
+        "desc": "极客导航ˇ程序员导航,程序猿导航,Android导航,IOS导航,Android网址导航,IOS程序员导航,IT导航,Android程序员导航,IOS程序员导航,Html5网址导航,前端导航,前端程序猿导航,码农导航,面试,设计导航网站",
+        "recommend": ["网址导航"]
+    }, {
+        "id": 100011,
+        "url": "https://www.zxlovecjy.com/",
+        "img": "https://www.zxlovecjy.com/favicon.ico",
+        "title": "程序猿搜索",
+        "desc": "可能是最简洁的搜索导航，给你简单舒爽的搜索体验。",
+        "recommend": ["搜索导航"]
+    }, {
+        "id": 100011,
+        "url": "https://www.ydku.cn",
+        "img": "./img/icons/website.svg",
+        "title": "小猿导航",
+        "desc": "可能是最简洁的搜索导航，给你简单舒爽的搜索体验。",
+        "recommend": ["网址导航"]
+    }, {
+        "id": 100011,
+        "url": "http://dfj-20210422-24.demo.mxyhn.xyz/",
+        "img": "./img/icons/website.svg",
+        "title": "网址导航模板",
+        "desc": "网址导航模板",
+        "recommend": ["网址导航模板"]
     }]
 }]
