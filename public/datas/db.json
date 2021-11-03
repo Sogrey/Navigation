@@ -92,7 +92,56 @@
     "label": "社区博客",
     "expand": false,
     "children": [],
-    "list": []
+    "list": [{
+        "id": 100011,
+        "url": "https://www.ruanyifeng.com/blog/",
+        "img": "https://www.ruanyifeng.com/favicon.ico",
+        "title": "阮一峰",
+        "desc": "阮一峰的网络日志",
+        "language": ["cn"]
+    }, {
+        "id": 100011,
+        "url": "https://www.liaoxuefeng.com/",
+        "img": "https://www.liaoxuefeng.com/favicon.ico",
+        "title": "廖雪峰",
+        "desc": "研究互联网产品和技术，提供原创中文精品教程",
+        "language": ["cn"]
+    }, {
+        "id": 100011,
+        "url": "https://www.zhangxinxu.com/",
+        "img": "https://www.zhangxinxu.com/favicon.ico",
+        "title": "张鑫旭",
+        "desc": "张鑫旭的个人博客首页，张鑫旭的技术作品，张鑫旭的生活成长",
+        "language": ["cn"]
+    }, {
+        "id": 100011,
+        "url": "https://cuiqingcai.com/",
+        "img": "./img/icons/website.svg",
+        "title": "静觅-崔庆才",
+        "desc": "崔庆才的个人站点，记录生活的瞬间，分享学习的心得。",
+        "language": ["cn"]
+    }, {
+        "id": 100011,
+        "url": "https://www.barretlee.com/",
+        "img": "https://www.barretlee.com/favicon.ico",
+        "title": "Barret李靖 | 小胡子哥",
+        "desc": "一个有趣的灵魂 —— 想法，随笔，思考，感叹，瞬间，笔记...",
+        "language": ["cn"]
+    }, {
+        "id": 100011,
+        "url": "https://www.williamlong.info/",
+        "img": "https://www.williamlong.info/favicon.ico",
+        "title": "月光博客 | 龙威廉",
+        "desc": "月光博客，是专注于业界、互联网、搜索引擎优化、社会化网络、IT技术、谷歌地图、建站、软件等领域的原创IT科技博客，作者龙威廉。",
+        "language": ["cn"]
+    }, {
+        "id": 100011,
+        "url": "https://www.hujiangtao.cn/",
+        "img": "https://www.hujiangtao.cn/icons/v1/icon-48x48.png",
+        "title": "木先生",
+        "desc": "木先生的个人网站",
+        "language": ["cn"]
+    }]
 }, {
     "label": "实用工具",
     "expand": false,
