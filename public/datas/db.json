@@ -98,35 +98,40 @@
         "img": "https://www.ruanyifeng.com/favicon.ico",
         "title": "阮一峰",
         "desc": "阮一峰的网络日志",
-        "language": ["cn"]
+        "language": ["cn"],
+        "github":"https://github.com/ruanyf"
     }, {
         "id": 100011,
         "url": "https://www.liaoxuefeng.com/",
         "img": "https://www.liaoxuefeng.com/favicon.ico",
         "title": "廖雪峰",
         "desc": "研究互联网产品和技术，提供原创中文精品教程",
-        "language": ["cn"]
+        "language": ["cn"],
+        "github":"https://github.com/michaelliao"
     }, {
         "id": 100011,
         "url": "https://www.zhangxinxu.com/",
         "img": "https://www.zhangxinxu.com/favicon.ico",
         "title": "张鑫旭",
         "desc": "张鑫旭的个人博客首页，张鑫旭的技术作品，张鑫旭的生活成长",
-        "language": ["cn"]
+        "language": ["cn"],
+        "github":"https://github.com/zhangxinxu"
     }, {
         "id": 100011,
         "url": "https://cuiqingcai.com/",
         "img": "./img/icons/website.svg",
         "title": "静觅-崔庆才",
         "desc": "崔庆才的个人站点，记录生活的瞬间，分享学习的心得。",
-        "language": ["cn"]
+        "language": ["cn"],
+        "github":"https://github.com/Germey"
     }, {
         "id": 100011,
         "url": "https://www.barretlee.com/",
         "img": "https://www.barretlee.com/favicon.ico",
         "title": "Barret李靖 | 小胡子哥",
         "desc": "一个有趣的灵魂 —— 想法，随笔，思考，感叹，瞬间，笔记...",
-        "language": ["cn"]
+        "language": ["cn"],
+        "github":"https://github.com/barretlee"
     }, {
         "id": 100011,
         "url": "https://www.williamlong.info/",
@@ -141,6 +146,22 @@
         "title": "木先生",
         "desc": "木先生的个人网站",
         "language": ["cn"]
+    }, {
+        "id": 100011,
+        "url": "https://evanyou.me/",
+        "img": "./img/icons/website.svg",
+        "title": "尤雨溪",
+        "desc": "尤雨溪-前端开发博客,vue项目作者",
+        "language": ["cn"],
+        "github":"https://github.com/yyx990803"
+    }, {
+        "id": 100011,
+        "url": "https://jiongks.name/",
+        "img": "https://jiongks.name/favicon.ico",
+        "title": "勾三股四",
+        "desc": "阿里巴巴高级前端工程师，前北京傲游前端开发部经理",
+        "language": ["cn"],
+        "github":"https://github.com/jinjiang/"
     }]
 }, {
     "label": "实用工具",
