@@ -162,6 +162,22 @@
         "desc": "阿里巴巴高级前端工程师，前北京傲游前端开发部经理",
         "language": ["cn"],
         "github":"https://github.com/jinjiang/"
+    }, {
+        "id": 100011,
+        "url": "https://www.wanandroid.com/",
+        "img": "https://avatars.githubusercontent.com/u/10704521?v=4",
+        "title": "鸿洋",
+        "desc": "关注领域：JavaEE,Android,Javascript,HTML5,MySQL,Hadoop,Linux",
+        "language": ["cn"],
+        "github":"https://github.com/hongyangAndroid"
+    }, {
+        "id": 100011,
+        "url": "https://guolin.blog.csdn.net/",
+        "img": "./img/icons/guolin.jpg",
+        "title": "郭霖",
+        "desc": "Android开发工程师，Android GDE（Google认证开发者专家）。从事Android开发工作9年，有着丰富的项目实战经验，负责及参与开发过多款移动应用与游戏，开发了 LitePal、giffun、coolweather、PermissionX 等多个开源项目，对 Android 系统架构及应用层开发有着深入的理解。",
+        "language": ["cn"],
+        "github":"https://github.com/guolindev"
     }]
 }, {
     "label": "实用工具",
