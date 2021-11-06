@@ -8,7 +8,7 @@
         <div class="additional">
           <div class="user-card">
             <a :href="item.url" target="_blank" rel="noopener noreferrer"
-              ><img class="siteIcon center" :src="item.img" :alt="item.title"
+              ><img class="siteIcon center" :src="item.img" :alt="item.title" @error="headError"
             /></a>
           </div>
           <div class="more-info">
@@ -51,7 +51,11 @@ export default {
     psTitle: String,
     psData: Array,
   }, //接手psData值
-  methods: {},
+  methods: {
+    headError(e) {
+        e.target.src = require("../assets/img/website.svg");
+      },
+  },
 };
 </script>
 

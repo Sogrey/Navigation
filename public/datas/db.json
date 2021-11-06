@@ -1802,6 +1802,20 @@
             "title": "神马影院",
             "desc": "神马影院提供免费电影在线观看、热门电视剧、韩国伦理电影,热播综艺，动漫视频的在线观看，每天第一时间更新,给您更好的视频观看体验。手机看片首选神马影院。",
             "recommend": ["影视"]
+        }, {
+            "id": 100011,
+            "url": "https://gaze.run/",
+            "img": "https://gaze.run/favicon.ico",
+            "title": "GAZE 注视",
+            "desc": "简洁，无广告，秒播",
+            "recommend": ["影视"]
+        }, {
+            "id": 100011,
+            "url": "https://dogechan.com/",
+            "img": "https://dogechan.com/favicon.ico",
+            "title": "悟空视频",
+            "desc": "视频搜索来源广而全",
+            "recommend": ["影视"]
         }]
     }, {
         "label": "音乐资源",
@@ -1871,6 +1885,94 @@
         "img": "https://mirrors.tuna.tsinghua.edu.cn/static/img/favicon.png",
         "title": "清华大学开源软件镜像站",
         "desc": "清华大学开源软件镜像站，致力于为国内和校内用户提供高质量的开源软件镜像、Linux 镜像源服务，帮助用户更方便地获取开源软件。本镜像站由清华大学 TUNA 协会负责运行维护。",
+        "language": ["cn"],
+        "recommend": ["镜像站"]
+    },{
+        "id": 100011,
+        "url": "https://mirrors.dgut.edu.cn/",
+        "img": "https://mirrors.dgut.edu.cn/favicon.ico",
+        "title": "东莞理工学院 镜像站",
+        "desc": "东莞理工学院 镜像站。",
+        "language": ["cn"],
+        "recommend": ["镜像站"]
+    },{
+        "id": 100011,
+        "url": "http://mirrors.163.com/",
+        "img": "http://mirrors.163.com/.media/favicon.ico",
+        "title": "网易开源镜像站",
+        "desc": "网易开源镜像站。",
+        "language": ["cn"],
+        "recommend": ["镜像站"]
+    },{
+        "id": 100011,
+        "url": "https://mirrors.bfsu.edu.cn/",
+        "img": "https://mirrors.bfsu.edu.cn/static/img/favicon.png",
+        "title": "北京外国语大学开源软件镜像站",
+        "desc": "北京外国语大学开源软件镜像站",
+        "language": ["cn"],
+        "recommend": ["镜像站"]
+    },{
+        "id": 100011,
+        "url": "http://mirrors.nju.edu.cn/",
+        "img": "http://mirrors.nju.edu.cn/favicon.ico",
+        "title": "南京大学镜像站",
+        "desc": "Nanjing University Mirror",
+        "language": ["cn"],
+        "recommend": ["镜像站"]
+    },{
+        "id": 100011,
+        "url": "http://mirrors.ustc.edu.cn/",
+        "img": "http://mirrors.ustc.edu.cn/static/img/favicon.png",
+        "title": "USTC开源软件镜像",
+        "desc": "USTC Open Source Software Mirror",
+        "language": ["cn"],
+        "recommend": ["镜像站"]
+    },{
+        "id": 100011,
+        "url": "https://mirrors.cqu.edu.cn/",
+        "img": "https://mirrors.cqu.edu.cn/static/img/favicon.png",
+        "title": "重庆大学开源软件镜像站",
+        "desc": "重庆大学开源软件镜像站，致力于为国内和校内用户提供高质量的开源软件镜像、Linux 镜像源服务，帮助用户更方便地获取开源软件。本镜像站由重庆大学蓝盟负责维护。",
+        "language": ["cn"],
+        "recommend": ["镜像站"]
+    },{
+        "id": 100011,
+        "url": "http://ftp.sjtu.edu.cn/",
+        "img": "",
+        "title": "上海交通大学开源软件镜像站",
+        "desc": "上海交通大学开源软件镜像站",
+        "language": ["cn"],
+        "recommend": ["FTP","镜像站"]
+    },{
+        "id": 100011,
+        "url": "https://developer.aliyun.com/mirror/",
+        "img": "https://img.alicdn.com/tfs/TB1_ZXuNcfpK1RjSZFOXXa6nFXa-32-32.ico",
+        "title": "阿里云开发者社区-镜像",
+        "desc": "阿里巴巴开源镜像站，免费提供Linux镜像下载服务，拥有Ubuntu、CentOS、Deepin、MongoDB、Apache、Maven、Composer等多种开源软件镜像源，此外还提供域名解析DNS、网络授时NTP等服务，致力于为互联网用户提供全面，高效和稳定的基础服务。",
+        "language": ["cn"],
+        "recommend": ["镜像站"]
+    },{
+        "id": 100011,
+        "url": "https://mirrors.neusoft.edu.cn/",
+        "img": "https://mirrors.neusoft.edu.cn/logo.svg",
+        "title": "开源镜像",
+        "desc": "We-Cloud 维云技术小组",
+        "language": ["cn"],
+        "recommend": ["镜像站"]
+    },{
+        "id": 100011,
+        "url": "https://mirrors.bupt.edu.cn/",
+        "img": "https://mirrors.bupt.edu.cn/static/img/favicon.ico",
+        "title": "北京邮电大学开源软件镜像站",
+        "desc": "镜像站,镜像源,Linux,软件源,开源",
+        "language": ["cn"],
+        "recommend": ["镜像站"]
+    },{
+        "id": 100011,
+        "url": "https://mirrors.huaweicloud.com/home",
+        "img": "https://www.huawei.com/Assets/corp/v2/img/img_ent_en_logo_ico.png",
+        "title": "华为开源镜像站",
+        "desc": "华为云DevCloud团队提供的全类型镜像站服务，提供主流开发语言组件、操作系统、常用工具和库等镜像，极速下载，全站CDN，官方合作。",
         "language": ["cn"],
         "recommend": ["镜像站"]
     }]
@@ -2029,6 +2131,13 @@
         "img": "./img/icons/website.svg",
         "title": "小猿导航",
         "desc": "可能是最简洁的搜索导航，给你简单舒爽的搜索体验。",
+        "recommend": ["网址导航"]
+    }, {
+        "id": 100011,
+        "url": "https://www.code-nav.cn/",
+        "img": "https://636f-codenav-8grj8px727565176-1256524210.tcb.qcloud.la/img/logo.png",
+        "title": "编程导航",
+        "desc": "最专业的程序员导航,编程导航,一站式编程资源搜索,发现优质编程学习资源,提高编程学习效率,公众号编程导航",
         "recommend": ["网址导航"]
     }, {
         "id": 100011,
