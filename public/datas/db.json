@@ -99,7 +99,7 @@
         "title": "阮一峰",
         "desc": "阮一峰的网络日志",
         "language": ["cn"],
-        "github":"https://github.com/ruanyf"
+        "github": "https://github.com/ruanyf"
     }, {
         "id": 100011,
         "url": "https://www.liaoxuefeng.com/",
@@ -107,7 +107,7 @@
         "title": "廖雪峰",
         "desc": "研究互联网产品和技术，提供原创中文精品教程",
         "language": ["cn"],
-        "github":"https://github.com/michaelliao"
+        "github": "https://github.com/michaelliao"
     }, {
         "id": 100011,
         "url": "https://www.zhangxinxu.com/",
@@ -115,7 +115,7 @@
         "title": "张鑫旭",
         "desc": "张鑫旭的个人博客首页，张鑫旭的技术作品，张鑫旭的生活成长",
         "language": ["cn"],
-        "github":"https://github.com/zhangxinxu"
+        "github": "https://github.com/zhangxinxu"
     }, {
         "id": 100011,
         "url": "https://cuiqingcai.com/",
@@ -123,7 +123,7 @@
         "title": "静觅-崔庆才",
         "desc": "崔庆才的个人站点，记录生活的瞬间，分享学习的心得。",
         "language": ["cn"],
-        "github":"https://github.com/Germey"
+        "github": "https://github.com/Germey"
     }, {
         "id": 100011,
         "url": "https://www.barretlee.com/",
@@ -131,7 +131,7 @@
         "title": "Barret李靖 | 小胡子哥",
         "desc": "一个有趣的灵魂 —— 想法，随笔，思考，感叹，瞬间，笔记...",
         "language": ["cn"],
-        "github":"https://github.com/barretlee"
+        "github": "https://github.com/barretlee"
     }, {
         "id": 100011,
         "url": "https://www.williamlong.info/",
@@ -153,7 +153,7 @@
         "title": "尤雨溪",
         "desc": "尤雨溪-前端开发博客,vue项目作者",
         "language": ["cn"],
-        "github":"https://github.com/yyx990803"
+        "github": "https://github.com/yyx990803"
     }, {
         "id": 100011,
         "url": "https://jiongks.name/",
@@ -161,7 +161,7 @@
         "title": "勾三股四",
         "desc": "阿里巴巴高级前端工程师，前北京傲游前端开发部经理",
         "language": ["cn"],
-        "github":"https://github.com/jinjiang/"
+        "github": "https://github.com/jinjiang/"
     }, {
         "id": 100011,
         "url": "https://www.wanandroid.com/",
@@ -169,7 +169,7 @@
         "title": "鸿洋",
         "desc": "关注领域：JavaEE,Android,Javascript,HTML5,MySQL,Hadoop,Linux",
         "language": ["cn"],
-        "github":"https://github.com/hongyangAndroid"
+        "github": "https://github.com/hongyangAndroid"
     }, {
         "id": 100011,
         "url": "https://guolin.blog.csdn.net/",
@@ -177,7 +177,7 @@
         "title": "郭霖",
         "desc": "Android开发工程师，Android GDE（Google认证开发者专家）。从事Android开发工作9年，有着丰富的项目实战经验，负责及参与开发过多款移动应用与游戏，开发了 LitePal、giffun、coolweather、PermissionX 等多个开源项目，对 Android 系统架构及应用层开发有着深入的理解。",
         "language": ["cn"],
-        "github":"https://github.com/guolindev"
+        "github": "https://github.com/guolindev"
     }]
 }, {
     "label": "实用工具",
@@ -1887,7 +1887,7 @@
         "desc": "清华大学开源软件镜像站，致力于为国内和校内用户提供高质量的开源软件镜像、Linux 镜像源服务，帮助用户更方便地获取开源软件。本镜像站由清华大学 TUNA 协会负责运行维护。",
         "language": ["cn"],
         "recommend": ["镜像站"]
-    },{
+    }, {
         "id": 100011,
         "url": "https://mirrors.dgut.edu.cn/",
         "img": "https://mirrors.dgut.edu.cn/favicon.ico",
@@ -1895,7 +1895,7 @@
         "desc": "东莞理工学院 镜像站。",
         "language": ["cn"],
         "recommend": ["镜像站"]
-    },{
+    }, {
         "id": 100011,
         "url": "http://mirrors.163.com/",
         "img": "http://mirrors.163.com/.media/favicon.ico",
@@ -1903,7 +1903,7 @@
         "desc": "网易开源镜像站。",
         "language": ["cn"],
         "recommend": ["镜像站"]
-    },{
+    }, {
         "id": 100011,
         "url": "https://mirrors.bfsu.edu.cn/",
         "img": "https://mirrors.bfsu.edu.cn/static/img/favicon.png",
@@ -1911,7 +1911,7 @@
         "desc": "北京外国语大学开源软件镜像站",
         "language": ["cn"],
         "recommend": ["镜像站"]
-    },{
+    }, {
         "id": 100011,
         "url": "http://mirrors.nju.edu.cn/",
         "img": "http://mirrors.nju.edu.cn/favicon.ico",
@@ -1919,7 +1919,7 @@
         "desc": "Nanjing University Mirror",
         "language": ["cn"],
         "recommend": ["镜像站"]
-    },{
+    }, {
         "id": 100011,
         "url": "http://mirrors.ustc.edu.cn/",
         "img": "http://mirrors.ustc.edu.cn/static/img/favicon.png",
@@ -1927,7 +1927,7 @@
         "desc": "USTC Open Source Software Mirror",
         "language": ["cn"],
         "recommend": ["镜像站"]
-    },{
+    }, {
         "id": 100011,
         "url": "https://mirrors.cqu.edu.cn/",
         "img": "https://mirrors.cqu.edu.cn/static/img/favicon.png",
@@ -1935,15 +1935,15 @@
         "desc": "重庆大学开源软件镜像站，致力于为国内和校内用户提供高质量的开源软件镜像、Linux 镜像源服务，帮助用户更方便地获取开源软件。本镜像站由重庆大学蓝盟负责维护。",
         "language": ["cn"],
         "recommend": ["镜像站"]
-    },{
+    }, {
         "id": 100011,
         "url": "http://ftp.sjtu.edu.cn/",
         "img": "",
         "title": "上海交通大学开源软件镜像站",
         "desc": "上海交通大学开源软件镜像站",
         "language": ["cn"],
-        "recommend": ["FTP","镜像站"]
-    },{
+        "recommend": ["FTP", "镜像站"]
+    }, {
         "id": 100011,
         "url": "https://developer.aliyun.com/mirror/",
         "img": "https://img.alicdn.com/tfs/TB1_ZXuNcfpK1RjSZFOXXa6nFXa-32-32.ico",
@@ -1951,7 +1951,7 @@
         "desc": "阿里巴巴开源镜像站，免费提供Linux镜像下载服务，拥有Ubuntu、CentOS、Deepin、MongoDB、Apache、Maven、Composer等多种开源软件镜像源，此外还提供域名解析DNS、网络授时NTP等服务，致力于为互联网用户提供全面，高效和稳定的基础服务。",
         "language": ["cn"],
         "recommend": ["镜像站"]
-    },{
+    }, {
         "id": 100011,
         "url": "https://mirrors.neusoft.edu.cn/",
         "img": "https://mirrors.neusoft.edu.cn/logo.svg",
@@ -1959,7 +1959,7 @@
         "desc": "We-Cloud 维云技术小组",
         "language": ["cn"],
         "recommend": ["镜像站"]
-    },{
+    }, {
         "id": 100011,
         "url": "https://mirrors.bupt.edu.cn/",
         "img": "https://mirrors.bupt.edu.cn/static/img/favicon.ico",
@@ -1967,7 +1967,7 @@
         "desc": "镜像站,镜像源,Linux,软件源,开源",
         "language": ["cn"],
         "recommend": ["镜像站"]
-    },{
+    }, {
         "id": 100011,
         "url": "https://mirrors.huaweicloud.com/home",
         "img": "https://www.huawei.com/Assets/corp/v2/img/img_ent_en_logo_ico.png",
@@ -1975,6 +1975,62 @@
         "desc": "华为云DevCloud团队提供的全类型镜像站服务，提供主流开发语言组件、操作系统、常用工具和库等镜像，极速下载，全站CDN，官方合作。",
         "language": ["cn"],
         "recommend": ["镜像站"]
+    }, {
+        "id": 100011,
+        "url": "https://free.nchc.org.tw/pmwiki/",
+        "img": "",
+        "title": "國研院國網中心自由軟體實驗室",
+        "desc": "國研院國網中心自由軟體實驗室主要將高效能計算(High Performance Computing）所累積的經驗，以自由軟體的方式呈現成果。",
+        "language": ["cn"],
+        "recommend": ["镜像站"]
+    }, {
+        "id": 100011,
+        "url": "http://ftp.stu.edu.tw/",
+        "img": "",
+        "title": "ftp.stu.edu.tw",
+        "desc": "FTP,Linux",
+        "language": ["cn"],
+        "recommend": ["FTP", "镜像站"]
+    }, {
+        "id": 100011,
+        "url": "http://ftp.ksu.edu.tw/",
+        "img": "",
+        "title": "Microsoft 微軟校園軟體網站",
+        "desc": "本站所提供之軟體僅供行政及教學使用，學生宿舍不在此授權範圍內！！",
+        "language": ["cn"],
+        "recommend": ["FTP", "镜像站"]
+    }, {
+        "id": 100011,
+        "url": "http://ftp.twaren.net/",
+        "img": "",
+        "title": "台湾高品质学术研究网络",
+        "desc": "",
+        "language": ["cn"],
+        "recommend": ["FTP", "镜像站"]
+    }, {
+        "id": 100011,
+        "url": "http://ftp.cuhk.edu.hk/",
+        "img": "",
+        "title": "CUHK FTP Server",
+        "desc": "You can download software and document here. To locate a file, you can either enter the filename in below search box or check it from the useful links. ",
+        "language": ["cn"],
+        "recommend": ["FTP", "镜像站"]
+    }, {
+        "id": 100011,
+        "url": "http://mirror.anigil.com/",
+        "img": "",
+        "title": "AniGil Linux Archive[韩国]",
+        "desc": "感谢您使用“AniGil Linux Archive”！！ ",
+        "language": ["en"],
+        "recommend": ["FTP", "镜像站"]
+    }, {
+        "id": 100011,
+        "url": "http://ftp.kaist.ac.kr/",
+        "img": "",
+        "title": "KAIST Mirror",
+        "desc": "KAIST Mirror 是一种镜像服务，可以镜像 Debian、*BSD、Mozilla、Apache 等开源软件。您可以通过 ftp、http、https 和 rsync 访问它。 ",
+        "language": ["en"],
+        "recommend": ["FTP", "镜像站"]
     }]
 }, {
     "label": "书单",
