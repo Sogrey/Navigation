@@ -601,6 +601,14 @@
             "title": "loading.io",
             "desc": "Build Your Ajax Loading Icons, Animated Text and More with SVG / CSS / GIF / PNG !",
             "recommend": []
+        }, {
+            "id": 100011,
+            "url": "https://uigradients.com/#RainbowBlue",
+            "img": "https://uigradients.com/static/images/favicon-32x32.png",
+            "title": "uiGradients -颜色渐变",
+            "desc": "提供渐变色效果的站点，里面接近上百种渐变配色方案，可根据自己风格来选择搭配，能直接获得对应渐变配色的 CSS 代码",
+            "language": ["en"],
+            "recommend": ["配色"]
         }]
     }, {
         "label": "在线编解码工具",
@@ -778,6 +786,14 @@
         "children": [],
         "list": [{
             "id": 100011,
+            "url": "https://codepen.io/",
+            "img": "https://codepen.io/favicon.ico",
+            "title": "codepen",
+            "desc": "在线代码编辑器、学习环境和社区，用于使用HTML、CSS和JavaScript代码片段、项目和web应用程序进行前端web开发。",
+            "language": ["en"],
+            "recommend": []
+        }, {
+            "id": 100011,
             "url": "https://rextester.com/",
             "img": "https://rextester.com/favicon.ico",
             "title": "C#在线编译运行",
@@ -792,20 +808,28 @@
             "desc": "菜鸟工具，为开发设计人员提供在线工具，提供在线PHP、Python、 CSS、JS 调试，中文简繁体转换，进制转换等工具。致力于打造国内专业WEB开发工具，集成开发环境，WEB开发教程。",
             "language": ["cn"],
             "recommend": []
+        }, {
+            "id": 100011,
+            "url": "https://jsbin.com/?html,css,output",
+            "img": "https://static.jsbin.com/images/favicon.png",
+            "title": "JS Bin",
+            "desc": "一个轻量级在线编辑器网站，界面简洁干净，临时想调试简单的 HTML 或 JS 代码可以考虑去这里试一试",
+            "language": ["en"],
+            "recommend": []
+        }, {
+            "id": 100011,
+            "url": "https://codesandbox.io/",
+            "img": "data:image/svg+xml;base64,PHN2ZyBmaWxsPSJub25lIiBoZWlnaHQ9IjIzIiB2aWV3Qm94PSIwIDAgMjMgMjMiIHdpZHRoPSIyMyIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGZpbGwtcnVsZT0iZXZlbm9kZCI+PHBhdGggZD0ibTExLjUgMTEuNjE2NnYxMS4xNzA0Yy4xOTQ1IDAgLjMyMjMtLjA0MjIuNDk2OS0uMTQxOWw4Ljk0NDUtNS4xMTExYy4zNTMxLS4yMDI0LjQ5NzEtLjUxNTguNDk3MS0uOTIyOXYtMTAuMzY0MTljMC0uMjA0Mi0uMDQzLS4zMjYzNi0uMTQyMi0uNDk2OTFsLTkuNTEwMiA1LjM3MzVjLS4xNzY5LjEwMTEtLjI4NjEuMjg5My0uMjg2MS40OTMxem00Ljk2OTEgNi40MTQzYzAgLjI4MzktLjEwNjQuNDI1OS0uMzU0OS41Njc5bC0yLjk4MTUgMS43MDM3Yy0uMjEyOS4xNDE5LS40OTY5LjA3MS0uNDk2OS0uMjEzdi03LjU5NTdjMC0uMjAzMi4xNzg4LS40NjY1LjM1NDktLjU2NzlsNi44MTQ5LTMuOTA0MjljLjE4OTMtLjEwODk0LjM1NDkuMDY1NTQuMzU0OS4yODM5NXY0LjA0NjM0YzAgLjIwOTctLjA5ODkuMzk4Mi0uMjg0LjQ5NjlsLTMuMDUyNCAxLjYzMjdjLS4xODUxLjA5ODctLjM1NS4yODcxLS4zNTUuNDk2OXoiIGZpbGw9IiM5OTkiLz48cGF0aCBkPSJtMS41NjE1MiAxNi42MTF2LTEwLjM2NDE2YzAtLjQwNzU5LjIxNDAyLS43OTE2LjU2NzktLjk5MzgzbDguNjYwNDgtNC44OTgxNDZjLjE4NjYtLjA5ODg4My40OTY5LS4xNDE5NzMuNzA5OS0uMTQxOTczcy41NDE1LjA1Mjc0MS43MDk5LjE0MTk3NWw4LjU4OTUgNC44OTgxNDRjLjE2OTkuMTAwNDIuNDAwOC4zMzE3Mi40OTY5LjQ5NjkybC05LjUxMjQgNS4zOTUwN2MtLjE3NjkuMTAxMS0uMjgzOS4yOTMxLS4yODM5LjQ5Njl2MTEuMTQ1MWMtLjE5NDUgMC0uMzkzMy0uMDQyMy0uNTY3OS0uMTQybC04LjczMTQ5LTUuMDQwMWMtLjM1Mzg5LS4yMDIzLS42Mzg4OS0uNTg2My0uNjM4ODktLjk5Mzl6bTEuMjc3NzgtOC4zMDU1MnY0LjA0NjMyYzAgLjI4MzkuMDcwOTkuNDI1OS4zNTQ5NC41Njc5bDIuOTgxNDggMS43MDM3Yy4yODM5NS4xNDIuMzU0OTQuMzU0OS4zNTQ5NC41Njc5djIuODM5NWMwIC4yODM5LjA3MDk5LjQyNTkuMzU0OTQuNTY3OWwyLjk4MTQ4IDEuNzAzN2MuMjgzOTIuMTQyLjQ5NjkyLjA3MS40OTY5Mi0uMjEzdi03LjU5NTZjMC0uMjEzLS4wNzEtLjQyNi0uMzU0OS0uNTY3OWwtNi42NzI4OS0zLjgzMzM4Yy0uMjEyOTYtLjE0MTk3LS40OTY5MS0uMDcwOTktLjQ5NjkxLjIxMjk2em0xMS42NDItNC44MjcxNi0yLjYyNjYgMS40OTA3NGMtLjIxMjkuMTQxOTgtLjQ5NjkuMTQxOTgtLjcwOTggMGwtMi42MjY1OS0xLjQ5MDc0Yy0uMTcyODktLjA5NzcyLS4zOTQ3Mi0uMDk3MjItLjU2NzkgMGwtMy4yNjU0MyAxLjg0NTY4Yy0uMjgzOTUuMTQxOTgtLjI4Mzk1LjQyNTkzIDAgLjU2NzlsNi41MzA4MiAzLjc2MjM1Yy4xNzQ4LjEwMDA2LjM5MzIuMTAwMDYuNTY3OSAwbDYuNTMwOS0zLjc2MjM1Yy4yMTMtLjE0MTk3LjI4NC0uNDI1OTIgMC0uNTY3OWwtMy4yNjU0LTEuODQ1NjhjLS4xNzMyLS4wOTcyMi0uMzk1LS4wOTc3Mi0uNTY3OSAweiIgZmlsbD0iI2YyZjJmMiIvPjwvZz48L3N2Zz4=",
+            "title": "CodeSandBox",
+            "desc": "站如其名，CodeSandBox 网站提供一个在线开发环境的“沙盒”，主流的框架如 React、Vue、Angular 等，都可即开即用、实时编译预览，非常方便",
+            "language": ["en"],
+            "recommend": []
         }]
     }, {
         "label": "可视化格式化工具",
         "expand": false,
         "children": [],
         "list": [{
-            "id": 100011,
-            "url": "https://codepen.io/",
-            "img": "https://codepen.io/favicon.ico",
-            "title": "codepen",
-            "desc": "在线代码编辑器、学习环境和社区，用于使用HTML、CSS和JavaScript代码片段、项目和web应用程序进行前端web开发。",
-            "language": ["en"],
-            "recommend": []
-        }, {
             "id": 100011,
             "url": "https://flourish.studio/",
             "img": "https://flourish.studio/favicon.ico",
@@ -852,6 +876,14 @@
             "title": "SQL压缩/格式化工具",
             "desc": "本工具针对 SQL语句 做格式化、美化处理。对SQL进行格式化排版，整齐的进行显示。可以对SQL进行加密，加密压缩。",
             "language": ["cn"],
+            "recommend": []
+        }, {
+            "id": 100011,
+            "url": "https://tableconvert.com/csv-to-markdown",
+            "img": "https://tableconvert.com/images/favicon.png?v=1",
+            "title": "tableconvert - 在线表格编辑器",
+            "desc": "一个功能强大的在线表格编辑器，支持Excel、Markdown、JSON、CSV、HTML等格式的相互转换。当需要转换表格，又不能让它变形，不妨试试这款工具",
+            "language": ["en"],
             "recommend": []
         }]
     }, {
@@ -1301,6 +1333,14 @@
                 "desc": "这个手册主要介绍如何使用 Jenkins 现有的功能和插件特性。",
                 "language": ["cn"],
                 "recommend": []
+            }, {
+                "id": 100011,
+                "url": "https://bonsaiden.github.io/JavaScript-Garden/zh/",
+                "img": "https://bonsaiden.github.io/JavaScript-Garden/favicon.ico?v=2",
+                "title": "JavaScript 秘密花园",
+                "desc": "一个一直更新的JavaScript 的语法文档，主要会写如何去避免一些常见的错误，以及找到很难发现的 bug ，比较深入 JavaScript 的语言特性",
+                "language": ["cn"],
+                "recommend": []
             }]
         }, {
             "label": "公开课",
@@ -1385,6 +1425,62 @@
                 "img": "https://epdf.pub/assets/img/favicon-96x96.png",
                 "title": "pdf搜索下载",
                 "desc": "写一本书，提升你的形象，建立一个企业-上传想法和初学者提示，让你开始",
+                "recommend": [""]
+            },{
+                "id": 100011,
+                "url": "https://zh.singlelogin.org/",
+                "img": "https://zh.singlelogin.org/favicon.svg",
+                "title": "ZLibrary",
+                "desc": "ZLibrary真是教材、电子书搜索界的yyds，它里面包括了8138299本电子书，还包括84837646篇文章，不管是电子教材、电子书，还是学术论文等等，都可以在这些找到你想要的。",
+                "recommend": [""]
+            },{
+                "id": 100011,
+                "url": "http://www.nlc.cn/",
+                "img": "http://www.nlc.cn/favicon.ico",
+                "title": "中国国家图书馆",
+                "desc": "国家图书馆是国家总书库，国家书目中心，国家古籍保护中心，国家典籍博物馆。履行国内外图书文献收藏和保护的职责，指导协调全国文献保护工作；为中央和国家领导机关、社会各界及公众提供文献信息和参考咨询服务;开展图书馆学理论与图书馆事业发展研究，指导全国图书馆业务工作；对外履行有关文化交流职能，参加国际图联及相关国际组织，开展与国内外图书馆的交流与合作。",
+                "recommend": [""]
+            },{
+                "id": 100011,
+                "url": "https://ebook.hep.com.cn/ebooks/index.html#/",
+                "img": "https://ebook.hep.com.cn/ebooks/favicon.png",
+                "title": "高教书苑",
+                "desc": "一个高等教育出版社旗下图书网站，里面包括了他们出过的各种各样的教材，如果你的教材是高等教育出版社的就可以直接来这个网站查看。",
+                "recommend": [""]
+            },{
+                "id": 100011,
+                "url": "http://www.ucdrs.superlib.net/",
+                "img": "http://www.ucdrs.superlib.net/favicon.png",
+                "title": "全国图书馆参考咨询联盟网",
+                "desc": "一个免费的论文搜索下载网站，支持搜索图书、期刊、报纸、学位论文、会议论文、专利等等，想要搜索什么电子教材，直接点击图书，然后输入书的名字就行。",
+                "recommend": [""]
+            },{
+                "id": 100011,
+                "url": "https://pup6.yunzhan365.com/bookcase/jmyr/index.html",
+                "img": "https://book.yunzhan365.com/kbms/jmyr_bookcase_logo.jpg",
+                "title": "北大出版社电子教材书架",
+                "desc": "一个北大出版社电子教材网站，网站内的教材类型不是很多，主要都是土建、机械、经管、旅游、物流、电子商务、计算机等方面的，其中还包括一些高职教材。",
+                "recommend": [""]
+            },{
+                "id": 100011,
+                "url": "https://book.sciencereading.cn/shop/main/Login/shopFrame.do",
+                "img": "https://book.sciencereading.cn/images/icons/favicon.ico",
+                "title": "科学文库",
+                "desc": "一个科学出版社旗下的图书网站，网站内电子教材资源丰富，而且包括多个学科教材，有数理类、历史、地理、生物科学、医药、农业、信息、航空、航天等等。",
+                "recommend": [""]
+            },{
+                "id": 100011,
+                "url": "https://www.pdfdrive.com/",
+                "img": "https://www.pdfdrive.com/favicon.ico",
+                "title": "PDF DRIVE",
+                "desc": "一个分享各种PDF书籍子资源的网站，目前网站内有7500多本电子书籍可以下载，包含的非常全面，包括学术与教育、艺术、商业与职业、小说与文学、政治与法律、科学与研究等等方面。",
+                "recommend": [""]
+            },{
+                "id": 100011,
+                "url": "https://ebook2.lorefree.com/",
+                "img": "https://ebook2.lorefree.com/favicon.ico",
+                "title": "LoreFree",
+                "desc": "一个基于区块链的电子书下载网站站，电子书数量非常丰富，目前收录的书有七万三千多本，收录的资源有十七万，国内外的书籍都有，想要什么电子版教材直接搜就行。",
                 "recommend": [""]
             }]
         }],
@@ -1663,6 +1759,14 @@
                 "title": "Logo在线制作",
                 "desc": "Logo在线制作；logo设计神器",
                 "language": ["cn"],
+                "recommend": []
+            }, {
+                "id": 100011,
+                "url": "https://www.shareicon.net/category/kid-and-baby",
+                "img": "https://www.shareicon.net/favicon.ico",
+                "title": "Share Icon - 免费矢量素材图库",
+                "desc": "提供超过25万中ICON矢量图片素材的站点，120多种分类，所有的素材都提供PNG、SVG格式，素材有多种尺寸尺寸包括 512*512、256*256、128*128、64*64、32*32、16*16等，非常适合前端设计师收藏备用",
+                "language": ["en"],
                 "recommend": []
             }]
         }, {
