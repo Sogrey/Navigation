@@ -1768,6 +1768,54 @@
                 "desc": "提供超过25万中ICON矢量图片素材的站点，120多种分类，所有的素材都提供PNG、SVG格式，素材有多种尺寸尺寸包括 512*512、256*256、128*128、64*64、32*32、16*16等，非常适合前端设计师收藏备用",
                 "language": ["en"],
                 "recommend": []
+            }, {
+                "id": 100011,
+                "url": "https://simpleicons.org/",
+                "img": "https://simpleicons.org/favicon.ico",
+                "title": "Simple Icons",
+                "desc": "提供常见应用logo svg下载",
+                "language": ["en"],
+                "recommend": []
+            }, {
+                "id": 100011,
+                "url": "https://iconmonstr.com/",
+                "img": "https://cdns.iconmonstr.com/wp-content/themes/iconmonstr/assets/ico/2.0.0/favicon.ico",
+                "title": "iconmonstr",
+                "desc": "Free simple icons for your next project",
+                "language": ["en"],
+                "recommend": []
+            }, {
+                "id": 100011,
+                "url": "https://iconsvg.xyz/",
+                "img": "https://iconsvg.xyz/favicon-32.png",
+                "title": "iconsvg",
+                "desc": "Simple tool to find, customize and generate common SVG icons for your project",
+                "language": ["en"],
+                "recommend": []
+            }, {
+                "id": 100011,
+                "url": "https://www.flaticon.com/",
+                "img": "https://media.flaticon.com/dist/min/img/favicon.ico",
+                "title": "Flaticon",
+                "desc": "+ 6,350 free stickers. Download Free Hip hop Stickers Pack for WhatsApp, Instagram, Facebook and mobile devices. Available in PNG, SVG formats. #flaticon #stickers #mail #phone #instagram.",
+                "language": ["en"],
+                "recommend": []
+            }, {
+                "id": 100011,
+                "url": "https://evil-icons.io/",
+                "img": "https://evil-icons.io/favicon.ico",
+                "title": "Evil Icons",
+                "desc": "Simple and clean SVG icon pack with the code to support Rails, Sprockets, Node.js, Gulp, Grunt and CDN.",
+                "language": ["en"],
+                "recommend": []
+            }, {
+                "id": 100011,
+                "url": "https://freeicons.io/",
+                "img": "https://freeicons.io/asset/images/favicon.png",
+                "title": "freeicons",
+                "desc": "Download icons and iconset of WANICON",
+                "language": ["en"],
+                "recommend": []
             }]
         }, {
             "label": "字体资源",
