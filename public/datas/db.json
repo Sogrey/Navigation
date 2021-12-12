@@ -616,6 +616,22 @@
             "desc": "提供渐变色效果的站点，里面接近上百种渐变配色方案，可根据自己风格来选择搭配，能直接获得对应渐变配色的 CSS 代码",
             "language": ["en"],
             "recommend": ["配色"]
+        }, {
+            "id": 100011,
+            "url": "https://docsmall.com/gif-compress",
+            "img": "https://docsmall.com/favicon.png",
+            "title": "在线GIF动图压缩",
+            "desc": "docsmall提供在线GIF动图压缩功能，不牺牲视觉质量，极大压缩gif动图体积",
+            "language": ["cn"],
+            "recommend": ["图片压缩"]
+        }, {
+            "id": 100011,
+            "url": "https://colorjpg.com/",
+            "img": "https://colorjpg.com/static/img/favicon.ico",
+            "title": "黑白照片上色",
+            "desc": "ColorJPG是一款在线图片上色工具，只需将图片提交至下方区域并点击上传按钮即可快速上色,每张图片消耗1积分，积分不够需要充值",
+            "language": ["cn"],
+            "recommend": ["图片上色"]
         }]
     }, {
         "label": "在线编解码工具",
@@ -1761,6 +1777,22 @@
                 "desc": "中国最大的数字娱乐免费素材下载网站,免费提供免费的音效配乐|3D模型|视频|游戏素材资源下载。",
                 "language": ["cn"],
                 "recommend": ["部分免费"]
+            }, {
+                "id": 100011,
+                "url": "https://pic.netbian.com/",
+                "img": "https://pic.netbian.com/favicon.ico",
+                "title": "彼岸图网",
+                "desc": "彼岸图网专注提供免费4K壁纸,电脑壁纸,4K高清壁纸下载,4K,5K,6K,7K,8K壁纸图片素材,包含4K风景壁纸、4K美女壁纸、4K游戏壁纸、4K卡通动漫壁纸、4K动物壁纸、4K汽车壁纸、4K手机壁纸等。把4K高清壁纸推荐给您,让您更快的找到您想要的4K壁纸",
+                "language": ["cn"],
+                "recommend": ["部分免费"]
+            }, {
+                "id": 100011,
+                "url": "https://bz.zzzmh.cn/index",
+                "img": "https://bz.zzzmh.cn/favicon.ico",
+                "title": "极简壁纸",
+                "desc": "极简壁纸,4K高清电脑桌面壁纸图库,海量4K电脑壁纸,壁纸网站,美女,动漫,风景,4k高清,4k超清,电脑壁纸桌面",
+                "language": ["cn"],
+                "recommend": ["免费"]
             }]
         }, {
             "label": "LOGO设计",
