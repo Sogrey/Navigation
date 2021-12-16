@@ -632,6 +632,14 @@
             "desc": "ColorJPG是一款在线图片上色工具，只需将图片提交至下方区域并点击上传按钮即可快速上色,每张图片消耗1积分，积分不够需要充值",
             "language": ["cn"],
             "recommend": ["图片上色"]
+        }, {
+            "id": 100011,
+            "url": "https://squoosh.app/",
+            "img": "https://squoosh.app/c/favicon-c9cf50ef.ico",
+            "title": "Squoosh",
+            "desc": "squoosh是一个免费图片压缩网站。这个网站是谷歌团队制作的。主要功能是压缩图片，支持JPG、PNG 和 WebP 格式。压缩效果很出色，速度也很快，还能直观的对比压缩前后的质量。",
+            "language": ["en"],
+            "recommend": ["图片压缩"]
         }]
     }, {
         "label": "在线编解码工具",
@@ -1017,6 +1025,14 @@
             "img": "https://www.fly63.com/favicon.ico",
             "title": "HTTP接口测试工具",
             "desc": "模拟客户端发送http请求,支持跨域,提供在线HTTP请求模拟器,支持请求类型有POST、GET、DELETE、PUT、PATCH请求,提供带cookie和header的请求,返回header响应头/请求头等信息",
+            "language": ["cn"],
+            "recommend": []
+        }, {
+            "id": 100011,
+            "url": "https://www.speedtest.cn/",
+            "img": "https://www.speedtest.cn/images/ico/favicon.ico",
+            "title": "测速网",
+            "desc": "提供网速测试, 网络质量检测, 5G测速, IPv6测速, 带宽检测, Wi-Fi测速, 宽带提速, 网络加速, 内网测速, 游戏测速, 直播测速, 物联网监测, 网站监测, API监测, Ping测试, 路由测试等专业服务, 拥有国内外大量高性能测试点, 覆盖电信, 移动, 联通, 网通, 广电, 长城宽带, 鹏博士等运营商。",
             "language": ["cn"],
             "recommend": []
         }]
@@ -1452,6 +1468,13 @@
                 "title": "第一教程网",
                 "desc": "专注于提供最全最实用的教育教学视频教程,免费在线观看学习，主要包含电脑、外语、中小学、大学、考研、资格、技能、医学体育、农业、家居、军史历史等视频教程！",
                 "recommend": ["学习"]
+            }, {
+                "id": 100011,
+                "url": "https://www.zdic.net/",
+                "img": "https://www.zdic.net/favicon.ico",
+                "title": "漢典",
+                "desc": "漢語字典, 漢語詞典, 康熙字典, 說文解字, 音韻方言, 字源字形, 異體字",
+                "recommend": ["词典"]
             }]
         }, {
             "label": "学习资源下载",
@@ -2030,6 +2053,13 @@
             "title": "悟空视频",
             "desc": "视频搜索来源广而全",
             "recommend": ["影视"]
+        }, {
+            "id": 100011,
+            "url": "https://www.meijutt.tv/",
+            "img": "https://www.meijutt.tv/favicon.ico",
+            "title": "美剧天堂",
+            "desc": "一个不错的美剧搜索网站，有点事里面有很多热门新鲜的美剧，不仅美剧片库十分丰富，而且下载的地址也很多，可以通过迅雷下载，115网盘下载，小米路由器远程下载，以及迅雷影音观看； 缺点也比较明显，那就是广告很多，需要注意一下（毕竟免费提供搜索服务，服务器还是要恰饭的），当下因为板全问题，如此良心的网站已经不多了，且看且珍惜。",
+            "recommend": ["影视"]
         }]
     }, {
         "label": "音乐资源",
@@ -2092,6 +2122,13 @@
             "img": "https://search.chongbuluo.com/favicon.ico",
             "title": "虫部落",
             "desc": "快搜！虫部落全网独家首发出品！为你聚合Google,百度,必应等国内外综合搜索和学术,资源,专业领域知识等垂直搜索。精准搜索,便捷交互！是你的网络搜索第一站！",
+            "recommend": ["聚合资源搜索"]
+        }, {
+            "id": 100011,
+            "url": "https://www.alipanso.com/",
+            "img": "https://www.alipanso.com/static/img/mlogo.png",
+            "title": "阿里盘搜",
+            "desc": "阿里盘搜,最早提供阿里云盘搜索服务的平台,收集各类阿里云盘资源提供一站式搜索功能,推动互联网优质资源的高效传递!",
             "recommend": ["聚合资源搜索"]
         }]
     }],
