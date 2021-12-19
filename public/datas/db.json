@@ -2331,6 +2331,83 @@
         "recommend": ["搜书"]
     }]
 }, {
+    "label": "漫画",
+    "expand": false,
+    "children": [],
+    "list": [{
+        "id": 100011,
+        "url": "http://mox.moe/",
+        "img": "http://mox.moe/favicon.ico",
+        "title": "MOX漫画站",
+        "desc": "这个对于使用Kindle的小伙伴可能是再熟悉不过了吧？因为是由香港漫友进行维护更新，所以网站是繁体。我其实就是以前在使用Kindle的时候发现它的，并且在上面看过多本热门的漫画，比如说《柯南》《蜡笔小新》等。",
+        "language": ["cn"],
+        "recommend": []
+    },{
+        "id": 100011,
+        "url": "https://tel.dm5.com/",
+        "img": "https://css99tel.cdndm5.com/v202111301550/dm5/images/dm5.ico",
+        "title": "动漫屋",
+        "desc": "原创国漫,日本漫画,港台漫画,韩国漫画,欧美漫画,好漫画,为看漫画的人而生。热门漫画：火影忍者、海贼王1035、死神、一拳超人200、古惑仔88、山海逆战787等",
+        "language": ["cn"],
+        "recommend": []
+    },{
+        "id": 100011,
+        "url": "https://manhua.dmzj.com/",
+        "img": "https://manhua.dmzj.com/favicon.ico",
+        "title": "动漫之家漫画网",
+        "desc": "动漫之家漫画网提供海量漫画,全天更新在线漫画欣赏,详尽的动漫资料库、动画资讯、用户评论社区于一体,它与在线动画站、动漫之家宅新闻三站合一，将成为国内更新较快,动漫视听享受较全,资料库较详尽的社区型动漫爱好者的交流互动平台",
+        "language": ["cn"],
+        "recommend": []
+    },{
+        "id": 100011,
+        "url": "https://www.u17.com/",
+        "img": "https://www.u17.com/favicon.ico",
+        "title": "漫画-有妖气原创漫画梦工厂",
+        "desc": "中国唯一且最大的纯原创漫画网站，数千名中国原创漫画作者汇聚于此，在线连载最热门的全新漫画作品，为中国原创漫画作者提供最肥沃的漫画创作土壤。",
+        "language": ["cn"],
+        "recommend": []
+    },{
+        "id": 100011,
+        "url": "http://36manga.com/",
+        "img": "http://36manga.com/favicon.ico",
+        "title": "36漫画网",
+        "desc": "36漫画提供免费漫画下拉式观看,36漫画第一时间更新,斗破苍穹漫画、斗罗大陆漫画等热门漫画大全。免费看漫画，就上36漫画下拉式观看。",
+        "language": ["cn"],
+        "recommend": []
+    },{
+        "id": 100011,
+        "url": "https://www.kuaikanmanhua.com/",
+        "img": "https://www.kuaikanmanhua.com/favicon.ico",
+        "title": "快看漫画",
+        "desc": "快看漫画是引领行业的新生代漫画阅读平台和兴趣社区。它为用户提供优质原创漫画内容，营造良好的二次元社区氛围，成为年轻一代的潮流文化阵地。",
+        "language": ["cn"],
+        "recommend": []
+    },{
+        "id": 100011,
+        "url": "https://www.manmanapp.com/",
+        "img": "https://www.manmanapp.com/favicon.ico",
+        "title": "漫漫漫画",
+        "desc": "漫漫漫画是国内二次元漫画平台,连载大量原创正版国漫,不管是宅腐暖萌、古风奇幻、日常搞笑,统统都在这里。精美的漫画图片、高品质的漫画大全,这里全部都有！",
+        "language": ["cn"],
+        "recommend": []
+    },{
+        "id": 100011,
+        "url": "http://www.buka.cn/",
+        "img": "http://i-cdn.ibuka.cn/static/www.buka.cn/img/ico.ico",
+        "title": "布卡漫画",
+        "desc": "布卡漫画-最受欢迎的漫画应用,正版高清漫画平台,连载众多日漫正版授权及原创精品漫画内容！我们致力于为作者建造良好的创作环境,为广大漫画爱好者提供更多优质的漫画内容。",
+        "language": ["cn"],
+        "recommend": []
+    },{
+        "id": 100011,
+        "url": "https://manhua.sfacg.com/",
+        "img": "https://manhua.sfacg.com/favicon.ico",
+        "title": "SF漫画",
+        "desc": "SF漫画提供海量漫画,更新最快在线漫画欣赏、无弹窗清爽阅读环境，老牌漫画网站一直陪伴在你身旁。",
+        "language": ["cn"],
+        "recommend": []
+    }]
+}, {
     "label": "求职",
     "expand": false,
     "children": [],
