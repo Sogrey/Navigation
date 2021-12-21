@@ -1169,6 +1169,22 @@
                 "desc": "Powerful coding training system. LintCode has the most interview problems covering Google, Facebook, Linkedin, Amazon, Microsoft and so on. We provide Chinese and English versions for coders around the world.",
                 "language": ["en"],
                 "recommend": []
+            }, {
+                "id": 100011,
+                "url": "https://www.coursera.org/",
+                "img": "https://d3njjcbhbojbot.cloudfront.net/web/images/favicons/favicon-v2-194x194.png",
+                "title": "coursera",
+                "desc": "Learn online and earn valuable credentials from top universities like Yale, Michigan, Stanford, and leading companies like Google and IBM. Join Coursera for free and transform your career with degrees, certificates, Specializations, &amp; MOOCs in data science, computer science, business, and dozens of other topics.",
+                "language": ["cn"],
+                "recommend": []
+            }, {
+                "id": 100011,
+                "url": "https://study.163.com/instructor/878126.htm",
+                "img": "http://oeasy.org/theme/images/logos/oeasy.png",
+                "title": "Oeasy",
+                "desc": "Oeasy 是一个完全免费的综合视频教程网站，非常良心实用。  它提供的视频教程非常丰富并且质量很高，包括：PS 教程、手机摄影教程、Ai 做图教程、Excel 教程、Word 教程、PPT 教程、Pr 视频剪辑教程、Ae 视频特效教程等等，基本你想学的，在这里都可以找到。",
+                "language": ["cn"],
+                "recommend": []
             }]
         }, {
             "label": "在线教程和文档",
@@ -1475,6 +1491,27 @@
                 "title": "漢典",
                 "desc": "漢語字典, 漢語詞典, 康熙字典, 說文解字, 音韻方言, 字源字形, 異體字",
                 "recommend": ["词典"]
+            }, {
+                "id": 100011,
+                "url": "https://www.2qj.com/",
+                "img": "https://www.2qj.com/Public/Static/images/favicon.ico",
+                "title": "巧匠课堂",
+                "desc": "一个可以学设计的网站。网站上的课程非常丰富，围绕常用的PS、AI、C4D、AE、手绘，开战了针对学习者各个阶段的课程。每一个课程的质量都很高！但是这个网站上的视频课程，每天只能免费看一个！",
+                "recommend": ["课堂"]
+            }, {
+                "id": 100011,
+                "url": "http://v.dxsbb.com/",
+                "img": "http://v.dxsbb.com/favicon.ico",
+                "title": "大学自学网",
+                "desc": "大学自学网是一个完全免费的大学生自学网站，它不仅支持免费在线观看所有学习视频，还支持免费下载所有学习视频，是一个可以满足很多人自学需求的良心网站。",
+                "recommend": ["课堂"]
+            }, {
+                "id": 100011,
+                "url": "http://www.doyoudo.com/",
+                "img": "http://www.doyoudo.com/favicon.ico",
+                "title": "Doyoudo",
+                "desc": "Doyoudo 是一个专注平面设计软件、视频剪辑软件的高质量自学网站，它免费提供了丰富的视频教程，这些视频教程的质量都很高，并且通俗易懂。",
+                "recommend": ["学习"]
             }]
         }, {
             "label": "学习资源下载",
