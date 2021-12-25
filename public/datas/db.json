@@ -1860,6 +1860,30 @@
                 "desc": "极简壁纸,4K高清电脑桌面壁纸图库,海量4K电脑壁纸,壁纸网站,美女,动漫,风景,4k高清,4k超清,电脑壁纸桌面",
                 "language": ["cn"],
                 "recommend": ["免费"]
+            }, {
+                "id": 100011,
+                "url": "https://www.productioncrate.com/",
+                "img": "https://cdn.staticcrate.com/favicon.ico",
+                "title": "productioncrate",
+                "desc": "一个具有玄幻科技的视频素材网站，能够帮你找到很多影视剧的经典视频镜头。打开网站就能看到非常多的玄幻、科技类的视频，包括影视剧中呈现的超级英雄、行动、启示、空中、天空、恐怖等场景。",
+                "language": ["en"],
+                "recommend": ["免费"]
+            }, {
+                "id": 100011,
+                "url": "https://coverr.co/",
+                "img": "https://coverr.co/favicon-32x32.png",
+                "title": "coverr",
+                "desc": "一个风格多种多样的视频素材网址，随便翻翻可能都能找到你需要的视频素材。提供的素材包括：人物、风景、动物、美食、大学、城市等等。",
+                "language": ["en"],
+                "recommend": ["免费"]
+            }, {
+                "id": 100011,
+                "url": "https://mixkit.co/",
+                "img": "https://mixkit.co/build/favicons/favicon-96x96-b47a57aea9303a5f92e644e78aa343575b21f12b38d469be00fdc5acd983684d.png",
+                "title": "Mixkit",
+                "desc": "一个免费且商用的视频素材网，这里的视频素材没有任何署名，你可以直接拿来个人商用。网站的内容非常丰富，其中包括：风景、夜景、食物、孩子、运动等等，每周都会定时更新10个免费视频，可以通过关键词直接进行搜索。对于喜欢的视频直接点右击点击保存，查找素材非常方便。",
+                "language": ["en"],
+                "recommend": ["免费"]
             }]
         }, {
             "label": "LOGO设计",
@@ -2103,6 +2127,27 @@
             "img": "https://www.meijutt.tv/favicon.ico",
             "title": "美剧天堂",
             "desc": "一个不错的美剧搜索网站，有点事里面有很多热门新鲜的美剧，不仅美剧片库十分丰富，而且下载的地址也很多，可以通过迅雷下载，115网盘下载，小米路由器远程下载，以及迅雷影音观看； 缺点也比较明显，那就是广告很多，需要注意一下（毕竟免费提供搜索服务，服务器还是要恰饭的），当下因为板全问题，如此良心的网站已经不多了，且看且珍惜。",
+            "recommend": ["影视"]
+        }, {
+            "id": 100011,
+            "url": "https://www.pianba.net/",
+            "img": "https://www.pianba.net/statics/img/favicon.ico",
+            "title": "片吧",
+            "desc": "最新好看的电视剧、电影免费在线播放，高清电影MP4下载、在线云播，经典动漫、热门综艺娱乐节目在线点播，片吧影院(pianba.net)专注打造精品电影网站！",
+            "recommend": ["影视"]
+        }, {
+            "id": 100011,
+            "url": "https://ddys.tv/",
+            "img": "https://ddys.tv/favicon-32x32.png",
+            "title": "低端影视",
+            "desc": "别被名字骗了，这网站可是一点也不低端，主打海外剧集，美剧、英剧、韩剧、日剧，囊括的很全，界面设计很有逼格，资源画质好，有独家的线路，播放流畅，唯一缺点页面有一点小广告，毕竟也是要吃饭的。",
+            "recommend": ["影视"]
+        }, {
+            "id": 100011,
+            "url": "http://www.meijuniao.cc/",
+            "img": "http://www.meijuniao.cc/favicon.ico",
+            "title": "美剧鸟",
+            "desc": "一个可在线观看美剧的视频网站，美剧爱好者的在线美剧天堂。提供高清、流畅、无广告的观看体验。",
             "recommend": ["影视"]
         }]
     }, {
