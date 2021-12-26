@@ -150,7 +150,10 @@ export default {
         function getSites(array, siteList) {
           array.forEach((item, index) => {
             total += item.list.length;
-            if (item.list.length > 0) siteList.push(item);
+            if (item.list.length > 0) {
+              item.label += `(${item.list.length})`;
+              siteList.push(item);
+            }
             getSites(item.children, siteList);
           });
         }
