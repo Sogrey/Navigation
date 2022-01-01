@@ -3,7 +3,8 @@
     "expand": false,
     "iconFont": "fa-star",
     "children": [],
-    "list": [{
+    "list": [
+        {
             "id": 100001,
             "url": "https://github.com",
             "img": "https://qiniuyun.zhichi921.com/site-icon/github.svg",
@@ -178,6 +179,14 @@
         "desc": "Android开发工程师，Android GDE（Google认证开发者专家）。从事Android开发工作9年，有着丰富的项目实战经验，负责及参与开发过多款移动应用与游戏，开发了 LitePal、giffun、coolweather、PermissionX 等多个开源项目，对 Android 系统架构及应用层开发有着深入的理解。",
         "language": ["cn"],
         "github": "https://github.com/guolindev"
+    }, {
+        "id": 100011,
+        "url": "https://xieyadong.com/",
+        "img": "",
+        "title": "谢亚东",
+        "desc": "谢亚东是阿里巴巴的高级前端工程师。他喜欢开源的概念，喜欢使用开源软件，也喜欢自己创建和维护一些来回馈社区。他是Apache Zeppelin提交者和Angular 的Google 开发人员专家。他还创建了NG-ZORRO，这是一组高质量的 UI 组件，可帮助 Angular 开发人员构建丰富、美观和交互式的用户界面。",
+        "language": ["en"],
+        "github": "https://github.com/vthinkxie"
     }]
 }, {
     "label": "实用工具",
