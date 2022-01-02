@@ -2427,6 +2427,62 @@
         "title": "知轩藏书",
         "desc": "玄幻小说排行榜精校-校对全本TXT小说下载网",
         "recommend": ["搜书"]
+    }, {
+        "id": 100011,
+        "url": "https://book.zhishikoo.com/",
+        "img": "https://book.zhishikoo.com/wp-content/uploads/2019/09/ico.png",
+        "title": "知识库",
+        "desc": "一个收集了海量书籍资源的网站，下载方式简单。网站内所有的书籍分类非常详细，可以找到关于：成功励志、经济管理、艺术摄影、历史考古、计算机、互联网、家居生活类书籍。",
+        "recommend": ["书籍"]
+    }, {
+        "id": 100011,
+        "url": "https://zure.fun/",
+        "img": "https://zure.fun/static/favicon/favicon.ico",
+        "title": "zure",
+        "desc": "一个资源比较丰富的电子书网站，站内的所有书籍都按照不同领域详细分类。可以找到的书籍类型包括：经济管理、历史传记、小说文学、人文社科、学习教育、励志成功、生活时尚等。",
+        "recommend": ["电子书"]
+    }, {
+        "id": 100011,
+        "url": "https://booksc.xyz/",
+        "img": "https://booksc.xyz/favicon.svg",
+        "title": "Library Genesis",
+        "desc": "一个全世界最大的图书馆网站，国内外的所有电子书几乎都能在这里找到，甚至文献、科学期刊都包括在内。",
+        "recommend": ["电子书"]
+    }, {
+        "id": 100011,
+        "url": "https://ebook2.lorefree.com/",
+        "img": "https://ebook2.lorefree.com/favicon.ico",
+        "title": "orefree",
+        "desc": "一个内容非常丰富的书籍网站，既可以用来搜书也可以当做图书图书馆。这个电子书网站一共收录了73684册书籍，你可以根据他当前展示的图书，选择自己喜欢看的书籍，也可以通过搜索关键词的方式查找教材资源。",
+        "recommend": ["书籍"]
+    }, {
+        "id": 100011,
+        "url": "https://www.free-ebooks.net/",
+        "img": "https://www.free-ebooks.net/favicon.ico?v=2b0OeXpMNw",
+        "title": "free-ebooks​",
+        "desc": "一个提供免费电子书下载的网站。因为是国外网站使用的时候建议大家对网页进行翻译，提供的书籍都支持免费阅读，但每个月还支持免费下载5本电子书，足够大家平时看的了。",
+        "recommend": ["书籍"]
+    }, {
+        "id": 100011,
+        "url": "https://manybooks.net/",
+        "img": "https://manybooks.net/themes/custom/mnybks/favicon.ico",
+        "title": "manybooks​",
+        "desc": "一个号称全世界免费的电子书网址，收集了超50000本免费电子书。所有的书籍都按照不同类型进行了详细分类，包括：浪漫小说、动作与冒险、悬疑惊悚、历史小说、文学小说、科幻小说、随笔、商业等等。",
+        "recommend": ["电子书"]
+    }, {
+        "id": 100011,
+        "url": "http://www.guoxue.com/",
+        "img": "http://www.guoxue.com/favicon.ico",
+        "title": "国学网",
+        "desc": "这是一个非常全面的国内估计书籍网站，喜欢看文言文的朋友这个网站收录了全国不同的古籍书。",
+        "recommend": ["古籍书"]
+    }, {
+        "id": 100011,
+        "url": "http://www.ixinqing.com/",
+        "img": "http://www.ixinqing.com/favicon.ico",
+        "title": "心晴",
+        "desc": "这是一个专门收录了各种心理学电子书的网站，基本上可以在这里找到所有关于心理学入门以及自我成长电子书。",
+        "recommend": ["心理学电子书"]
     }]
 }, {
     "label": "漫画",
