@@ -14,9 +14,9 @@
           <a class="menu-link" href="#">Discover</a>
           <a class="menu-link notify" href="#">Market</a>
         </div> -->
-        <div class="search-bar">
+        <!-- <div class="search-bar">
           <input type="text" placeholder="Search" />
-        </div>
+        </div> -->
         <div class="header-profile">
           <img class="profile-img" src="@/assets/img/Sogrey.png" alt="" />
         </div>

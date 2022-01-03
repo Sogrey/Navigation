@@ -1528,6 +1528,13 @@
                 "title": "Doyoudo",
                 "desc": "Doyoudo 是一个专注平面设计软件、视频剪辑软件的高质量自学网站，它免费提供了丰富的视频教程，这些视频教程的质量都很高，并且通俗易懂。",
                 "recommend": ["学习"]
+            }, {
+                "id": 100011,
+                "url": "https://examcoo.com/",
+                "img": "https://examcoo.com/favicon.ico",
+                "title": "考试酷",
+                "desc": "一个可以进行各种模拟考试的网站。",
+                "recommend": ["模拟考试"]
             }]
         }, {
             "label": "学习资源下载",
