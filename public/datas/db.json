@@ -310,6 +310,13 @@
             "title": "优品PPT",
             "desc": "优品PPT模板网是一家专注于分享高质量的免费PPT模板下载网站，包括图表、背景图片、素材、教程等各类PPT模板相关资源。致力于打造国内最大最权威的PPT下载一站式服务平台。",
             "language": ["cn"]
+        }, {
+            "id": 100011,
+            "url": "https://www.gaoding.com/introduction",
+            "img": "https://www.gaoding.com/favicon.ico",
+            "title": "稿定设计",
+            "desc": "在线快速图片和视频编辑,不会PS也能搞定设计。海报、简历、PPT、公众号配图、电商等海量模板快速出图。三秒抠图实用便捷,抖音快手热门视频轻松搞定。海量正版授权资源,商用无忧。",
+            "language": ["cn"]
         }]
     }, {
         "label": "团队合作",
@@ -323,10 +330,11 @@
             "desc": "ProcessOn是一个在线协作绘图平台，为用户提供强大、易用的作图工具！支持在线创作流程图、思维导图、组织结构图、网络拓扑图、BPMN、UML图、UI界面原型设计、iOS界面原型设计等。同时依托于互联网实现了人与人之间的实时协作和共享。"
         }, {
             "id": 100011,
-            "url": "https://www.yinxiang.com/",
-            "img": "https://www.yinxiang.com/favicon.ico",
-            "title": "印象笔记",
-            "desc": "作为你的第二大脑，记录就用印象笔记。印象笔记可以帮助你高效工作、学习与生活。支持无缝多端同步，快速保存微信、微博、网页等内容，一站式完成信息的收集备份、高效记录、分享和永久保存。"
+            "url": "https://cowtransfer.com/",
+            "img": "https://background.c-t.work/android-icon-192x192.png",
+            "title": "奶牛快传",
+            "desc": "一个大文件传输工具。",
+            "language": ["cn"]
         }, {
             "id": 100011,
             "url": "http://24mail.chacuo.net/",
@@ -1870,14 +1878,6 @@
                 "recommend": ["部分免费"]
             }, {
                 "id": 100011,
-                "url": "https://bz.zzzmh.cn/index",
-                "img": "https://bz.zzzmh.cn/favicon.ico",
-                "title": "极简壁纸",
-                "desc": "极简壁纸,4K高清电脑桌面壁纸图库,海量4K电脑壁纸,壁纸网站,美女,动漫,风景,4k高清,4k超清,电脑壁纸桌面",
-                "language": ["cn"],
-                "recommend": ["免费"]
-            }, {
-                "id": 100011,
                 "url": "https://www.productioncrate.com/",
                 "img": "https://cdn.staticcrate.com/favicon.ico",
                 "title": "productioncrate",
@@ -2106,7 +2106,7 @@
             "id": 100011,
             "url": "https://www.novipnoad.com",
             "img": "https://www.novipnoad.com/favicon.ico",
-            "title": "NO视频",
+            "title": "NO VIP视频",
             "desc": "NOVIPNOAD为用户提供及时的海外热门剧集在线观看，友好无广告，致力于最轻松的追剧体验。",
             "recommend": ["影视"]
         }, {
@@ -2705,5 +2705,12 @@
         "title": "网址导航模板",
         "desc": "网址导航模板",
         "recommend": ["网址导航模板"]
+    }, {
+        "id": 100011,
+        "url": "https://fuun.fun/",
+        "img": "https://fuun.fun/favicon-32x32.png",
+        "title": "fuun.fun",
+        "desc": "一个专门收录各种各样有趣好玩的网站。",
+        "recommend": ["合集网站"]
     }]
 }]
