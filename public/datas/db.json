@@ -2399,7 +2399,7 @@
         "url": "https://mirror.sjtu.edu.cn/",
         "img": "https://mirror.sjtu.edu.cn/android-icon-192x192.png",
         "title": "上海交通大学 软件源镜像服务",
-        "desc": "稳定、快速、现代的镜像服务。托管于华东教育网骨干节点上海交通大学。 ",
+        "desc": "稳定、快速、现代的镜像服务。托管于华东教育网骨干节点上海交通大学。",
         "language": ["cn"],
         "recommend": [ "镜像站"]
     }]
