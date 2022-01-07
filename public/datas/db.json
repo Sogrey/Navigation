@@ -2394,6 +2394,14 @@
         "desc": "KAIST Mirror 是一种镜像服务，可以镜像 Debian、*BSD、Mozilla、Apache 等开源软件。您可以通过 ftp、http、https 和 rsync 访问它。 ",
         "language": ["en"],
         "recommend": ["FTP", "镜像站"]
+    }, {
+        "id": 100011,
+        "url": "https://mirror.sjtu.edu.cn/",
+        "img": "https://mirror.sjtu.edu.cn/android-icon-192x192.png",
+        "title": "上海交通大学 软件源镜像服务",
+        "desc": "稳定、快速、现代的镜像服务。托管于华东教育网骨干节点上海交通大学。 ",
+        "language": ["cn"],
+        "recommend": [ "镜像站"]
     }]
 }, {
     "label": "书单",
