@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" :style="{ backgroundImage: 'url(' + bgUrl + ')' }">
     <svg
       class="root-bg"
       viewBox="0 0 1920 1080"
@@ -109,6 +109,7 @@ export default {
   },
   data() {
     return {
+      bgUrl: "",
       keyword: "",
       siteList: [],
       siteTitleTypes: "网站分类",
@@ -122,6 +123,7 @@ export default {
     //   this.loading = this.$loading({ fullscreen: true });
     this.getNow();
     this.getsiteList();
+    this.getBingImg();
     // this.getsiteTypeList();
     //   this.gettoolList();
     //   this.getGanHuo();
@@ -165,6 +167,51 @@ export default {
 
         console.log("总共收录", this.sitetotalnum, "条宝藏网站");
       });
+    },
+    getBingImg() {
+      var page = 1;
+      var host = "https://www.bingimg.cn/";
+      this.$axios.get(host + "dj_get_img_info?page=" + page).then((res) => {
+        console.log(res);
+
+        if (res) {
+          //https://www.bingimg.cn/static/downimg/OHR.FanjingStairs_ZH-CN0360402048_1920x1080.jpg
+          var url = host + "static/downimg/" + res["data_list"][0]["url"];
+          this.bgUrl = url;
+        }
+      });
+
+      //  $.ajax({
+      //       type: "GET",
+      //       url: "/dj_get_img_info?page=" + current_page,
+      //       dataType: "json",
+      //       success: function (res) {
+      //           if (res.code == 0) {
+      //               //console.log('get_img_info success current_page='+current_page)
+      //               if (res.data_list && res.data_list.length > 0) {
+      //                   img_info_list = res.data_list;
+      //                   if (next_page) {
+      //                       current_img_index = img_info_list.length - 1;
+      //                   } else // pre page
+      //                   {
+      //                       current_img_index = 0;
+      //                   }
+      //                   bind_img_info();
+      //               } else { // reset
+      //                   if (next_page) {
+      //                       current_img_index = 0;
+      //                       current_page++;
+      //                   } else {
+      //                       current_img_index = img_info_list.length - 1;
+      //                       current_img_index = current_img_index < 0 ? 0 : current_img_index;
+      //                       current_page--;
+      //                   }
+      //               }
+      //           } else {
+      //               //console.log('error!')
+      //           }
+      //       }
+      //   });
     },
     // 获取当前时间
     getNow() {
