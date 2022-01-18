@@ -123,7 +123,7 @@ export default {
     //   this.loading = this.$loading({ fullscreen: true });
     this.getNow();
     this.getsiteList();
-    this.getBingImg();
+    // this.getBingImg();
     // this.getsiteTypeList();
     //   this.gettoolList();
     //   this.getGanHuo();

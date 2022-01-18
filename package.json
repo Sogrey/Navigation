@@ -2,6 +2,7 @@
   "name": "navigation",
   "version": "0.0.2",
   "private": true,
+  "type": "module",
   "description": "Navigation Template",
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -29,7 +30,10 @@
     "node-sass": "^4.13.1",
     "sass-loader": "^7.3.1",
     "vue": "^2.6.11",
-    "vue-template-compiler": "^2.6.10"
+    "vue-template-compiler": "^2.6.10",
+    "commander": "^8.3.0",
+    "inquirer": "^8.2.0",
+    "lowdb": "^3.0.0"
   },
   "bugs": {
     "url": "https://github.com/Sogrey/Navigation/issues"
