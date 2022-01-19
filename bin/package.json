@@ -1,0 +1,15 @@
+{
+  "name": "bin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "edit.js",
+  "type": "module",
+  "scripts": {
+    "edit":"node edit.js a",
+    "db":"node db.js a",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Sogrey",
+  "license": "MIT"
+}
