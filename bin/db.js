@@ -7,100 +7,35 @@ import {
     JSONFileSync
 } from 'lowdb'
 
+import ClassificationQuestion from './classes/ClassificationQuestion.js'
+import ItemQuestion from './classes/ItemQuestion.js'
+import SelectNumQuestion from './classes/SelectNumQuestion.js'
 program
     .version('0.0.1')
     .description('Contact management system');
 
+// program
+//     .command('addItem1') // No need of specifying arguments here
+//     .alias('b')
+//     .description('Add a item1')
+//     .action(() => {
+//         IN.prompt(ClassificationQuestion).then(answers =>
+//             console.table(answers)
+//         );
+//     });
 
-/*
-type：表示提问的类型，包括：input、confirm、 list、rawlist、expand、checkbox、password、editor。
-name: 存储当前输入的值。
-message：问题的描述。
-default：默认值。
-choices：列表选项，在某些type下可用，并且包含一个分隔符(separator)；
-validate：对用户的回答进行校验。
-filter：对用户的回答进行过滤处理，返回处理后的值。
-when：根据前面问题的回答，判断当前问题是否需要被回答。
-pageSize：修改某些type类型下的渲染行数。
-prefix：修改message默认前缀。
-suffix：修改message默认后缀。
-*/
-const itemQuestion = [{
-    type: 'input',
-    name: 'url',
-    message: '请输入网址 ...',
-    validate: (val) => {
-        if (val.length == 0) {
-            return '请输入有效网址！'
-        } else {
-            return true
-        }
-    }
-}, {
-    type: 'input',
-    name: 'img',
-    message: '请输入网站LOGO url ...',
-    default: '',
-}, {
-    type: 'input',
-    name: 'title',
-    message: '请输入网址标题 ...',
-    default: '',
-    validate: (val) => {
-        if (val.length == 0) {
-            return '请输入有效网址标题！'
-        } else {
-            return true
-        }
-    }
-}, {
-    type: 'input',
-    name: 'desc',
-    message: '请输入网址描述 ...',
-    default: '',
-    validate: (val) => {
-        if (val.length == 0) {
-            return '请输入有效网址标题！'
-        } else {
-            return true
-        }
-    }
-}, {
-    type: 'input',
-    name: 'language',
-    message: '请输入网站支持语言 ...',
-    default: 'en',
-    validate: (val) => {
-        if (val.length == 0) {
-            return '请输入有效网址标题！'
-        } else {
-            return true
-        }
-    }
-}, {
-    type: 'input',
-    name: 'recommend',
-    message: '请输入推荐理由 ...',
-    default: '',
-}];
-// {
-//     "id": 100011,
-//     "url": "http://ftp.kaist.ac.kr/",
-//     "img": "",
-//     "title": "KAIST Mirror",
-//     "desc": "KAIST Mirror 是一种镜像服务，可以镜像 Debian、*BSD、Mozilla、Apache 等开源软件。您可以通过 ftp、http、https 和 rsync 访问它。 ",
-//     "language": ["en"],
-//     "recommend": ["FTP", "镜像站"]
-// }
-program
-    .command('addItem') // No need of specifying arguments here
-    .alias('a')
-    .description('Add a item')
-    .action(() => {
-        IN.prompt(itemQuestion).then(answers =>
-            console.table(answers)
-        );
-    });
+// program
+//     .command('addItem') // No need of specifying arguments here
+//     .alias('a')
+//     .description('Add a item')
+//     .action(() => {
+//         IN.prompt(ItemQuestion).then(answers =>
+//             console.table(answers)
+//         );
+//     });
+
+var fullDB, currentData;
+var dataNavigation = [];
 
 program
     .command('editDB') // No need of specifying arguments here
@@ -112,8 +47,6 @@ program
 
 program.parse(process.argv);
 
-var fullDB, currentData;
-
 function readDB() {
     const title = process.argv[2]
     const adapter = new JSONFileSync('../public/datas/db.json')
@@ -124,15 +57,80 @@ function readDB() {
     if (!db.data)
         db.data = [];
 
-    console.table(db.data);
-
     fullDB = db.data;
-    currentData = db.data;
+    currentData = fullDB;
 
-    IN.prompt(itemQuestion).then(answers =>{
-        console.table(answers);
-        readDB();
+    menuMain()
+}
+
+function menuMain() {
+    var path = '';
+    if (dataNavigation.length > 0) {
+        path = ' > ' + dataNavigation.join(' > ')
+    }
+    console.log(`
+    当前节点：(root) ${path}
+    `);
+    // console.table(fullDB); // 总数据
+    // console.table(currentData);// 当前节点数据
+    printData(currentData) // 当前节点数据
+
+    console.log(`
+    1. 新增条目（在本节点）
+    2. 查询子分类（children）
+    3. 查询数据（list）
+    4. 编辑条目
+    5. 删除条目（慎用）
+    0. 退出
+    `);
+
+    IN.prompt(SelectNumQuestion).then(answers => {
+        switch (answers.index) {
+            case '0': // 退出
+                setTimeout(() => {
+                    console.log('退出中...');
+                    process.exit(0);
+                }, 100);
+                break;
+            case '1':
+                break;
+            case '2':
+                console.log(`
+请选择需要查询的子分类序号：
+                `);
+                IN.prompt(SelectNumQuestion).then(answers => {
+                    currentData = currentData[answers.index]
+                    dataNavigation.push(currentData.label)
+                    menuMain()
+                });
+                break;
+            case '3':
+                break;
+            case '4':
+                break;
+            case '5':
+                break;
+
+            default:
+                break;
+        }
     });
+}
+
+
+function printData(data) {
+    var result = {};
+    for (const key in data) {
+        if (Object.hasOwnProperty.call(data, key)) {
+            const value = data[key];
+            if (Array.isArray(value)) {
+                result[key] = `${value.length} 条数据`;
+            } else {
+                result[key] = value;
+            }
+        }
+    }
+    console.table(result)
 }
 
 // readDB()

@@ -2407,7 +2407,8 @@
     "label": "书单",
     "expand": false,
     "children": [],
-    "list": [{
+    "list": [
+        {
         "id": 100011,
         "url": "https://xmsoushu.com/",
         "img": "https://xmsoushu.com/favicon.ico",
