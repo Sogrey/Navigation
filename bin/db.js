@@ -68,50 +68,64 @@ function menuMain() {
     if (dataNavigation.length > 0) {
         path = ' > ' + dataNavigation.join(' > ')
     }
-    console.log(`
-    当前节点：(root) ${path}
-    `);
+    
+    printInterlaced(`当前节点：(root) ${path}`)
+
     // console.table(fullDB); // 总数据
     // console.table(currentData);// 当前节点数据
     printData(currentData) // 当前节点数据
 
     console.log(`
-    1. 新增条目（在本节点）
-    2. 查询子分类（children）
-    3. 查询数据（list）
-    4. 编辑条目
-    5. 删除条目（慎用）
+    操作：
+
+    1. 新增条目(本节点)\t\t4. 查询子分类(children)  
+    2. 编辑条目(本节点)\t\t5. 查询数据(list)    
+    3. 删除条目(慎用)
     0. 退出
     `);
+
+      
+       
+    
 
     IN.prompt(SelectNumQuestion).then(answers => {
         switch (answers.index) {
             case '0': // 退出
                 setTimeout(() => {
-                    console.log('退出中...');
+                    printInterlaced('退出中...')
+
                     process.exit(0);
                 }, 100);
                 break;
-            case '1':
+            case '1'://1. 新增条目(本节点)
+                printInterlaced('新增分类：')
                 break;
-            case '2':
-                console.log(`
-请选择需要查询的子分类序号：
-                `);
-                IN.prompt(SelectNumQuestion).then(answers => {
-                    currentData = currentData[answers.index]
-                    dataNavigation.push(currentData.label)
-                    menuMain()
-                });
+            case '2'://2. 编辑条目(本节点)
                 break;
-            case '3':
+            case '3'://3. 删除条目(慎用)
                 break;
-            case '4':
+            case '4'://4. 查询子分类(children)  
+            printInterlaced('请选择需要查询的子分类序号：')
+            IN.prompt(SelectNumQuestion).then(answers => {
+                var thisItem = currentData[answers.index]
+                dataNavigation.push(thisItem.label)
+                currentData = thisItem.children
+                menuMain()
+            });
                 break;
-            case '5':
+            case '5'://5. 查询数据(list)            
+            printInterlaced('请选择需要查询数据的条目序号：')
+            IN.prompt(SelectNumQuestion).then(answers => {
+                var thisItem = currentData[answers.index]
+                dataNavigation.push(thisItem.label)
+                currentData = thisItem.list
+                menuMain()
+            });
                 break;
 
             default:
+                printInterlaced('【ERROR】无效输入，请重新输入！')
+                menuMain()
                 break;
         }
     });
@@ -131,6 +145,16 @@ function printData(data) {
         }
     }
     console.table(result)
+}
+
+function printInterlaced(text) {
+    console.log(`
+${text}
+    `)
+}
+
+function writeFile(data,fileName) {
+    // TODO
 }
 
 // readDB()
