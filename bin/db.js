@@ -34,7 +34,7 @@ program
 //         );
 //     });
 
-var fullDB, currentData;
+var fullDB, currentData = [];
 var dataNavigation = [];
 
 program
@@ -58,35 +58,35 @@ function readDB() {
         db.data = [];
 
     fullDB = db.data;
-    currentData = fullDB;
+    currentData = [fullDB];
+    dataNavigation.push('(root)')
 
     menuMain()
 }
 
 function menuMain() {
-    var path = '';
-    if (dataNavigation.length > 0) {
-        path = ' > ' + dataNavigation.join(' > ')
-    }
-    
-    printInterlaced(`当前节点：(root) ${path}`)
+    var path =  dataNavigation.join(' > ');
+
+    printInterlaced(`当前节点： ${path}`)
 
     // console.table(fullDB); // 总数据
     // console.table(currentData);// 当前节点数据
-    printData(currentData) // 当前节点数据
+    printData(currentData[currentData.length - 1]) // 当前节点数据
 
     console.log(`
     操作：
 
+    ---------------------------------------------------
     1. 新增条目(本节点)\t\t4. 查询子分类(children)  
     2. 编辑条目(本节点)\t\t5. 查询数据(list)    
-    3. 删除条目(慎用)
+    3. 删除条目(慎用)\t\t6. 返回上一级(parent)   
+    ---------------------------------------------------
     0. 退出
     `);
 
-      
-       
-    
+
+
+
 
     IN.prompt(SelectNumQuestion).then(answers => {
         switch (answers.index) {
@@ -97,30 +97,40 @@ function menuMain() {
                     process.exit(0);
                 }, 100);
                 break;
-            case '1'://1. 新增条目(本节点)
+            case '1': //1. 新增条目(本节点)
                 printInterlaced('新增分类：')
                 break;
-            case '2'://2. 编辑条目(本节点)
+            case '2': //2. 编辑条目(本节点)
                 break;
-            case '3'://3. 删除条目(慎用)
+            case '3': //3. 删除条目(慎用)
                 break;
-            case '4'://4. 查询子分类(children)  
-            printInterlaced('请选择需要查询的子分类序号：')
-            IN.prompt(SelectNumQuestion).then(answers => {
-                var thisItem = currentData[answers.index]
-                dataNavigation.push(thisItem.label)
-                currentData = thisItem.children
-                menuMain()
-            });
+            case '4': //4. 查询子分类(children)  
+                printInterlaced('请选择需要查询的子分类序号：')
+                IN.prompt(SelectNumQuestion).then(answers => {
+                    var thisItem = currentData[currentData.length - 1][answers.index]
+                    dataNavigation.push(thisItem.label)
+                    currentData.push(thisItem.children)
+                    menuMain()
+                });
                 break;
-            case '5'://5. 查询数据(list)            
-            printInterlaced('请选择需要查询数据的条目序号：')
-            IN.prompt(SelectNumQuestion).then(answers => {
-                var thisItem = currentData[answers.index]
-                dataNavigation.push(thisItem.label)
-                currentData = thisItem.list
-                menuMain()
-            });
+            case '5': //5. 查询数据(list)            
+                printInterlaced('请选择需要查询数据的条目序号：')
+                IN.prompt(SelectNumQuestion).then(answers => {
+                    var thisItem = currentData[answers.index]
+                    dataNavigation.push(thisItem.label)
+                    currentData.push(thisItem.list)
+                    menuMain()
+                });
+                break;
+            case '6': //6. 返回上一级(parent) 
+                if (dataNavigation.length > 1) {
+                    dataNavigation.pop()
+                    currentData.pop()
+                    menuMain()
+                } else {
+                    printInterlaced('已经是根数据了！')
+                    menuMain()
+                }
                 break;
 
             default:
@@ -153,7 +163,7 @@ ${text}
     `)
 }
 
-function writeFile(data,fileName) {
+function writeFile(data, fileName) {
     // TODO
 }
 
