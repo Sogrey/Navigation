@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "edit":"node edit.js a",
-    "db":"node db.js a",
+    "db":"node db.js e",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
