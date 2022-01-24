@@ -448,8 +448,8 @@ function editData() {
                 cData.img = answers.img;
                 cData.title = answers.title;
                 cData.desc = answers.desc;
-                cData.language = answers.language.split(' ');
-                cData.recommend = answers.recommend.split(' ');
+                cData.language = Array.isArray(answers.language) ? answers.language : answers.language.split(' ');
+                cData.recommend = Array.isArray(answers.recommend) ? answers.recommend : answers.recommend.split(' ');
             }
             currentData.pop()
             menuMain()
