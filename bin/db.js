@@ -224,6 +224,8 @@ function addItem() {
             IN.prompt(YesOrNo).then(answers1 => {
 
                 if (answers1.choice) { // 确认修改
+                    answers.label = trim(answers.label);
+                    answers.iconFont = trim(iconFont);
                     answers.children = [];
                     answers.list = [];
                     currentData[currentData.length - 1].push(answers)
@@ -292,8 +294,12 @@ function addItem() {
 
             IN.prompt(YesOrNo).then(answers1 => {
                 if (answers1.choice) { // 确认修改
-                    answers.language = answers.language.split(' ');
-                    answers.recommend = answers.recommend.split(' ');
+                    answers.url = trim(answers.url);
+                    answers.img = trim(answers.img);
+                    answers.title = trim(answers.title);
+                    answers.desc = trim(answers.desc);
+                    answers.language = trim(answers.language).split(' ');
+                    answers.recommend = trim(answers.recommend).split(' ');
 
                     currentData[currentData.length - 1].push(answers)
                 }
@@ -444,12 +450,12 @@ function editData() {
 
         IN.prompt(YesOrNo).then(answers1 => {
             if (answers1.choice) { // 确认修改
-                cData.url = answers.url;
-                cData.img = answers.img;
-                cData.title = answers.title;
-                cData.desc = answers.desc;
-                cData.language = Array.isArray(answers.language) ? answers.language : answers.language.split(' ');
-                cData.recommend = Array.isArray(answers.recommend) ? answers.recommend : answers.recommend.split(' ');
+                cData.url = trim(answers.url);
+                cData.img = trim(answers.img);
+                cData.title = trim(answers.title);
+                cData.desc = trim(answers.desc);
+                cData.language = Array.isArray(answers.language) ? answers.language : trim(answers.language).split(' ');
+                cData.recommend = Array.isArray(answers.recommend) ? answers.recommend : trim(answers.recommend).split(' ');
             }
             currentData.pop()
             menuMain()
@@ -492,20 +498,38 @@ function writeFile(fullDB, dbPath) {
     });
 }
 
-// readDB()
+//供使用者调用  
+function trim(s){  
+    return trimRight(trimLeft(s));  
+}  
+//去掉左边的空白  
+function trimLeft(s){  
+    if(s == null) {  
+        return "";  
+    }  
+    var whitespace = new String(" \t\n\r");  
+    var str = new String(s);  
+    if (whitespace.indexOf(str.charAt(0)) != -1) {  
+        var j=0, i = str.length;  
+        while (j < i && whitespace.indexOf(str.charAt(j)) != -1){  
+            j++;  
+        }  
+        str = str.substring(j, i);  
+    }  
+    return str;  
+}  
 
-
-// function menu() {
-//     console.log(`
-//     1 -- 当前节点下追加\t\t2 -- 展开子选项\t\t3 -- 删除子选项（慎选）
-
-//     请选择：
-//     `);
-// }
-
-// menu()
-// db.data.push({
-//     title
-// })
-
-// db.write()
+//去掉右边的空白 www.2cto.com   
+function trimRight(s){  
+    if(s == null) return "";  
+    var whitespace = new String(" \t\n\r");  
+    var str = new String(s);  
+    if (whitespace.indexOf(str.charAt(str.length-1)) != -1){  
+        var i = str.length - 1;  
+        while (i >= 0 && whitespace.indexOf(str.charAt(i)) != -1){  
+           i--;  
+        }  
+        str = str.substring(0, i+1);  
+    }  
+    return str;  
+}
