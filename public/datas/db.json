@@ -659,6 +659,19 @@
               "cn"
             ],
             "recommend": []
+          },
+          {
+            "url": "https://ps.gaoding.com/#/",
+            "img": "https://ps.gaoding.com/favicon.ico",
+            "title": "在线PS-稿定设计",
+            "desc": "稿定设计PS是一款专业精简的在线ps图片处理软件，免下载、免安装，直接在浏览器打开网页版就可随时随地用它修正，调整和美化您的图片。",
+            "language": [
+              "cn"
+            ],
+            "recommend": [
+              "免下载",
+              "在线设计"
+            ]
           }
         ]
       },
