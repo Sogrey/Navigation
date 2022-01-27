@@ -2507,6 +2507,21 @@
                   "高清",
                   "背景图片"
                 ]
+              },
+              {
+                "url": "https://www.hippopx.com/",
+                "img": "https://www.hippopx.com/public/css/favicon.ico",
+                "title": "Hippopx",
+                "desc": "Hippopx免版权图库提供了各种高清，精美的图片供您免费下载，这些高清摄影图片包含人物,动物,风景,名胜,美食,旅游,建筑,时尚等，所有图片基于CC0协议",
+                "language": [
+                  "cn",
+                  "en",
+                  "more"
+                ],
+                "recommend": [
+                  "免版权",
+                  "高清"
+                ]
               }
             ]
           },
@@ -2614,6 +2629,19 @@
                   "en"
                 ],
                 "recommend": []
+              },
+              {
+                "url": "https://logomakr.com/",
+                "img": "https://logomakr.com/storage/2021/10/cropped-Logomakr-favicon-192x192.png",
+                "title": "Logo Maker",
+                "desc": "作为一款免费的在线LOGO制作工作，Makr的功能虽然有限，但不妨碍设计师用它做出打眼的作品~",
+                "language": [
+                  "en"
+                ],
+                "recommend": [
+                  "免费",
+                  "在线LOGO制作"
+                ]
               }
             ]
           },
