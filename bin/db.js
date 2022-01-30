@@ -225,7 +225,7 @@ function addItem() {
 
                 if (answers1.choice) { // 确认修改
                     answers.label = trim(answers.label);
-                    answers.iconFont = trim(iconFont);
+                    answers.iconFont = trim(answers.iconFont);
                     answers.children = [];
                     answers.list = [];
                     currentData[currentData.length - 1].push(answers)

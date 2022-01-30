@@ -1497,6 +1497,107 @@
                   "cn"
                 ],
                 "recommend": []
+              },
+              {
+                "url": "https://www.codecademy.com/",
+                "img": "https://www.codecademy.com/favicon.ico",
+                "title": "Codecademy",
+                "desc": "学编程，来Codeacademy就对了。",
+                "language": [
+                  "en"
+                ],
+                "recommend": [
+                  "编程"
+                ]
+              },
+              {
+                "url": "https://www.udacity.com/",
+                "img": "https://www.udacity.com/favicon.ico?v=2",
+                "title": "Udacity",
+                "desc": "Udacity—职业编程学习的不二之选，提供微学位。",
+                "language": [
+                  "en"
+                ],
+                "recommend": [
+                  "职业编程",
+                  "提供微学位"
+                ]
+              },
+              {
+                "url": "https://developer.apple.com/",
+                "img": "https://developer.apple.com/favicon.ico",
+                "title": "Apple Developer",
+                "desc": "学习开发 IOS、Mac OS、Safari祐境下的App。",
+                "language": [
+                  "en",
+                  "cn"
+                ],
+                "recommend": [
+                  "开发IOS"
+                ]
+              },
+              {
+                "url": "https://code.org/",
+                "img": "https://code.org/images/favicon.ico",
+                "title": "Code.org",
+                "desc": "编程一小时活动的大本营。想学编程？就从这里起步吧。",
+                "language": [
+                  "en",
+                  "cn",
+                  "more"
+                ],
+                "recommend": [
+                  "起步编程"
+                ]
+              },
+              {
+                "url": "https://www.sitepoint.com/premium/library",
+                "img": "https://www.sitepoint.com/favicons/192x192.png",
+                "title": "Learnable",
+                "desc": "学编程，超过5000个视频。",
+                "language": [
+                  "en"
+                ],
+                "recommend": [
+                  "学编程"
+                ]
+              },
+              {
+                "url": "https://www.pluralsight.com/",
+                "img": "https://www.pluralsight.com/etc/clientlibs/pluralsight/main/images/favicons/favicon.ico",
+                "title": "Pluralsight",
+                "desc": "学编程",
+                "language": [
+                  "en"
+                ],
+                "recommend": [
+                  "学编程"
+                ]
+              },
+              {
+                "url": "https://codehs.com/",
+                "img": "https://static1.codehs.com/img/logo.png",
+                "title": "CodeHS",
+                "desc": "在学校、在家学编程！",
+                "language": [
+                  "en"
+                ],
+                "recommend": [
+                  "学编程"
+                ]
+              },
+              {
+                "url": "https://www.thegymnasium.com/",
+                "img": "https://www.thegymnasium.com/static/gymnasium/images/favicon.f729730b6e79.ico",
+                "title": "Gymnasium",
+                "desc": "Free online courses on design and web development",
+                "language": [
+                  "en"
+                ],
+                "recommend": [
+                  "免费",
+                  "学编程"
+                ]
               }
             ]
           },
@@ -2078,6 +2179,39 @@
                 "recommend": [
                   "优质课件",
                   "科目齐全"
+                ]
+              }
+            ]
+          },
+          {
+            "label": "数学、数据科学与工程",
+            "expand": false,
+            "iconFont": "",
+            "children": [],
+            "list": [
+              {
+                "url": "https://see.stanford.edu/",
+                "img": "https://see.stanford.edu/Content/favicon.ico",
+                "title": "Stanford Engineering Everywhere",
+                "desc": "有很多免费的工程类课程资源。",
+                "language": [
+                  "en"
+                ],
+                "recommend": [
+                  "免费",
+                  "工程类课程"
+                ]
+              },
+              {
+                "url": "https://betterexplained.com/",
+                "img": "https://betterexplained.com/favicon.ico",
+                "title": "Better Explained",
+                "desc": "从整体图景着手，通过图像向你解释抽象的数学（还有其他领域）概念。",
+                "language": [
+                  "en"
+                ],
+                "recommend": [
+                  "数学"
                 ]
               }
             ]
