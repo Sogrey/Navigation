@@ -1,14 +1,18 @@
 <template>
   <div class="content-section">
     <div class="content-section-title">
-      <a :name="psTitle">{{ psTitle }}</a>
+      <a :name="psTitle">{{ `${psTitle}(${psDataSize})` }}</a>
     </div>
     <div class="cardMain">
       <div v-for="(item, index) in psData" :key="index" class="card">
         <div class="additional">
           <div class="user-card">
             <a :href="item.url" target="_blank" rel="noopener noreferrer"
-              ><img class="siteIcon center" :src="item.img" :alt="item.title" @error="headError"
+              ><img
+                class="siteIcon center"
+                :src="item.img"
+                :alt="item.title"
+                @error="headError"
             /></a>
           </div>
           <div class="more-info">
@@ -49,12 +53,13 @@ export default {
   },
   props: {
     psTitle: String,
+    psDataSize: Number,
     psData: Array,
   }, //接手psData值
   methods: {
     headError(e) {
-        e.target.src = require("../assets/img/website.svg");
-      },
+      e.target.src = require("../assets/img/website.svg");
+    },
   },
 };
 </script>

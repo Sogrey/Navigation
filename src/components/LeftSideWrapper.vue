@@ -27,7 +27,7 @@
               aria-hidden="true"
               ><!--expand:是否展开；iconFont：自定义icon--></i
             >
-            &nbsp; {{ item.label }}
+            &nbsp; {{ item.label + (item.list.length>0? `(${item.list.length})`:'') }}
           </a>
           <div class="children-container">
             <ul v-if="item.expand && item.children && item.children.length > 0">
@@ -59,7 +59,7 @@
                     aria-hidden="true"
                     ><!--expand:是否展开；iconFont：自定义icon--></i
                   >
-                  &nbsp; {{ citem.label }}
+                  &nbsp; {{ citem.label + (citem.list.length>0? `(${citem.list.length})`:'') }}
                 </a>
                 <div class="children-container">
                   <ul
@@ -100,7 +100,7 @@
                           aria-hidden="true"
                           ><!--expand:是否展开；iconFont：自定义icon--></i
                         >
-                        &nbsp; {{ c2item.label }}
+                        &nbsp; {{ c2item.label + (c2item.list.length>0? `(${c2item.list.length})`:'') }}
                       </a>
                     </li>
                   </ul>

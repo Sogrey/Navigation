@@ -1,7 +1,7 @@
 <template>
   <div class="content-section">
     <div class="content-section-title">
-      <a :name="psTitle">{{ psTitle }}</a>
+      <a :name="psTitle">{{ `${psTitle}(${psDataSize})` }}</a>
     </div>
     <div class="listMain">
       <div v-for="(item, index) in psData" :key="index" class="list">
@@ -48,12 +48,13 @@ export default {
   },
   props: {
     psTitle: String,
+    psDataSize: Number,
     psData: Array,
   }, //接手psData值
   methods: {
-     headError(e) {
-        e.target.src = require("../assets/img/website.svg");
-      },
+    headError(e) {
+      e.target.src = require("../assets/img/website.svg");
+    },
   },
 };
 </script>

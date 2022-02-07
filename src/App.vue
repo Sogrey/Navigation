@@ -58,6 +58,7 @@
                 v-for="(item, index) in siteList"
                 :key="index"
                 :psTitle="item.label"
+                :psDataSize="item.list.length"
                 :psData="item.list"
               />
             </div>
@@ -66,6 +67,7 @@
                 v-for="(item, index) in siteList"
                 :key="index"
                 :psTitle="item.label"
+                :psDataSize="item.list.length"
                 :psData="item.list"
               />
             </div>
@@ -153,7 +155,7 @@ export default {
           array.forEach((item, index) => {
             total += item.list.length;
             if (item.list.length > 0) {
-              item.label += `(${item.list.length})`;
+              // item.label += `(${item.list.length})`;
               siteList.push(item);
             }
             getSites(item.children, siteList);
