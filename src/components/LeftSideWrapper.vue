@@ -135,61 +135,6 @@ export default {
         return;
       }
       item.expand = !item.expand;
-      console.log(item);
-      return;
-      var html = `
-            <ul v-if="${
-              item.expand && item.children && item.children.length > 0
-            }">
-              <li v-for="${(citem, cindex) in item.children}" :key="cindex">
-                <a :href="'#' + ${citem.label}">
-                  <i
-                    class="fa fa-lg"
-                    v-bind:class="[
-                      {
-                        'fa-folder':
-                          ${
-                            !citem.expand &&
-                            !citem.iconFont &&
-                            citem.children &&
-                            citem.children.length > 0
-                          },
-                        'fa-folder-open':
-                          ${
-                            citem.expand &&
-                            !citem.iconFont &&
-                            citem.children &&
-                            citem.children.length > 0
-                          },
-                        'fa-file':
-                          ${
-                            !citem.iconFont &&
-                            (!citem.children || citem.children == 0)
-                          },
-                      },
-                      ${citem.iconFont ? citem.iconFont : ""},
-                    ]"
-                    aria-hidden="true"
-                    ><!--expand:是否展开；iconFont：自定义icon--></i
-                  >
-                  &nbsp; {{ ${citem.label} }}
-                </a>
-                <div class="children-container"></div>
-              </li>
-            </ul>`;
-
-      // e.target 是你当前点击的元素
-      // e.currentTarget 是你绑定事件的元素
-      if (e && e.currentTarget && e.currentTarget.parentElement) {
-        var childrenContainers =
-          e.currentTarget.parentElement.getElementsByClassName(
-            "children-container"
-          );
-        if (childrenContainers && childrenContainers.length > 0) {
-          var childrenContainer = childrenContainers[0];
-          childrenContainer.innerHTML = html;
-        }
-      }
     },
   },
 };
