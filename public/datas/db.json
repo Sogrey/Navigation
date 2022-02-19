@@ -1,11 +1,9 @@
-[
-  {
+[{
     "label": "常用推荐",
     "expand": false,
     "iconFont": "fa-star",
     "children": [],
-    "list": [
-      {
+    "list": [{
         "url": "https://github.com",
         "img": "https://qiniuyun.zhichi921.com/site-icon/github.svg",
         "title": "GitHub",
@@ -83,8 +81,7 @@
     "label": "社区博客",
     "expand": false,
     "children": [],
-    "list": [
-      {
+    "list": [{
         "url": "https://www.ruanyifeng.com/blog/",
         "img": "https://www.ruanyifeng.com/favicon.ico",
         "title": "阮一峰",
@@ -207,13 +204,11 @@
   {
     "label": "实用工具",
     "expand": false,
-    "children": [
-      {
+    "children": [{
         "label": "助力办公",
         "expand": false,
         "children": [],
-        "list": [
-          {
+        "list": [{
             "url": "https://cp.anyknew.com/",
             "img": "https://f0cdn.anyknew.com/web/img/icons/favicon-32x32.png",
             "title": "拷贝兔",
@@ -357,8 +352,7 @@
         "label": "团队合作",
         "expand": false,
         "children": [],
-        "list": [
-          {
+        "list": [{
             "url": "https://www.processon.com/",
             "img": "https://www.processon.com/favicon.ico",
             "title": "ProcessOn",
@@ -385,8 +379,7 @@
         "label": "文档笔记工具",
         "expand": false,
         "children": [],
-        "list": [
-          {
+        "list": [{
             "url": "https://www.yinxiang.com/",
             "img": "https://www.yinxiang.com/favicon.ico",
             "title": "印象笔记",
@@ -472,8 +465,7 @@
         "label": "写作辅助工具",
         "expand": false,
         "children": [],
-        "list": [
-          {
+        "list": [{
             "url": "https://www.eteste.com/",
             "img": "./img/icons/website.svg",
             "title": "在线字数统计",
@@ -539,8 +531,7 @@
         "label": "设计制作类工具",
         "expand": false,
         "children": [],
-        "list": [
-          {
+        "list": [{
             "url": "https://www.uupoop.com/",
             "img": "https://www.uupoop.com/favicon.ico",
             "title": "在线PS",
@@ -679,8 +670,7 @@
         "label": "前端实用工具",
         "expand": false,
         "children": [],
-        "list": [
-          {
+        "list": [{
             "url": "https://tool.oschina.net/",
             "img": "https://tool.oschina.net/img/favicon.ico",
             "title": "Oschina Tools",
@@ -790,8 +780,7 @@
         "label": "在线编解码工具",
         "expand": false,
         "children": [],
-        "list": [
-          {
+        "list": [{
             "url": "https://base64.supfree.net/",
             "img": "https://www.supfree.net/favicon.ico",
             "title": "BASE64编解码工具",
@@ -877,8 +866,7 @@
         "label": "在线转换工具",
         "expand": false,
         "children": [],
-        "list": [
-          {
+        "list": [{
             "url": "https://www.fly63.com/tool/ascii/",
             "img": "https://www.fly63.com/favicon.ico",
             "title": "在线ASCII码对照表",
@@ -1004,8 +992,7 @@
         "label": "在线编译运行工具",
         "expand": false,
         "children": [],
-        "list": [
-          {
+        "list": [{
             "url": "https://codepen.io/",
             "img": "https://codepen.io/favicon.ico",
             "title": "codepen",
@@ -1061,8 +1048,7 @@
         "label": "可视化格式化工具",
         "expand": false,
         "children": [],
-        "list": [
-          {
+        "list": [{
             "url": "https://flourish.studio/",
             "img": "https://flourish.studio/favicon.ico",
             "title": "在线数据可视化",
@@ -1138,8 +1124,7 @@
         "label": "在线画图工具",
         "expand": false,
         "children": [],
-        "list": [
-          {
+        "list": [{
             "url": "https://www.processon.com/",
             "img": "https://www.processon.com/favicon.ico",
             "title": "免费在线流程图思维导图",
@@ -1165,8 +1150,7 @@
         "label": "其他实用工具",
         "expand": false,
         "children": [],
-        "list": [
-          {
+        "list": [{
             "url": "https://www.remove.bg/zh",
             "img": "https://www.remove.bg/favicon.ico?v=YAXaAv7pao",
             "title": "图片背景消除",
@@ -1318,13 +1302,11 @@
   {
     "label": "各类资源",
     "expand": false,
-    "children": [
-      {
+    "children": [{
         "label": "学术资源",
         "expand": false,
         "children": [],
-        "list": [
-          {
+        "list": [{
             "url": "https://www.cn-ki.net/",
             "img": "https://www.cn-ki.net/favicon.ico",
             "title": "iData-知识检索",
@@ -1362,13 +1344,11 @@
       {
         "label": "学习资源",
         "expand": false,
-        "children": [
-          {
+        "children": [{
             "label": "程序员最佳网站",
             "expand": false,
             "children": [],
-            "list": [
-              {
+            "list": [{
                 "url": "https://www.geeksforgeeks.org/",
                 "img": "https://www.geeksforgeeks.org/favicon.ico",
                 "title": "GeeksforGeeks",
@@ -1644,8 +1624,7 @@
             "label": "在线教程和文档",
             "expand": false,
             "children": [],
-            "list": [
-              {
+            "list": [{
                 "url": "https://git-scm.com/book/zh/v2",
                 "img": "https://git-scm.com/favicon.ico",
                 "title": "Git中文教程",
@@ -1901,8 +1880,7 @@
             "label": "公开课",
             "expand": false,
             "children": [],
-            "list": [
-              {
+            "list": [{
                 "url": "https://open.163.com/",
                 "img": "https://c.open.163.com/favicon.ico",
                 "title": "网易公开课",
@@ -1957,8 +1935,7 @@
             "label": "学习网站",
             "expand": false,
             "children": [],
-            "list": [
-              {
+            "list": [{
                 "url": "https://www.jiansouti.com/",
                 "img": "https://www.jiansouti.com/favicon.ico",
                 "title": "简搜题",
@@ -2259,8 +2236,7 @@
             "label": "学习资源下载",
             "expand": false,
             "children": [],
-            "list": [
-              {
+            "list": [{
                 "url": "https://epdf.pub/",
                 "img": "https://epdf.pub/assets/img/favicon-96x96.png",
                 "title": "pdf搜索下载",
@@ -2441,8 +2417,7 @@
             "expand": false,
             "iconFont": "",
             "children": [],
-            "list": [
-              {
+            "list": [{
                 "url": "https://see.stanford.edu/",
                 "img": "https://see.stanford.edu/Content/favicon.ico",
                 "title": "Stanford Engineering Everywhere",
@@ -2470,8 +2445,7 @@
             ]
           }
         ],
-        "list": [
-          {
+        "list": [{
             "url": "https://www.runoob.com/",
             "img": "https://static.runoob.com/images/favicon.ico",
             "title": "菜鸟教程",
@@ -2494,13 +2468,11 @@
       {
         "label": "素材资源",
         "expand": false,
-        "children": [
-          {
+        "children": [{
             "label": "图片、媒体资源",
             "expand": false,
             "children": [],
-            "list": [
-              {
+            "list": [{
                 "url": "https://webgradients.com/",
                 "img": "https://webgradients.com/img/other/logos/webgradients_logo.png",
                 "title": "WebGradients",
@@ -2916,8 +2888,7 @@
             "label": "LOGO设计",
             "expand": false,
             "children": [],
-            "list": [
-              {
+            "list": [{
                 "url": "http://www.uugai.com/",
                 "img": "http://www.uugai.com/favicon.ico",
                 "title": "免费logo在线制作",
@@ -3036,8 +3007,7 @@
             "label": "字体资源",
             "expand": false,
             "children": [],
-            "list": [
-              {
+            "list": [{
                 "url": "https://www.100font.com/",
                 "img": "https://www.100font.com/view/img/favicon.ico",
                 "title": "100font",
@@ -3065,8 +3035,7 @@
         "label": "影视资源",
         "expand": false,
         "children": [],
-        "list": [
-          {
+        "list": [{
             "url": "https://subhd.tv/",
             "img": "https://img.subhd.la/apple-touch-icon.png",
             "title": "SubHD字幕",
@@ -3261,8 +3230,7 @@
         "label": "音乐资源",
         "expand": false,
         "children": [],
-        "list": [
-          {
+        "list": [{
             "url": "https://www.xlebbs.com/",
             "img": "https://www.xlebbs.com/favicon.ico",
             "title": "xlebbs音乐论坛",
@@ -3316,8 +3284,7 @@
         "label": "网盘资源",
         "expand": false,
         "children": [],
-        "list": [
-          {
+        "list": [{
             "url": "https://www.yunpangou.com/",
             "img": "https://www.yunpangou.com/favicon.ico",
             "title": "云盘狗-百度云网盘搜",
@@ -3375,8 +3342,7 @@
     "label": "开源软件镜像站",
     "expand": false,
     "children": [],
-    "list": [
-      {
+    "list": [{
         "url": "https://mirrors.tuna.tsinghua.edu.cn/",
         "img": "https://mirrors.tuna.tsinghua.edu.cn/static/img/favicon.png",
         "title": "清华大学开源软件镜像站",
@@ -3629,8 +3595,7 @@
     "label": "书单",
     "expand": false,
     "children": [],
-    "list": [
-      {
+    "list": [{
         "url": "https://xmsoushu.com/",
         "img": "https://xmsoushu.com/favicon.ico",
         "title": "熊猫搜书",
@@ -3753,8 +3718,7 @@
     "label": "漫画",
     "expand": false,
     "children": [],
-    "list": [
-      {
+    "list": [{
         "url": "http://mox.moe/",
         "img": "http://mox.moe/favicon.ico",
         "title": "MOX漫画站",
@@ -3850,27 +3814,24 @@
     "label": "求职",
     "expand": false,
     "children": [],
-    "list": [
-      {
-        "url": "https://www.nowcoder.com/",
-        "img": "https://www.nowcoder.com/favicon.ico",
-        "title": "牛客网",
-        "desc": "求职之前，先上牛客，就业找工作一站解决。互联网IT技术/产品/运营/硬件/汽车机械制造/金融/财务管理/审计/银行/市场营销/地产/快消/管培生等等专业技能学习/备考/求职神器，在线进行企业校招实习笔试面试真题模拟考试练习,全面提升求职竞争力，找到好工作，拿到好offer。",
-        "language": [
-          "cn"
-        ],
-        "recommend": [
-          "求职神器"
-        ]
-      }
-    ]
+    "list": [{
+      "url": "https://www.nowcoder.com/",
+      "img": "https://www.nowcoder.com/favicon.ico",
+      "title": "牛客网",
+      "desc": "求职之前，先上牛客，就业找工作一站解决。互联网IT技术/产品/运营/硬件/汽车机械制造/金融/财务管理/审计/银行/市场营销/地产/快消/管培生等等专业技能学习/备考/求职神器，在线进行企业校招实习笔试面试真题模拟考试练习,全面提升求职竞争力，找到好工作，拿到好offer。",
+      "language": [
+        "cn"
+      ],
+      "recommend": [
+        "求职神器"
+      ]
+    }]
   },
   {
     "label": "其他导航站",
     "expand": false,
     "children": [],
-    "list": [
-      {
+    "list": [{
         "url": "https://www.xue8nav.com/",
         "img": "https://www.xue8nav.com/wp-content/uploads/2020/01/favicon.png",
         "title": "学吧导航",
