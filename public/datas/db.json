@@ -1,9 +1,11 @@
-[{
+[
+  {
     "label": "常用推荐",
     "expand": false,
     "iconFont": "fa-star",
     "children": [],
-    "list": [{
+    "list": [
+      {
         "url": "https://github.com",
         "img": "https://qiniuyun.zhichi921.com/site-icon/github.svg",
         "title": "GitHub",
@@ -81,7 +83,8 @@
     "label": "社区博客",
     "expand": false,
     "children": [],
-    "list": [{
+    "list": [
+      {
         "url": "https://www.ruanyifeng.com/blog/",
         "img": "https://www.ruanyifeng.com/favicon.ico",
         "title": "阮一峰",
@@ -204,11 +207,13 @@
   {
     "label": "实用工具",
     "expand": false,
-    "children": [{
+    "children": [
+      {
         "label": "助力办公",
         "expand": false,
         "children": [],
-        "list": [{
+        "list": [
+          {
             "url": "https://cp.anyknew.com/",
             "img": "https://f0cdn.anyknew.com/web/img/icons/favicon-32x32.png",
             "title": "拷贝兔",
@@ -352,7 +357,8 @@
         "label": "团队合作",
         "expand": false,
         "children": [],
-        "list": [{
+        "list": [
+          {
             "url": "https://www.processon.com/",
             "img": "https://www.processon.com/favicon.ico",
             "title": "ProcessOn",
@@ -379,7 +385,8 @@
         "label": "文档笔记工具",
         "expand": false,
         "children": [],
-        "list": [{
+        "list": [
+          {
             "url": "https://www.yinxiang.com/",
             "img": "https://www.yinxiang.com/favicon.ico",
             "title": "印象笔记",
@@ -465,7 +472,8 @@
         "label": "写作辅助工具",
         "expand": false,
         "children": [],
-        "list": [{
+        "list": [
+          {
             "url": "https://www.eteste.com/",
             "img": "./img/icons/website.svg",
             "title": "在线字数统计",
@@ -531,7 +539,8 @@
         "label": "设计制作类工具",
         "expand": false,
         "children": [],
-        "list": [{
+        "list": [
+          {
             "url": "https://www.uupoop.com/",
             "img": "https://www.uupoop.com/favicon.ico",
             "title": "在线PS",
@@ -670,7 +679,8 @@
         "label": "前端实用工具",
         "expand": false,
         "children": [],
-        "list": [{
+        "list": [
+          {
             "url": "https://tool.oschina.net/",
             "img": "https://tool.oschina.net/img/favicon.ico",
             "title": "Oschina Tools",
@@ -780,7 +790,8 @@
         "label": "在线编解码工具",
         "expand": false,
         "children": [],
-        "list": [{
+        "list": [
+          {
             "url": "https://base64.supfree.net/",
             "img": "https://www.supfree.net/favicon.ico",
             "title": "BASE64编解码工具",
@@ -866,7 +877,8 @@
         "label": "在线转换工具",
         "expand": false,
         "children": [],
-        "list": [{
+        "list": [
+          {
             "url": "https://www.fly63.com/tool/ascii/",
             "img": "https://www.fly63.com/favicon.ico",
             "title": "在线ASCII码对照表",
@@ -992,7 +1004,8 @@
         "label": "在线编译运行工具",
         "expand": false,
         "children": [],
-        "list": [{
+        "list": [
+          {
             "url": "https://codepen.io/",
             "img": "https://codepen.io/favicon.ico",
             "title": "codepen",
@@ -1048,7 +1061,8 @@
         "label": "可视化格式化工具",
         "expand": false,
         "children": [],
-        "list": [{
+        "list": [
+          {
             "url": "https://flourish.studio/",
             "img": "https://flourish.studio/favicon.ico",
             "title": "在线数据可视化",
@@ -1124,7 +1138,8 @@
         "label": "在线画图工具",
         "expand": false,
         "children": [],
-        "list": [{
+        "list": [
+          {
             "url": "https://www.processon.com/",
             "img": "https://www.processon.com/favicon.ico",
             "title": "免费在线流程图思维导图",
@@ -1150,7 +1165,8 @@
         "label": "其他实用工具",
         "expand": false,
         "children": [],
-        "list": [{
+        "list": [
+          {
             "url": "https://www.remove.bg/zh",
             "img": "https://www.remove.bg/favicon.ico?v=YAXaAv7pao",
             "title": "图片背景消除",
@@ -1302,11 +1318,13 @@
   {
     "label": "各类资源",
     "expand": false,
-    "children": [{
+    "children": [
+      {
         "label": "学术资源",
         "expand": false,
         "children": [],
-        "list": [{
+        "list": [
+          {
             "url": "https://www.cn-ki.net/",
             "img": "https://www.cn-ki.net/favicon.ico",
             "title": "iData-知识检索",
@@ -1344,11 +1362,13 @@
       {
         "label": "学习资源",
         "expand": false,
-        "children": [{
+        "children": [
+          {
             "label": "程序员最佳网站",
             "expand": false,
             "children": [],
-            "list": [{
+            "list": [
+              {
                 "url": "https://www.geeksforgeeks.org/",
                 "img": "https://www.geeksforgeeks.org/favicon.ico",
                 "title": "GeeksforGeeks",
@@ -1624,7 +1644,8 @@
             "label": "在线教程和文档",
             "expand": false,
             "children": [],
-            "list": [{
+            "list": [
+              {
                 "url": "https://git-scm.com/book/zh/v2",
                 "img": "https://git-scm.com/favicon.ico",
                 "title": "Git中文教程",
@@ -1880,7 +1901,8 @@
             "label": "公开课",
             "expand": false,
             "children": [],
-            "list": [{
+            "list": [
+              {
                 "url": "https://open.163.com/",
                 "img": "https://c.open.163.com/favicon.ico",
                 "title": "网易公开课",
@@ -1935,7 +1957,8 @@
             "label": "学习网站",
             "expand": false,
             "children": [],
-            "list": [{
+            "list": [
+              {
                 "url": "https://www.jiansouti.com/",
                 "img": "https://www.jiansouti.com/favicon.ico",
                 "title": "简搜题",
@@ -2236,7 +2259,8 @@
             "label": "学习资源下载",
             "expand": false,
             "children": [],
-            "list": [{
+            "list": [
+              {
                 "url": "https://epdf.pub/",
                 "img": "https://epdf.pub/assets/img/favicon-96x96.png",
                 "title": "pdf搜索下载",
@@ -2417,7 +2441,8 @@
             "expand": false,
             "iconFont": "",
             "children": [],
-            "list": [{
+            "list": [
+              {
                 "url": "https://see.stanford.edu/",
                 "img": "https://see.stanford.edu/Content/favicon.ico",
                 "title": "Stanford Engineering Everywhere",
@@ -2445,7 +2470,8 @@
             ]
           }
         ],
-        "list": [{
+        "list": [
+          {
             "url": "https://www.runoob.com/",
             "img": "https://static.runoob.com/images/favicon.ico",
             "title": "菜鸟教程",
@@ -2468,11 +2494,13 @@
       {
         "label": "素材资源",
         "expand": false,
-        "children": [{
+        "children": [
+          {
             "label": "图片、媒体资源",
             "expand": false,
             "children": [],
-            "list": [{
+            "list": [
+              {
                 "url": "https://webgradients.com/",
                 "img": "https://webgradients.com/img/other/logos/webgradients_logo.png",
                 "title": "WebGradients",
@@ -2881,6 +2909,32 @@
                   "免版权",
                   "高清"
                 ]
+              },
+              {
+                "url": "https://www.hituyu.com/",
+                "img": "https://store.hituyu.com/favicon-v2.png",
+                "title": "图鱼",
+                "desc": "免费下载17400个100%完美对称平铺的纹理素材。每个纹理都提供一键预览和一键下载，使用非常方便，而且是免费！在现在设计素材普遍采用收费模式的情况下，能做到这一点是非常难得的。",
+                "language": [
+                  "cn"
+                ],
+                "recommend": [
+                  "底纹背景",
+                  "网页背景",
+                  "纹理背景素材"
+                ]
+              },
+              {
+                "url": "https://free-paper-texture.com/",
+                "img": "https://free-paper-texture.com/06_paper/wp-content/themes/paper/images/logo.ico",
+                "title": "Paper-co | 紙のテクスチャー素材を無料でダウンロードできるサイト",
+                "desc": "一个日文界面的纹理素材下载网站。纹理以石材、木材和布料居多，风格各式各样，配色很大胆。",
+                "language": [
+                  "jp"
+                ],
+                "recommend": [
+                  "纹理素材"
+                ]
               }
             ]
           },
@@ -2888,7 +2942,8 @@
             "label": "LOGO设计",
             "expand": false,
             "children": [],
-            "list": [{
+            "list": [
+              {
                 "url": "http://www.uugai.com/",
                 "img": "http://www.uugai.com/favicon.ico",
                 "title": "免费logo在线制作",
@@ -3007,7 +3062,8 @@
             "label": "字体资源",
             "expand": false,
             "children": [],
-            "list": [{
+            "list": [
+              {
                 "url": "https://www.100font.com/",
                 "img": "https://www.100font.com/view/img/favicon.ico",
                 "title": "100font",
@@ -3027,6 +3083,224 @@
                 ]
               }
             ]
+          },
+          {
+            "label": "配色方案",
+            "expand": false,
+            "iconFont": "",
+            "children": [],
+            "list": [
+              {
+                "url": "https://www.palettable.io/",
+                "img": "https://www.palettable.io/favicon.ico",
+                "title": "Palettable",
+                "desc": "这个网站可以说是随性派的代表，在进入网页时，网站会随机推荐颜色，你只需要选择喜欢（Like）或不喜欢(Dislike)。万千颜色随君挑选，留下的都是你喜欢的颜色，是不是很爽呢？",
+                "language": [
+                  "en"
+                ],
+                "recommend": [
+                  "自由配色"
+                ]
+              },
+              {
+                "url": "http://zhongguose.com/",
+                "img": "http://zhongguose.com/img/favicon.ico",
+                "title": "中国色 － 中国传统颜色",
+                "desc": "提供各种中国的传统颜色的名称，CMYK值，RGB值，16进制表示。",
+                "language": [
+                  "cn"
+                ],
+                "recommend": [
+                  "中国色",
+                  "",
+                  "中国传统色",
+                  "",
+                  "色名",
+                  "",
+                  "色谱"
+                ]
+              },
+              {
+                "url": "https://picular.co/",
+                "img": "https://picular.co/favicon.ico",
+                "title": "Picular",
+                "desc": "这是一款根据关键词推荐颜色的网站。无论是心情、颜色、物品，网站都会扔给你一堆颜色色块。每个色块左下角是Hex色码。点选Hex色码后会自动复制到剪贴板。就可以愉快的去使用了。",
+                "language": [
+                  "en"
+                ],
+                "recommend": [
+                  "配色"
+                ]
+              },
+              {
+                "url": "https://brandcolors.net/",
+                "img": "https://brandcolors.net/assets/favicons/favicon.ico?v=6.8",
+                "title": "BrandColors - official brand color hex codes",
+                "desc": "这个网站总结了各个品牌的配色方案。",
+                "language": [
+                  "en"
+                ],
+                "recommend": [
+                  "大品牌配色方案"
+                ]
+              },
+              {
+                "url": "https://vanschneider.com/colors",
+                "img": "https://vanschneider.com/wp-content/uploads/2017/01/favicon.ico",
+                "title": "Color Claim",
+                "desc": "这是一个设计大师自建的配色网站，每个都可以直接拿来取用。打开网站都是看起来很普通的图片，其实都是从大神个人多年来的设计中提取出的配色，凝结着配色智慧的结晶。",
+                "language": [
+                  "en"
+                ],
+                "recommend": [
+                  "配色"
+                ]
+              },
+              {
+                "url": "https://www.designspiration.com/",
+                "img": "https://s.dspncdn.com/a1/webapp/img/favicons/favicon-32x32.png",
+                "title": "Designspiration - Design Inspiration",
+                "desc": "想一下，你已经有了一套配色方案，但是你还是想看一下他们组合起来的实际效果。这时候，强烈安利Designspiration给你。你可以选择5种颜色，然后搜索到使用这5种颜色的设计图。真的很赞，不是因为你可以查到应用了这些色彩的图像，而是因为你可以真正看到它们在设计中真实被使用、实现的样子。",
+                "language": [
+                  "en"
+                ],
+                "recommend": [
+                  "配色方案效果"
+                ]
+              },
+              {
+                "url": "https://webgradients.com/",
+                "img": "https://webgradients.com/favicons/favicon-96x96.png",
+                "title": "Fresh Background Gradients | WebGradients.com 💎",
+                "desc": "这个网站有很多渐变搭配，整体风格干净柔和。每一个渐变方案都有一个名字，可以下载PNG格式使用。",
+                "language": [
+                  "en"
+                ],
+                "recommend": [
+                  "渐变搭配"
+                ]
+              },
+              {
+                "url": "https://uigradients.com/",
+                "img": "https://uigradients.com/static/images/favicon-32x32.png",
+                "title": "uiGradients - Beautiful colored gradients",
+                "desc": "进入网站后随机出现漂亮的渐变，点击左右箭头即可随机切换。挑到中意的可以直接下载jpg格式的图片。",
+                "language": [
+                  "en"
+                ],
+                "recommend": [
+                  "渐变配色"
+                ]
+              },
+              {
+                "url": "https://www.grabient.com/",
+                "img": "https://www.grabient.com/favicon.ico",
+                "title": "Grabient",
+                "desc": "这个网站可以说是渐变网站中强大的存在。可以操控360度渐变旋转，自由增加或删除渐变颜色，支持 CSS 样式代码复制，超方便的交互操作。",
+                "language": [
+                  "en"
+                ],
+                "recommend": [
+                  "渐变配色",
+                  "渐变旋转"
+                ]
+              },
+              {
+                "url": "http://www.colorhunter.com/",
+                "img": "http://www.colorhunter.com/favicon.ico",
+                "title": "Color Hunter",
+                "desc": "可从你上传的图片中自动提取5种配色。",
+                "language": [
+                  "en"
+                ],
+                "recommend": [
+                  "提取配色"
+                ]
+              },
+              {
+                "url": "http://colormind.io/",
+                "img": "http://colormind.io/favicon32.gif",
+                "title": "Colormind - the AI powered color palette generator",
+                "desc": "这款网站同样可以上传图片分析配色。但是它有一个很特别的点是应用调色板，实时将配色运用到示例页面预览，让你感受方案的呈现。特别适合网页设计者使用。",
+                "language": [
+                  "en"
+                ],
+                "recommend": [
+                  "分析配色"
+                ]
+              },
+              {
+                "url": "https://color.adobe.com/zh/create/color-wheel",
+                "img": "https://color.adobe.com/apple-touch-icon.png",
+                "title": "色輪、調色盤產生器 | Adobe Color",
+                "desc": "Adobe公司的配色工具，可以上传图片分析配色，也能自己通过色轮搭配配色方案。单色配色、类比配色、互补色配色、三色配色、复合配色等等。",
+                "language": [
+                  "cn"
+                ],
+                "recommend": [
+                  "配色工具",
+                  "",
+                  "分析配色",
+                  "搭配配色方案",
+                  "单色配色",
+                  "类比配色",
+                  "互补色配色",
+                  "三色配色",
+                  "复合配色"
+                ]
+              },
+              {
+                "url": "http://colorschemedesigner.com",
+                "img": "https://paletton.com/img/favicon-128.png",
+                "title": "Paletton - The Color Scheme Designer",
+                "desc": "这个工具跟Adobe Color CC很像，不同的是，它生成的调色板里不局限于5种颜色。当你已经确定了主色调，想要找一些填充色的时候，这是个非常棒的工具。",
+                "language": [
+                  "en"
+                ],
+                "recommend": [
+                  "配色工具"
+                ]
+              },
+              {
+                "url": "https://www.toptal.com/designers/colourcode",
+                "img": "https://www.toptal.com/designers/colourcode/favicon_114.png",
+                "title": "ColourCode: Color Palette Generator | Toptal®",
+                "desc": "网页区域内随意滑动鼠标，可以产生不同的色彩。确定一个色彩，再随意滑动产生下一个色彩，直到找到自己满意的配色。",
+                "language": [
+                  "en"
+                ],
+                "recommend": [
+                  "配色工具"
+                ]
+              },
+              {
+                "url": "https://colorsupplyyy.com/",
+                "img": "",
+                "title": "色選びが簡単に",
+                "desc": "网站也是根据色彩设计理论，提供了最常见也是最实用的5种配色方法。有高饱和视觉效果十分震撼的互补色，还有协调舒适的相邻色，丰富跳跃的三色调、分裂互补色和四色调，满足你对配色效果的一切需求。",
+                "language": [
+                  "jp"
+                ],
+                "recommend": [
+                  "相邻色",
+                  "丰富跳跃的三色调",
+                  "分裂互补色",
+                  "四色调"
+                ]
+              },
+              {
+                "url": "https://www.colorhunt.co/",
+                "img": "https://www.colorhunt.co/img/colorhunt-favicon.svg?2",
+                "title": "Color Palettes for Designers and Artists - Color Hunt",
+                "desc": "这个网站会按照受欢迎程度实时更新排列不同的配色方案。移动到颜色上时会显示颜色代码，点击即可复制代码使用。",
+                "language": [
+                  "en"
+                ],
+                "recommend": [
+                  "配色方案"
+                ]
+              }
+            ]
           }
         ],
         "list": []
@@ -3035,7 +3309,8 @@
         "label": "影视资源",
         "expand": false,
         "children": [],
-        "list": [{
+        "list": [
+          {
             "url": "https://subhd.tv/",
             "img": "https://img.subhd.la/apple-touch-icon.png",
             "title": "SubHD字幕",
@@ -3230,7 +3505,8 @@
         "label": "音乐资源",
         "expand": false,
         "children": [],
-        "list": [{
+        "list": [
+          {
             "url": "https://www.xlebbs.com/",
             "img": "https://www.xlebbs.com/favicon.ico",
             "title": "xlebbs音乐论坛",
@@ -3284,7 +3560,8 @@
         "label": "网盘资源",
         "expand": false,
         "children": [],
-        "list": [{
+        "list": [
+          {
             "url": "https://www.yunpangou.com/",
             "img": "https://www.yunpangou.com/favicon.ico",
             "title": "云盘狗-百度云网盘搜",
@@ -3342,7 +3619,8 @@
     "label": "开源软件镜像站",
     "expand": false,
     "children": [],
-    "list": [{
+    "list": [
+      {
         "url": "https://mirrors.tuna.tsinghua.edu.cn/",
         "img": "https://mirrors.tuna.tsinghua.edu.cn/static/img/favicon.png",
         "title": "清华大学开源软件镜像站",
@@ -3595,7 +3873,8 @@
     "label": "书单",
     "expand": false,
     "children": [],
-    "list": [{
+    "list": [
+      {
         "url": "https://xmsoushu.com/",
         "img": "https://xmsoushu.com/favicon.ico",
         "title": "熊猫搜书",
@@ -3718,7 +3997,8 @@
     "label": "漫画",
     "expand": false,
     "children": [],
-    "list": [{
+    "list": [
+      {
         "url": "http://mox.moe/",
         "img": "http://mox.moe/favicon.ico",
         "title": "MOX漫画站",
@@ -3814,24 +4094,27 @@
     "label": "求职",
     "expand": false,
     "children": [],
-    "list": [{
-      "url": "https://www.nowcoder.com/",
-      "img": "https://www.nowcoder.com/favicon.ico",
-      "title": "牛客网",
-      "desc": "求职之前，先上牛客，就业找工作一站解决。互联网IT技术/产品/运营/硬件/汽车机械制造/金融/财务管理/审计/银行/市场营销/地产/快消/管培生等等专业技能学习/备考/求职神器，在线进行企业校招实习笔试面试真题模拟考试练习,全面提升求职竞争力，找到好工作，拿到好offer。",
-      "language": [
-        "cn"
-      ],
-      "recommend": [
-        "求职神器"
-      ]
-    }]
+    "list": [
+      {
+        "url": "https://www.nowcoder.com/",
+        "img": "https://www.nowcoder.com/favicon.ico",
+        "title": "牛客网",
+        "desc": "求职之前，先上牛客，就业找工作一站解决。互联网IT技术/产品/运营/硬件/汽车机械制造/金融/财务管理/审计/银行/市场营销/地产/快消/管培生等等专业技能学习/备考/求职神器，在线进行企业校招实习笔试面试真题模拟考试练习,全面提升求职竞争力，找到好工作，拿到好offer。",
+        "language": [
+          "cn"
+        ],
+        "recommend": [
+          "求职神器"
+        ]
+      }
+    ]
   },
   {
     "label": "其他导航站",
     "expand": false,
     "children": [],
-    "list": [{
+    "list": [
+      {
         "url": "https://www.xue8nav.com/",
         "img": "https://www.xue8nav.com/wp-content/uploads/2020/01/favicon.png",
         "title": "学吧导航",
