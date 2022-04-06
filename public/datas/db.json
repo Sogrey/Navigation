@@ -1309,6 +1309,30 @@
               "实用",
               "工具聚合"
             ]
+          },
+          {
+            "url": "https://www.isheji.com/cutout/workbench?img_id=60c9b7284a9a3&u=1",
+            "img": "https://www.isheji.com/isheji_favicon.ico",
+            "title": "智能抠图",
+            "desc": "一键AI抠图，百分之百全自动并且免费，解放生产力利器。强烈推荐。可以看到细节处理的也很到位。",
+            "language": [
+              "cn"
+            ],
+            "recommend": [
+              "AI抠图,免费"
+            ]
+          },
+          {
+            "url": "https://www.gaituya.com/ps/",
+            "img": "https://www.gaituya.com/favicon.ico",
+            "title": "在线PS软件",
+            "desc": "在线ps工具拥有photoshop绝大部分的功能，无需安装在线批图，支持psd，AI，sketch，pdf等多种格式。",
+            "language": [
+              "cn"
+            ],
+            "recommend": [
+              "在线PS照片处理,在线PS抠图,照片裁剪,图片美化,,免下载,免安装"
+            ]
           }
         ]
       }
@@ -3081,6 +3105,18 @@
                 "recommend": [
                   "字体"
                 ]
+              },
+              {
+                "url": "https://www.fontspace.com/",
+                "img": "https://www.fontspace.com/favicon-32x32.png?v=00Bdv4Q5g6",
+                "title": "Mishella Font | Letterena Studios | FontSpace",
+                "desc": "2006年成立，迄今为止有84000个字体免费下载字体，由世界各地的设计师进行设计。",
+                "language": [
+                  "en"
+                ],
+                "recommend": [
+                  "免费"
+                ]
               }
             ]
           },
@@ -3338,19 +3374,10 @@
             ]
           },
           {
-            "url": "https://www.mypianku.net/",
-            "img": "https://www.mypianku.net/favicon.ico",
-            "title": "片库",
-            "desc": "片库网是一个可在线观看、下载视频的网站。每日收集全网最新的电影、剧集、动漫高清资源供网友免费下载！",
-            "recommend": [
-              "影视"
-            ]
-          },
-          {
             "url": "https://www.pianku.la/",
             "img": "https://www.pianku.la/favicon.ico",
             "title": "片库",
-            "desc": "另一个片库网(www.pianku.la)为广大影迷朋友们提供最新最热门的迅雷电影下载。我们专注于高清电影下载服务，全力打造优秀的BT种子、迅雷种子下载网站,片库网是你身边的免费电影盒子",
+            "desc": "片库网(www.pianku.la)为广大影迷朋友们提供最新最热门的迅雷电影下载。我们专注于高清电影下载服务，全力打造优秀的BT种子、迅雷种子下载网站,片库网是你身边的免费电影盒子",
             "recommend": [
               "影视"
             ]
