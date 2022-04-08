@@ -3079,6 +3079,75 @@
                   "免费",
                   "在线LOGO制作"
                 ]
+              },
+              {
+                "url": "http://yeelogo.com/#/",
+                "img": "http://oss.ymark.cc/yeelogo/yeelogo-32-32.png",
+                "title": "YEELOGO_logo在线制作",
+                "desc": "YEELOGO是一款完全免费的logo设计工具，它的界面比较整洁，没有多余的东西，直接进入正题，工具提供了大量的免费素材可供使用，也可以上传本地素材，对素材进行了详细的分类方便查找，除了不能智能生成以外没发现什么比较差的地方。",
+                "language": [
+                  "cn"
+                ],
+                "recommend": [
+                  "颜色方案",
+                  "图像",
+                  "文字",
+                  "自定义图片"
+                ]
+              },
+              {
+                "url": "https://hatchful.shopify.com/",
+                "img": "https://cdn.shopify.com/static/shopify-favicon.png",
+                "title": "Free Logo Maker",
+                "desc": "logaster是一款免费的智能logo生成器，只要输入想生成logo的风格，名称，标语，使用在什么地方，就可以自动生成logo了，就算生成完成也可以修改logo的名字，字形，颜色，图标以及版面，不过下载的logo会发送到邮箱，要提前注册好邮箱账号，不过是国外的工具用起来有点卡。",
+                "language": [
+                  "en"
+                ],
+                "recommend": [
+                  "免费",
+                  "自动生成logo"
+                ]
+              },
+              {
+                "url": "http://www.freelogo.com.cn/",
+                "img": "http://www.freelogo.com.cn/favicon.ico",
+                "title": "免费logo在线制作",
+                "desc": "免费logo生成网也是一个免费的智能logo生成器，只要输入品牌，英文品牌，就可以生成logo了，不过生成的logo比较单一，都是一个风格，不过元素比较多，可以任意更换，对于一个免费工具来说已经很好了。",
+                "language": [
+                  "cn"
+                ],
+                "recommend": [
+                  "免费",
+                  "logo生成"
+                ]
+              },
+              {
+                "url": "https://www.logoko.com.cn/",
+                "img": "https://www.logoko.com.cn/favicon.ico",
+                "title": "标点狗",
+                "desc": "标点狗也是一款免费的logo制作工具，不过不是自动生成的，需要自己设计，手动调整位置，颜色字体等就可以了，素材库可见的比较少，不过搜索里面素材还是比较丰富的，设计完成点击保存下载即可，不过只能下载360x400的不是很清楚。",
+                "language": [
+                  "cn"
+                ],
+                "recommend": [
+                  "免费",
+                  "LOGO设计",
+                  "标志设计"
+                ]
+              },
+              {
+                "url": "https://www.84logo.com/",
+                "img": "https://www.84logo.com/assets/img/favicon.ico",
+                "title": "标老哥",
+                "desc": "一个半免费的logo生成工具，生成以后有大部分收费的，但是一部分还是免费的，免费的设计只能说不怎么好吧，可以直接下载，操作也是非常简单，只要输入品牌名字，口号，手机就可以生成了，下载格式支持：png，jpg，svg。",
+                "language": [
+                  "cn"
+                ],
+                "recommend": [
+                  "半免费",
+                  "logo生成工具",
+                  "操作简单"
+                ]
               }
             ]
           },
