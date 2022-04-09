@@ -1661,6 +1661,121 @@
                   "网页/App设计",
                   "免费"
                 ]
+              },
+              {
+                "url": "https://exercism.org/",
+                "img": "https://dg8krxphbh767.cloudfront.net/meta/favicon-32x32.png",
+                "title": "Exercism",
+                "desc": "Exercism 网站包含数千个练习，网站支持50多种编程语言的练习。它的练习也非常多样化，初学者或有丰富编程经验的人都可以进行练习。它是开源的，依赖于世界各地志愿者程序员的贡献。",
+                "language": [
+                  "en"
+                ],
+                "recommend": [
+                  "免费",
+                  "开源",
+                  "编程练习"
+                ]
+              },
+              {
+                "url": "https://www.codewars.com/",
+                "img": "https://www.codewars.com/favicon.ico",
+                "title": "CodeWars",
+                "desc": "CodeWars 网站顾名思义，这是你解决每个问题的地方，从易到难。在这个网站上，排名将根据一个叫做 kyu 的点来计算，根据你解决的问题的级别，这个分数会高或低。找到问题的解决方案后，你可以查看其他人的答案，以比较你的编码方式和代码的有效性。",
+                "language": [
+                  "en"
+                ],
+                "recommend": [
+                  "编程练习"
+                ]
+              },
+              {
+                "url": "https://www.codechef.com/",
+                "img": "https://s3.amazonaws.com/codechef_shared/favicon.ico",
+                "title": "CodeChef",
+                "desc": "CodeChef 网站是印度软件公司 Direct 创立的一个非营利性教育机构。我们可以通过在线编辑器工具，立即解决他们网站上的问题。并根据你的级别，选择网站上已分类的挑战。",
+                "language": [
+                  "en"
+                ],
+                "recommend": [
+                  "编程交流"
+                ]
+              },
+              {
+                "url": "https://www.codingame.com/start",
+                "img": "https://static.codingame.com/assets/favicon_32_32.0042ee23.png",
+                "title": "CodinGame",
+                "desc": "CodinGame网站可让你在学习编程时，实现实际玩游戏的可能。它使我们以更轻松、更快乐的方式处理问题，并增加我们解决问题的兴趣。 CodinGame 支持超过 25 种编程语言，在这里，我们可以向世界上最好的程序员学习许多算法和技巧。它也遵循从易到难的级别，因此适合每个人的学习需求。",
+                "language": [
+                  "en"
+                ],
+                "recommend": [
+                  "编程游戏",
+                  "练习编程算法"
+                ]
+              },
+              {
+                "url": "https://www.hackerrank.com/",
+                "img": "https://www.hackerrank.com/wp-content/uploads/2020/05/hackerrank_cursor_favicon_480px-150x150.png",
+                "title": "HackerRank",
+                "desc": "HackerRank 网站对于想要提高编程技能的人来说是一个受欢迎的网站。它不仅适合新手，也适合优秀的程序员参加，因为它有世界级的比赛。",
+                "language": [
+                  "en"
+                ],
+                "recommend": [
+                  "适合新手",
+                  "编程比赛"
+                ]
+              },
+              {
+                "url": "https://coderbyte.com/",
+                "img": "https://coderbytestaticimages.s3.amazonaws.com/favicon_2.png",
+                "title": "CoderByte",
+                "desc": "CoderByte 网站是一个 Web 应用程序，它使我们能够实现和增强我们的代码功能。它有很多问题，从难到易排序，适合每个开发者。",
+                "language": [
+                  "en"
+                ],
+                "recommend": [
+                  "编程练习",
+                  "面试题",
+                  "课程"
+                ]
+              },
+              {
+                "url": "https://www.freecodecamp.org/",
+                "img": "https://www.freecodecamp.org/favicon-32x32.png?v=6cba562cbd10e31af925a976f3db73f7",
+                "title": "FreeCodeCamp",
+                "desc": "FreeCodeCamp 网站可能是我最喜欢的。它可以帮助我们自己学习新知识，并可以立即将所学应用于解决问题。",
+                "language": [
+                  "en"
+                ],
+                "recommend": [
+                  "适合新手",
+                  "自有论坛"
+                ]
+              },
+              {
+                "url": "https://edabit.com/",
+                "img": "https://s3.amazonaws.com/edabit-images/logo_main_medium.png",
+                "title": "Edabit",
+                "desc": "Edabit 网站，我们可以通过此网站上的实时问题，来解决记忆编程语言的基础知识和高级知识。每次解决问题时，它会自动计算分数。点数越多，等级越高。",
+                "language": [
+                  "cn"
+                ],
+                "recommend": [
+                  "编程练习"
+                ]
+              },
+              {
+                "url": "https://www.topcoder.com/",
+                "img": "https://www.topcoder.com/favicon.ico",
+                "title": "TopCoder",
+                "desc": "TopCoder 网站是为那些在编程方面有丰富经验的人准备的。它是将需要解决某些问题的企业与世界各地程序员提供的解决方案联系起来的地方。因此，如果你的解决方案比其他程序员更好，那么就有可能获得现金奖励。此外，你还可以查看已解决的问题以在你的网站中进行编辑和应用。",
+                "language": [
+                  "en"
+                ],
+                "recommend": [
+                  "适合有经验的程序员"
+                ]
               }
             ]
           },
