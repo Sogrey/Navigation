@@ -2033,6 +2033,31 @@
                   "cn"
                 ],
                 "recommend": []
+              },
+              {
+                "url": "https://www.w3xue.com/manual/py3/",
+                "img": "https://www.w3xue.com/favicon.ico",
+                "title": "Python3在线速查手册",
+                "desc": "由w3xue提供的Python3在线手册,提供Python3版本的中文手册，包含Python3的数字相关操作函数、字符串相关操作函数、列表及字典操作函数等的速查。",
+                "language": [
+                  "cn"
+                ],
+                "recommend": [
+                  "速查手册"
+                ]
+              },
+              {
+                "url": "https://www.w3xue.com/jsjq/threejs/",
+                "img": "https://www.w3xue.com/favicon.ico",
+                "title": "three.js教程（w3xue提供）",
+                "desc": "w3xue提供的three.js教程",
+                "language": [
+                  "cn"
+                ],
+                "recommend": [
+                  "课程",
+                  "有实例"
+                ]
               }
             ]
           },
