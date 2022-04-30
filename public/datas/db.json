@@ -3925,6 +3925,19 @@
               "搜索速度快",
               "资源全"
             ]
+          },
+          {
+            "url": "https://panpanr.com/",
+            "img": "https://panpanr.com/favicon.ico",
+            "title": "阿里盘盘",
+            "desc": "走进盘盘,加入盘盘资源,本论坛开放交流,共享资源,更有一批热爱网络的小伙伴们！",
+            "language": [
+              "cn"
+            ],
+            "recommend": [
+              "资源共享",
+              "阿里云盘"
+            ]
           }
         ]
       }
