@@ -3938,6 +3938,151 @@
               "资源共享",
               "阿里云盘"
             ]
+          },
+          {
+            "url": "http://www.upyunso.com/",
+            "img": "http://www.upyunso.com/static/img/upso_mlogo.png",
+            "title": "UP云搜",
+            "desc": "资源全，功能强大，可以选择检索目录、文件、路径、格式后缀，并且承诺了10分钟内回复的反馈邮箱，为了保证能稳定运行，还有配套的地址发布页、公众号和app，只要用了这个搜索，别的基本也就用不上了。",
+            "language": [
+              "cn"
+            ],
+            "recommend": [
+              "资源全",
+              "功能强大"
+            ]
+          },
+          {
+            "url": "https://www.niceso.fun/",
+            "img": "https://www.niceso.fun/favicon.ico",
+            "title": "奈斯搜索",
+            "desc": "服务器不稳定，有时打不开，有配套论坛和博客，界面漂亮，资源全",
+            "language": [
+              "cn"
+            ],
+            "recommend": [
+              "配套论坛和博客",
+              "资源全"
+            ]
+          },
+          {
+            "url": "https://jihepan.com/",
+            "img": "http://alipan.vip/120.ico",
+            "title": "鸡盒盘",
+            "desc": "全能型网站，既有分类资源，也有聚合搜索、导航、工具、方法等内容。",
+            "language": [
+              "cn"
+            ],
+            "recommend": [
+              "分类资源",
+              "聚合搜索"
+            ]
+          },
+          {
+            "url": "https://www.anyhq.com/",
+            "img": "https://www.anyhq.com/favicon.ico",
+            "title": "暗影资源网",
+            "desc": "目前来看主要是动漫，有很多老动画片的重置稀缺资源，大部分资源有介绍，图经常加载不出来。",
+            "language": [
+              "cn"
+            ],
+            "recommend": [
+              "影视剧",
+              "绿色软件",
+              "网站源码",
+              "设计素材",
+              "热门资讯"
+            ]
+          },
+          {
+            "url": "https://u.gitcafe.net/",
+            "img": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAKlBMVEUAAADSZDfSZDfryaDSZDe0RjLrh0u/UTTWaTpLP07///9dU2BaT13ryaCZFnJdAAAABHRSTlMAzPl3IDm31QAAAAFiS0dECmjQ9FYAAAAHdElNRQfmAgUJCiJhiWOMAAAAbUlEQVQI12NgcGAAAhYgDhEA0q5ARqgLA4NLKIgR4pbmCmKUeqSlpYUDGSpuQEYKkOGSBgJIDBaXWWlpq9MSGFjcZqelzQEyXNzSIHJ3715LS8u9e5eB+e61zG25dw2A2kAMBjAAmwICvBeABAC90CPadJikOwAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyMi0wMi0wNVQwNjoxMDozNCswMzowMCU/+JYAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjItMDItMDVUMDY6MTA6MzQrMDM6MDBUYkAqAAAAAElFTkSuQmCC",
+            "title": "小纸条",
+            "desc": "资源列表值得一看，资源分类详细。",
+            "language": [
+              "cn"
+            ],
+            "recommend": [
+              "资源分类全而详细"
+            ]
+          },
+          {
+            "url": "https://zhaoziyuan.la/",
+            "img": "https://zhaoziyuan.la/favicon.ico",
+            "title": "找资源",
+            "desc": "看起来是搜索引擎，但只能检索站内，所以本质就是资源博客，只有标题，无分类。",
+            "language": [
+              "cn"
+            ],
+            "recommend": [
+              "阿里云盘搜索引"
+            ]
+          },
+          {
+            "url": "https://zhaoziyuan.me/",
+            "img": "https://zhaoziyuan.me/favicon.ico?v=33",
+            "title": "找资源[新]",
+            "desc": "看起来是搜索引擎，但只能检索站内，所以本质就是资源博客，只有标题，无分类。",
+            "language": [
+              "cn"
+            ],
+            "recommend": [
+              "阿里云盘搜索引擎"
+            ]
+          },
+          {
+            "url": "https://wpxz.org/",
+            "img": "https://wpxz.org/assets/favicon-zaeyhvzq.png",
+            "title": "网盘小站",
+            "desc": "分类齐全，资源丰富，禁止发布上映期电影，可检索，查看链接需注册登录",
+            "language": [
+              "cn"
+            ],
+            "recommend": [
+              "免注册",
+              "网盘资源"
+            ]
+          },
+          {
+            "url": "https://drivebbs.com/",
+            "img": "https://drivebbs.com/favicon.ico",
+            "title": "互联网云盘资源免费分享",
+            "desc": "分类齐全，资源丰富，可搜索，查看链接需注册登录",
+            "language": [
+              "cn"
+            ],
+            "recommend": [
+              "云盘资源",
+              "论坛"
+            ]
+          },
+          {
+            "url": "https://aliwp.cn/",
+            "img": "https://aliwp.cn/favicon.ico",
+            "title": "网盘资源分享",
+            "desc": "分类齐全，资源一般，可搜索，无需注册登录",
+            "language": [
+              "cn"
+            ],
+            "recommend": [
+              "分类齐全",
+              "可搜索",
+              "无需注册登录"
+            ]
+          },
+          {
+            "url": "https://www.panjd.com/",
+            "img": "https://www.panjd.com/favicon.ico",
+            "title": "盘基地资源论坛",
+            "desc": "分类少，资源丰富，可搜索，查看链接需注册登录",
+            "language": [
+              "cn"
+            ],
+            "recommend": [
+              "资源丰富",
+              "可搜索",
+              "需注册登录"
+            ]
           }
         ]
       }
