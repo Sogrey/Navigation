@@ -3406,6 +3406,18 @@
                                 "recommend": [
                                     "免费"
                                 ]
+                            },
+                            {
+                                "url": "https://www.fonts.net.cn",
+                                "img": "https://www.fonts.net.cn/favicon.ico",
+                                "title": "字体天下",
+                                "desc": "字体天下提供中文字体、手写字体、英文字体、图形字体等各种字体的高速免费下载和在线预览服务.",
+                                "language": [
+                                    "cn"
+                                ],
+                                "recommend": [
+                                    "商用免费","商用授权"
+                                ]
                             }
                         ]
                     },
