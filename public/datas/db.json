@@ -2779,6 +2779,15 @@
                                 ]
                             },
                             {
+                                "url": "https://www.manypixels.co/",
+                                "img": "https://www.manypixels.co/favicon.ico",
+                                "title": "manypixels",
+                                "desc": "一个免版权的矢量素材网站，目前已有的素材数量超过 2500，网站提供的素材格式为 svg 和 png，下载时可根据需要选择相应的格式。",
+                                "recommend": [
+                                    "免费","矢量素材"
+                                ]
+                            },
+                            {
                                 "url": "https://pictogram2.com/",
                                 "img": "https://pictogram2.com/favicons/favicon_144.png",
                                 "title": "pictogram2（火柴人）",
